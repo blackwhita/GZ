@@ -1,0 +1,15 @@
+/.idea/
+/backups/
+/GZ-natives/
+/ldlib/
+/lightspeed-cache/
+/logs/
+/mods/
+/PCL/
+/resourcepacks/
+/saves/
+/GZ.jar
+/GZ.json
+/usernamecache.json
+/usercache.json
+/authlib-injector.log

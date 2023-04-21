@@ -1,0 +1,486 @@
+To refresh this file, delete it and run /reload command again! Last updated: Apr 21, 2023, 8:35:20 PM
+
+#forge:gasoline_additives
+- immersivepetroleum:gasoline_additives
+
+#forge:oxygen
+- mekanism:oxygen
+- mekanism:flowing_oxygen
+
+#forge:diesel_sulfur
+- immersivepetroleum:diesel_sulfur
+
+#forge:benzene
+- immersivepetroleum:benzene
+
+#forge:wax
+- cyclic:wax?
+
+#minecraft:water
+- minecraft:water
+- minecraft:flowing_water
+- create_factory:sweet_berries_jam
+- create_factory:flowing_sweet_berries_jam
+- create_factory:spread
+- create_factory:flowing_spread
+- create_factory:cream
+- create_factory:flowing_cream
+- create_factory:nectar
+- create_factory:flowing_nectar
+- create_factory:apple_jam
+- create_factory:flowing_apple_jam
+- create_factory:sweet_whipped_cream
+- create_factory:flowing_sweet_whipped_cream
+- create_things_and_misc:slime
+- create_things_and_misc:flowing_slime
+- #undergarden:virulent
+- cyclic:biomass
+- cyclic:biomass_flowing
+- cyclic:honey
+- cyclic:honey_flowing
+- cyclic:xpjuice
+- cyclic:xpjuice_flowing
+- create:flowing_honey
+- create:honey
+- create:flowing_chocolate
+- create:chocolate
+- create_confectionery:black_chocolate
+- create_confectionery:flowing_black_chocolate
+- create_confectionery:white_chocolate
+- create_confectionery:flowing_white_chocolate
+- create_confectionery:hot_chocolate
+- create_confectionery:flowing_hot_chocolate
+- create_confectionery:caramel
+- create_confectionery:flowing_caramel
+- create_confectionery:ruby_chocolate
+- create_confectionery:flowing_ruby_chocolate
+- chemlib:hydrogen_fluid
+- chemlib:hydrogen_flowing
+- chemlib:helium_fluid
+- chemlib:helium_flowing
+- chemlib:nitrogen_fluid
+- chemlib:nitrogen_flowing
+- chemlib:oxygen_fluid
+- chemlib:oxygen_flowing
+- chemlib:fluorine_fluid
+- chemlib:fluorine_flowing
+- chemlib:neon_fluid
+- chemlib:neon_flowing
+- chemlib:chlorine_fluid
+- chemlib:chlorine_flowing
+- chemlib:argon_fluid
+- chemlib:argon_flowing
+- chemlib:bromine_fluid
+- chemlib:bromine_flowing
+- chemlib:krypton_fluid
+- chemlib:krypton_flowing
+- chemlib:xenon_fluid
+- chemlib:xenon_flowing
+- chemlib:mercury_fluid
+- chemlib:mercury_flowing
+- chemlib:radon_fluid
+- chemlib:radon_flowing
+- chemlib:carbon_dioxide_fluid
+- chemlib:carbon_dioxide_flowing
+- chemlib:ethylene_fluid
+- chemlib:ethylene_flowing
+- chemlib:ethanol_fluid
+- chemlib:ethanol_flowing
+- chemlib:ammonium_fluid
+- chemlib:ammonium_flowing
+- chemlib:methane_fluid
+- chemlib:methane_flowing
+- chemlib:ethane_fluid
+- chemlib:ethane_flowing
+- chemlib:propane_fluid
+- chemlib:propane_flowing
+- chemlib:butane_fluid
+- chemlib:butane_flowing
+- chemlib:pentane_fluid
+- chemlib:pentane_flowing
+- chemlib:hexane_fluid
+- chemlib:hexane_flowing
+- chemlib:epinephrine_fluid
+- chemlib:epinephrine_flowing
+- chemlib:hydrochloric_acid_fluid
+- chemlib:hydrochloric_acid_flowing
+- chemlib:sulfur_dioxide_fluid
+- chemlib:sulfur_dioxide_flowing
+- chemlib:sulfuric_acid_fluid
+- chemlib:sulfuric_acid_flowing
+- chemlib:nitric_acid_fluid
+- chemlib:nitric_acid_flowing
+- chemlib:nitrogen_dioxide_fluid
+- chemlib:nitrogen_dioxide_flowing
+- chemlib:ammonia_fluid
+- chemlib:ammonia_flowing
+- chemlib:hydrogen_sulfide_fluid
+- chemlib:hydrogen_sulfide_flowing
+- chemlib:acetylene_fluid
+- chemlib:acetylene_flowing
+- chemlib:acetic_acid_fluid
+- chemlib:acetic_acid_flowing
+- chemlib:carbon_monoxide_fluid
+- chemlib:carbon_monoxide_flowing
+- chemlib:nitric_oxide_fluid
+- chemlib:nitric_oxide_flowing
+- chemlib:carbon_disulfide_fluid
+- chemlib:carbon_disulfide_flowing
+- chemlib:sulfur_trioxide_fluid
+- chemlib:sulfur_trioxide_flowing
+- create_enchantment_industry:flowing_ink
+- create_enchantment_industry:ink
+
+#forge:biodiesel
+- pneumaticcraft:biodiesel
+- immersiveengineering:biodiesel
+
+#forge:milk
+- minecraft:milk?
+- minecraft:flowing_milk?
+
+#forge:uranium_hexafluoride
+- mekanism:uranium_hexafluoride
+- mekanism:flowing_uranium_hexafluoride
+
+#forge:pink_slime
+- industrialforegoing:pink_slime
+
+#forge:biomass
+- cyclic:biomass
+
+#forge:naphtha_cracked
+- immersivepetroleum:naphtha_cracked
+
+#woodenbucket:burning
+
+#forge:sulfur_dioxide
+- mekanism:sulfur_dioxide
+- mekanism:flowing_sulfur_dioxide
+
+#forge:hydrogen
+- mekanism:hydrogen
+- mekanism:flowing_hydrogen
+
+#create:bottomless/deny
+
+#forge:fusion_fuel
+- mekanismgenerators:fusion_fuel
+- mekanismgenerators:flowing_fusion_fuel
+
+#forge:xpjuice
+- mob_grinding_utils:fluid_xp
+
+#forge:sewage
+- industrialforegoing:sewage
+
+#create:bottomless/allow
+- minecraft:water
+- minecraft:lava
+
+#forge:superheated_sodium
+- mekanism:superheated_sodium
+- mekanism:flowing_superheated_sodium
+
+#forge:steam
+- advgenerators:steam
+- mekanism:steam
+- mekanism:flowing_steam
+
+#undergarden:virulent
+- undergarden:virulent_mix_source
+- undergarden:virulent_mix_flowing
+
+#forge:experience
+- industrialforegoing:essence
+- pneumaticcraft:memory_essence
+- sophisticatedcore:xp_still
+- cofh_core:experience
+- mob_grinding_utils:fluid_xp
+- pneumaticcraft:memory_essence?
+- cofh_core:experience?
+- cyclic:xpjuice
+- reliquary:xp_juice_still
+
+#forge:slime
+- cyclic:slime
+
+#forge:glowstone
+- thermal:glowstone
+
+#forge:lithium
+- mekanism:lithium
+- mekanism:flowing_lithium
+
+#forge:diesel
+- pneumaticcraft:diesel
+- immersivepetroleum:diesel
+- immersivepetroleum:diesel_sulfur
+
+#ae2:blacklisted/annihilation_plane
+
+#forge:magma
+- cyclic:magma
+
+#immersiveengineering:drill_fuel
+- #forge:diesel
+- #forge:kerosene
+- #forge:diesel_sulfur
+- #forge:biodiesel
+
+#pneumaticcraft:plastic
+- pneumaticcraft:plastic
+
+#pneumaticcraft:etching_acid
+- pneumaticcraft:etching_acid
+
+#forge:kerosene
+- pneumaticcraft:kerosene
+- immersivepetroleum:kerosene
+
+#forge:ethylene
+- immersivepetroleum:ethylene
+
+#forge:bioethanol
+- mekanismgenerators:bioethanol
+- mekanismgenerators:flowing_bioethanol
+
+#forge:naphtha
+- immersivepetroleum:naphtha
+
+#forge:creosote
+- thermal:creosote
+- immersiveengineering:creosote
+
+#forge:sludge
+- industrialforegoing:sludge
+
+#forge:propylene
+- immersivepetroleum:propylene
+
+#forge:phenolic_resin
+- immersiveengineering:phenolic_resin
+
+#forge:heavy_water
+- mekanism:heavy_water
+- mekanism:flowing_heavy_water
+
+#forge:lpg
+- pneumaticcraft:lpg
+
+#forge:ink
+- create_enchantment_industry:flowing_ink
+- create_enchantment_industry:ink
+
+#forge:lubricant
+- pneumaticcraft:lubricant
+- immersivepetroleum:lubricant
+
+#forge:crude_oil
+- pneumaticcraft:oil
+- immersivepetroleum:crudeoil
+- thermal:crude_oil
+
+#forge:redstone
+- thermal:redstone
+
+#forge:herbicide
+- immersiveengineering:herbicide
+
+#forge:tritium
+- mekanismgenerators:tritium
+- mekanismgenerators:flowing_tritium
+
+#woodenbucket:freezing
+
+#forge:biofuel
+- industrialforegoing:biofuel
+
+#pneumaticcraft:seismic_sensor_interesting
+- #forge:crude_oil
+
+#forge:plantoil
+- pneumaticcraft:vegetable_oil
+- immersiveengineering:plantoil
+
+#minecraft:lava
+- minecraft:lava
+- minecraft:flowing_lava
+
+#forge:ethene
+- mekanism:ethene
+- mekanism:flowing_ethene
+
+#create_enchantment_industry:printer_input
+- create_enchantment_industry:flowing_experience
+- create_enchantment_industry:experience
+- #forge:ink
+
+#forge:ethanol
+- pneumaticcraft:ethanol
+- immersiveengineering:ethanol
+
+#forge:uranium_oxide
+- mekanism:uranium_oxide
+- mekanism:flowing_uranium_oxide
+
+#forge:meat
+- industrialforegoing:meat
+
+#woodenbucket:cracking
+
+#forge:chocolate
+- create:flowing_chocolate
+- create:chocolate
+
+#forge:chlorine
+- mekanism:chlorine
+- mekanism:flowing_chlorine
+
+#forge:redstone_acid
+- immersiveengineering:redstone_acid
+
+#forge:sodium
+- mekanism:sodium
+- mekanism:flowing_sodium
+
+#forge:concrete
+- immersiveengineering:concrete
+
+#forge:potion
+- cofh_core:potion
+- immersiveengineering:potion
+
+#forge:sulfur_trioxide
+- mekanism:sulfur_trioxide
+- mekanism:flowing_sulfur_trioxide
+
+#immersivepetroleum:burnable_in_flarestack
+- #forge:lubricant
+- #forge:diesel
+- #forge:diesel_sulfur
+- #forge:gasoline
+- #forge:naphtha
+- #forge:naphtha_cracked
+- #forge:benzene
+- #forge:propylene
+- #forge:ethylene
+- #forge:lubricant_cracked
+- #forge:kerosene
+- #forge:gasoline_additives
+- #forge:plantoil
+- #forge:creosote
+- #forge:ethanol
+
+#forge:sulfuric_acid
+- mekanism:sulfuric_acid
+- mekanism:flowing_sulfuric_acid
+
+#forge:lubricant_cracked
+- immersivepetroleum:lubricant_cracked
+
+#forge:gasoline
+- pneumaticcraft:gasoline
+- immersivepetroleum:gasoline
+
+#forge:ender
+- thermal:ender
+
+#forge:hydrogen_chloride
+- mekanism:hydrogen_chloride
+- mekanism:flowing_hydrogen_chloride
+
+#forge:life
+- bloodmagic:life_essence_fluid
+- bloodmagic:life_essence_fluid_flowing
+
+#bucketlib:infinity_enchantable
+- minecraft:water
+
+#forge:tea
+- create:flowing_tea
+- create:tea
+
+#forge:deuterium
+- mekanismgenerators:deuterium
+- mekanismgenerators:flowing_deuterium
+
+#pneumaticcraft:yeast_culture
+- pneumaticcraft:yeast_culture
+
+#forge:hydrofluoric_acid
+- mekanism:hydrofluoric_acid
+- mekanism:flowing_hydrofluoric_acid
+
+#forge:brine
+- mekanism:brine
+- mekanism:flowing_brine
+
+#forge:latex
+- industrialforegoing:latex
+- thermal:latex
+
+#create_enchantment_industry:blaze_enchanter_input
+- create_enchantment_industry:flowing_experience
+- create_enchantment_industry:experience
+- create_enchantment_industry:flowing_hyper_experience
+- create_enchantment_industry:hyper_experience
+
+#forge:honey
+- cofh_core:honey
+- inspirations:honey?
+- cyclic:honey
+- create:flowing_honey
+- create:honey
+
+#create:no_infinite_draining
+- mekanismgenerators:bioethanol
+- mekanismgenerators:flowing_bioethanol
+- mekanismgenerators:deuterium
+- mekanismgenerators:flowing_deuterium
+- mekanismgenerators:fusion_fuel
+- mekanismgenerators:flowing_fusion_fuel
+- mekanismgenerators:tritium
+- mekanismgenerators:flowing_tritium
+- mekanism:hydrogen
+- mekanism:flowing_hydrogen
+- mekanism:oxygen
+- mekanism:flowing_oxygen
+- mekanism:chlorine
+- mekanism:flowing_chlorine
+- mekanism:sulfur_dioxide
+- mekanism:flowing_sulfur_dioxide
+- mekanism:sulfur_trioxide
+- mekanism:flowing_sulfur_trioxide
+- mekanism:sulfuric_acid
+- mekanism:flowing_sulfuric_acid
+- mekanism:hydrogen_chloride
+- mekanism:flowing_hydrogen_chloride
+- mekanism:hydrofluoric_acid
+- mekanism:flowing_hydrofluoric_acid
+- mekanism:uranium_oxide
+- mekanism:flowing_uranium_oxide
+- mekanism:uranium_hexafluoride
+- mekanism:flowing_uranium_hexafluoride
+- mekanism:ethene
+- mekanism:flowing_ethene
+- mekanism:sodium
+- mekanism:flowing_sodium
+- mekanism:superheated_sodium
+- mekanism:flowing_superheated_sodium
+- mekanism:brine
+- mekanism:flowing_brine
+- mekanism:lithium
+- mekanism:flowing_lithium
+- mekanism:steam
+- mekanism:flowing_steam
+- mekanism:heavy_water
+- mekanism:flowing_heavy_water
+- mekanism:nutritional_paste
+- mekanism:flowing_nutritional_paste
+
+#forge:acetaldehyde
+- immersiveengineering:acetaldehyde
+
+#forge:napalm
+- immersivepetroleum:napalm
