@@ -163,8 +163,6 @@ key_key.jei.copy.recipe.id:key.keyboard.p:CONTROL
 key_key.immersivepetroleum.projector.flip:key.keyboard.m
 key_key.evilcraft.fart:key.keyboard.unknown
 key_key.evilcraft.exaltedCrafting:key.keyboard.unknown
-key_key.evilcraft.fart:key.keyboard.unknown
-key_key.evilcraft.exaltedCrafting:key.keyboard.unknown
 key_keybind.ironjetpacks.engine:key.keyboard.unknown
 key_keybind.ironjetpacks.hover:key.keyboard.g
 key_keybind.ironjetpacks.descend:key.keyboard.unknown

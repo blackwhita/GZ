@@ -11,3 +11,5 @@
 #AD9EB5 minecraft:oak_leaves
 #E3886A minecraft:oak_planks
 #72BC63 minecraft:oak_stairs
+#AFAC0D minecraft:poppy
+#A88E8E minecraft:stripped_oak_wood

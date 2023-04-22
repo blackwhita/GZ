@@ -1,4 +1,4 @@
-To refresh this file, delete it and run /reload command again! Last updated: Apr 21, 2023, 8:35:26 PM
+To refresh this file, delete it and run /reload command again! Last updated: Mar 26, 2023, 1:58:44 PM
 
 #tombstone:decorative_grave_ingredients
 - tombstone:essence_of_undeath
@@ -80,9 +80,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - #forge:plates/steel
 - #forge:plates/iron
 - #forge:plates/gold
-
-#forge:dusts/copper_i_sulfide
-- chemlib:copper_i_sulfide_dust
 
 #immersiveengineering:wirecoil_copper
 
@@ -247,20 +244,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:gems/dragonstone
 - #botania:dragonstone_gems
 
-#forge:nuggets/cesium
-- chemlib:cesium_nugget
-
-#forge:dusts/sodium_bisulfate
-- chemlib:sodium_bisulfate_dust
-
-#forge:plates/dysprosium
-- chemlib:dysprosium_plate
-
 #forge:storage_blocks/netherite
 - minecraft:netherite_block
-
-#forge:nuggets/thallium
-- chemlib:thallium_nugget
 
 #forge:glass_panes/white
 - minecraft:white_stained_glass_pane
@@ -271,9 +256,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:circuits/elite
 - mekanism:elite_control_circuit
-
-#forge:nuggets/holmium
-- chemlib:holmium_nugget
 
 #curios:living_armour_socket
 - bloodmagic:miningsigil
@@ -286,9 +268,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - bloodmagic:soulgemlesser
 - bloodmagic:soulgemcommon
 - bloodmagic:soulgemgreater
-
-#forge:nuggets/yttrium
-- chemlib:yttrium_nugget
 
 #mekanism:colorable/terracotta
 - minecraft:terracotta
@@ -309,8 +288,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:red_terracotta
 - minecraft:black_terracotta
 
-#forge:dusts/tellurium
-- chemlib:tellurium_dust
+#crossroads:dusts/fusas
+- crossroads:solid_fusas
 
 #forge:seeds/cassava
 - createcafe:cassava_seeds
@@ -432,12 +411,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - farmersdelight:diamond_knife
 - farmersdelight:golden_knife
 - farmersdelight:netherite_knife
-- aquaculture:wooden_fillet_knife
-- aquaculture:stone_fillet_knife
-- aquaculture:iron_fillet_knife
-- aquaculture:gold_fillet_knife
-- aquaculture:diamond_fillet_knife
-- aquaculture:neptunium_fillet_knife
+'wooden_fillet_knife
+'stone_fillet_knife
+'iron_fillet_knife
+'gold_fillet_knife
+'diamond_fillet_knife
+'neptunium_fillet_knife
 
 #chipped:oak_trapdoor
 - minecraft:oak_trapdoor
@@ -453,11 +432,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:oak_trapdoor_10
 - chipped:oak_trapdoor_11
 
-#forge:dusts/barium_oxide
-- chemlib:barium_oxide_dust
-
 #silentgems:glowroses/moldavite
-- silentgems:moldavite_glowrose
+'moldavite_glowrose
 
 #libx:impl_fences
 
@@ -502,17 +478,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:crops/nether_wart
 - minecraft:nether_wart
 
-#forge:storage_blocks/francium
-- chemlib:francium_metal_block
-
 #forge:milk/milk
 - minecraft:milk_bucket
 
-#forge:storage_blocks/cast_iron
-- createdeco:cast_iron_block
-
 #silentgems:glowroses/iolite
-- silentgems:iolite_glowrose
+'iolite_glowrose
 
 #chipped:raw_gold_block
 - minecraft:raw_gold_block
@@ -578,8 +548,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:raw_gold_block_60
 - chipped:raw_gold_block_61
 
-#forge:plates/iridium
-- chemlib:iridium_plate
+#crossroads:empty
 
 #forge:dusts/invar
 - thermal:invar_dust
@@ -604,14 +573,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - quark:rainbow_rune
 - quark:blank_rune
 
-#forge:dusts/iridium
-- chemlib:iridium_dust
-
 #forge:cobblestone/infested
 - minecraft:infested_cobblestone
 
-#forge:plates/actinium
-- chemlib:actinium_plate
+#crossroads:technomancy_unlock_key
+- crossroads:gear_base
 
 #forge:storage_blocks/lapis
 - minecraft:lapis_block
@@ -619,18 +585,18 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:sheetmetals/aluminum
 - immersiveengineering:sheetmetal_aluminum
 
-#forge:dusts/zinc_nitrate
-- chemlib:zinc_nitrate_dust
-
 #silentgems:ores/topaz
-- silentgems:topaz_ore
-- silentgems:deepslate_topaz_ore
-- silentgems:topaz_nether_ore
-- silentgems:topaz_end_ore
+'topaz_ore
+'deepslate_topaz_ore
+'topaz_nether_ore
+'topaz_end_ore
+
+#crossroads:gems/alch_cryst
+- crossroads:alch_crystal
 
 #ae2:quartz_shovel
-- ae2:certus_quartz_shovel
-- ae2:nether_quartz_shovel
+'certus_quartz_shovel
+'nether_quartz_shovel
 
 #chipped:iron_bars
 - minecraft:iron_bars
@@ -662,7 +628,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:plates/silver
 - thermal:silver_plate
 - immersiveengineering:plate_silver
-- chemlib:silver_plate
 
 #chipped:mossy_stone_bricks
 - minecraft:mossy_stone_bricks
@@ -792,7 +757,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - #silentgear:grader_catalysts/tier5
 
 #silentgems:glowroses/black_diamond
-- silentgems:black_diamond_glowrose
+'black_diamond_glowrose
 
 #forge:shields
 - minecraft:shield
@@ -810,10 +775,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:glass/white
 - minecraft:white_stained_glass
 
-#forge:crops/pineapples
-- pineapple_delight:pineapple
-- pineapple_delight:pineapple_side
-
 #bookshelf:swords
 - #forge:swords
 
@@ -825,9 +786,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #mekanism:enriched/carbon
 - mekanism:enriched_carbon
-
-#forge:ingots/erbium
-- chemlib:erbium_ingot
 
 #chipped:redstone_lamp
 - minecraft:redstone_lamp
@@ -859,39 +817,39 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:tropical_fish
 - sushigocrafting:raw_tuna
 - sushigocrafting:shrimp
-- aquaculture:atlantic_cod
-- aquaculture:blackfish
-- aquaculture:pacific_halibut
-- aquaculture:atlantic_halibut
-- aquaculture:atlantic_herring
-- aquaculture:pink_salmon
-- aquaculture:pollock
-- aquaculture:rainbow_trout
-- aquaculture:bayad
-- aquaculture:boulti
-- aquaculture:capitaine
-- aquaculture:synodontis
-- aquaculture:smallmouth_bass
-- aquaculture:bluegill
-- aquaculture:brown_trout
-- aquaculture:carp
-- aquaculture:catfish
-- aquaculture:gar
-- aquaculture:minnow
-- aquaculture:muskellunge
-- aquaculture:perch
-- aquaculture:arapaima
-- aquaculture:piranha
-- aquaculture:tambaqui
-- aquaculture:brown_shrooma
-- aquaculture:red_shrooma
-- aquaculture:red_grouper
-- aquaculture:tuna
+'atlantic_cod
+'blackfish
+'pacific_halibut
+'atlantic_halibut
+'atlantic_herring
+'pink_salmon
+'pollock
+'rainbow_trout
+'bayad
+'boulti
+'capitaine
+'synodontis
+'smallmouth_bass
+'bluegill
+'brown_trout
+'carp
+'catfish
+'gar
+'minnow
+'muskellunge
+'perch
+'arapaima
+'piranha
+'tambaqui
+'brown_shrooma
+'red_shrooma
+'red_grouper
+'tuna
 - undergarden:raw_gwibling
 - undergarden:cooked_gwibling
 
 #forge:storage_blocks/certus_quartz
-- ae2:quartz_block
+'quartz_block
 
 #botania:petals/yellow
 - botania:yellow_petal
@@ -899,12 +857,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:fabric_hemp
 - immersiveengineering:hemp_fabric
-
-#forge:dusts/thallium
-- chemlib:thallium_dust
-
-#forge:dusts/phosphorus
-- chemlib:phosphorus_dust
 
 #chipped:spruce_planks
 - minecraft:spruce_planks
@@ -957,9 +909,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - silentgear:knife_blueprint
 - silentgear:knife_template
 
-#forge:plates/cerium
-- chemlib:cerium_plate
-
 #chipped:lantern
 - minecraft:lantern
 - chipped:lantern_1
@@ -977,30 +926,30 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:lantern_13
 - chipped:lantern_14
 
-#forge:plates/magnesium
-- chemlib:magnesium_plate
-
 #curios:hands
-- occultism:storage_remote
+'storage_remote
 - cyclic:charm_attack_speed?
 - cyclic:charm_crit?
 - cyclic:charm_starvation?
 - cyclic:glove_climb?
 
+#crossroads:raw_ice
+- minecraft:ice
+
 #forge:storage_blocks/sapphire
 - thermal:sapphire_block
 - bluepower:sapphire_block
-- silentgems:sapphire_block
+'sapphire_block
 
 #forge:raw_materials/iron
 - minecraft:raw_iron
 - minecraft:raw_iron
 
+#forge:gems/mercury
+- crossroads:solid_quicksilver
+
 #balm:gems
 - #forge:gems?
-
-#forge:dusts/strontium_chloride
-- chemlib:strontium_chloride_dust
 
 #forge:nuggets/brass
 - create:brass_nugget
@@ -1051,20 +1000,17 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:warped_stem_9
 - chipped:warped_stem_10
 
-#forge:plates/platinum
-- chemlib:platinum_plate
-
 #aquaculture:tackle_box_green
 - minecraft:green_dye
 - minecraft:kelp
-- aquaculture:algae
+'algae
 
 #botania:petals/pink
 - botania:pink_petal
 - botania:pink_mushroom
 
 #forge:storage_blocks/black_diamond
-- silentgems:black_diamond_block
+'black_diamond_block
 
 #tombstone:magic_scrolls
 - tombstone:scroll_of_preservation
@@ -1079,18 +1025,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tombstone:scroll_of_aquatic_life
 - tombstone:scroll_of_mercy
 
-#forge:nuggets/beryllium
-- chemlib:beryllium_nugget
-
 #occultism:elytra
 - minecraft:elytra
 - mana-and-artifice:spectral_elytra?
 
 #mekanism:clumps/iron
 - mekanism:clump_iron
-
-#forge:dusts/rhodium
-- chemlib:rhodium_dust
 
 #chipped:jungle_leaves
 - minecraft:jungle_leaves
@@ -1144,13 +1084,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - #forge:ingots?
 
 #silentgems:ores/rose_quartz
-- silentgems:rose_quartz_ore
-- silentgems:deepslate_rose_quartz_ore
-- silentgems:rose_quartz_nether_ore
-- silentgems:rose_quartz_end_ore
-
-#forge:storage_blocks/bismuth
-- chemlib:bismuth_metal_block
+'rose_quartz_ore
+'deepslate_rose_quartz_ore
+'rose_quartz_nether_ore
+'rose_quartz_end_ore
 
 #quark:parrot_feed
 - minecraft:beetroot_seeds
@@ -1161,9 +1098,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:storage_blocks/terrasteel
 - #botania:terrasteel_blocks
-
-#forge:dusts/starch
-- chemlib:starch_dust
 
 #forge:berries
 - minecraft:sweet_berries
@@ -1208,6 +1142,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:milk_bucket
 
 #forge:ingots/copper
+- crossroads:ingot_copper
 - minecraft:copper_ingot
 - minecraft:copper_ingot
 - minecraft:copper_ingot
@@ -1217,13 +1152,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:copper_ingot
 
 #forge:storage_blocks/heliodor
-- silentgems:heliodor_block
+'heliodor_block
 
 #forge:seeds/eggplant
 - thermal:eggplant_seeds
 
-#forge:nuggets/strontium
-- chemlib:strontium_nugget
+#crossroads:golden_apple
+- minecraft:golden_apple
+- minecraft:enchanted_golden_apple
 
 #chipped:soul_sand
 - minecraft:soul_sand
@@ -1246,9 +1182,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:glass/light_blue
 - minecraft:light_blue_stained_glass
-
-#waystones:warp_stones
-- waystones:warp_stone
 
 #botania:special_floating_flowers
 - botania:floating_agricarnation
@@ -1311,9 +1244,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - mythicbotany:feysythia_floating
 - mythicbotany:petrunia_floating
 
-#forge:nuggets/molybdenum
-- chemlib:molybdenum_nugget
-
 #silentgear:blueprints/grip
 - silentgear:grip_blueprint
 - silentgear:grip_template
@@ -1345,9 +1275,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:amethyst_block
 - bluepower:amethyst_block
 
-#forge:dusts/palladium
-- chemlib:palladium_dust
-
 #libx:impl_wooden_buttons
 
 #forge:cooked_bacon
@@ -1356,17 +1283,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #silentgear:repair_kits
 - silentgear:crude_repair_kit
 
-#forge:dusts/titanium
-- chemlib:titanium_dust
-
 #forge:sandstone/red
 - minecraft:red_sandstone
 - minecraft:cut_red_sandstone
 - minecraft:chiseled_red_sandstone
 - minecraft:smooth_red_sandstone
-
-#forge:plates/rhodium
-- chemlib:rhodium_plate
 
 #chipped:barrel
 - minecraft:barrel
@@ -1443,7 +1364,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - thermal:invar_nugget
 
 #silentgems:glowroses/rose_quartz
-- silentgems:rose_quartz_glowrose
+'rose_quartz_glowrose
 
 #botania:petals
 - #botania:petals/white
@@ -1505,7 +1426,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - mekanism:dust_fluorite
 
 #silentgems:glowroses/turquoise
-- silentgems:turquoise_glowrose
+'turquoise_glowrose
 
 #forge:glass/purple
 - minecraft:purple_stained_glass
@@ -1533,9 +1454,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #balm:wooden_rods
 - #forge:rods/wooden?
 - minecraft:stick
-
-#forge:plates/indium
-- chemlib:indium_plate
 
 #minecraft:netherite_helmets
 - minecraft:netherite_helmet
@@ -1576,9 +1494,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - cyclic:netherite_nugget
 - createdeco:netherite_nugget
 
-#forge:nuggets/bismuth
-- chemlib:bismuth_nugget
-
 #chipped:shroomlight
 - minecraft:shroomlight
 - chipped:shroomlight_1
@@ -1605,16 +1520,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - silentgear:tip_blueprint
 - silentgear:tip_template
 
-#forge:storage_blocks/niobium
-- chemlib:niobium_metal_block
-
 #mekanism:shards/tin
 - mekanism:shard_tin
 
 #forge:storage_blocks/ruby
+- crossroads:block_ruby
 - thermal:ruby_block
 - bluepower:ruby_block
-- silentgems:ruby_block
+'ruby_block
 
 #mekanism:shards/osmium
 - mekanism:shard_osmium
@@ -1679,16 +1592,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #thermal:rf_coil
 
 #silentgems:ores/black_diamond
-- silentgems:black_diamond_ore
-- silentgems:deepslate_black_diamond_ore
-- silentgems:black_diamond_nether_ore
-- silentgems:black_diamond_end_ore
+'black_diamond_ore
+'deepslate_black_diamond_ore
+'black_diamond_nether_ore
+'black_diamond_end_ore
 
 #forge:seeds/barley
 - thermal:barley_seeds
-
-#forge:ingots/lithium
-- chemlib:lithium_ingot
 
 #diet:proteins
 - sushigocrafting:salmon_maki
@@ -1772,9 +1682,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - aoa3:raw_chimera_chop?
 - aoa3:raw_furlion_chop?
 - aoa3:raw_halycon_beef?
-- aquaculture:fish_fillet_raw?
-- aquaculture:frog_legs_raw?
-- aquaculture:turtle_soup?
+'fish_fillet_raw?
+'frog_legs_raw?
+'turtle_soup?
 - artifacts:everlasting_beef?
 - atum:camel?
 - atum:crunchy_golden_scarab?
@@ -2171,9 +2081,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - wyrmroost:raw_lowtier_meat?
 - xercamod:doner_slice?
 
-#forge:storage_blocks/titanium
-- chemlib:titanium_metal_block
-
 #bookshelf:shovels
 - #forge:shovels
 
@@ -2186,18 +2093,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #bookshelf:crossbows
 - #forge:crossbows
 
-#forge:dusts/lithium_sulfate
-- chemlib:lithium_sulfate_dust
-
 #forge:rods/stone
 - silentgear:stone_rod
 
 #forge:storage_blocks/silver
-- occultism:silver_block
+'silver_block
 - thermal:silver_block
 - immersiveengineering:storage_silver
 - bluepower:silver_block
-- chemlib:silver_metal_block
 
 #minecraft:mushroom_stem
 - minecraft:mushroom_stem
@@ -2233,7 +2136,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - silentgear:raw_crimson_iron
 
 #occultism:otherworld_goggles
-- occultism:otherworld_goggles
+'otherworld_goggles
 
 #pneumaticcraft:fluid_tanks
 - pneumaticcraft:small_tank
@@ -2241,20 +2144,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - pneumaticcraft:large_tank
 - pneumaticcraft:huge_tank
 
-#forge:dusts/strontium
-- chemlib:strontium_dust
-
 #forge:nuggets/zinc
 - create:zinc_nugget
 - bluepower:zinc_nugget
-- chemlib:zinc_nugget
 
 #forge:dusts/coal
 - mekanism:dust_coal
 - bloodmagic:coalsand
-
-#forge:dusts/beryllium_oxide
-- chemlib:beryllium_oxide_dust
 
 #chipped:blue_stained_glass_pane
 - minecraft:blue_stained_glass_pane
@@ -2295,13 +2191,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:storage_blocks/aluminum
 - immersiveengineering:storage_aluminum
-- chemlib:aluminum_metal_block
 
 #forge:storage_blocks/sulfur
 - thermal:sulfur_block
-
-#forge:dusts/zinc_sulfide
-- chemlib:zinc_sulfide_dust
 
 #chipped:lime_concrete
 - minecraft:lime_concrete
@@ -2326,9 +2218,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:lime_concrete_19
 - chipped:lime_concrete_20
 - chipped:lime_concrete_21
-
-#forge:dusts/nickel_oxide
-- chemlib:nickel_oxide_dust
 
 #minecraft:carpets
 - minecraft:white_carpet
@@ -2379,9 +2268,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - #forge:tools/hoes
 - #forge:tools/axes
 
-#forge:storage_blocks/palladium
-- chemlib:palladium_metal_block
-
 #balm:black_dyes
 - minecraft:black_dye
 - #forge:dyes/black?
@@ -2389,17 +2275,26 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:glass/orange
 - minecraft:orange_stained_glass
 
+#crossroads:gems/bright_quartz
+- crossroads:bright_quartz
+
 #forge:crops/coffee
 - thermal:coffee
 
 #forge:dusts/refined_obsidian
 - mekanism:dust_refined_obsidian
 
+#crossroads:alchemy_unlock_key
+- minecraft:glass_bottle
+- minecraft:potion
+- minecraft:splash_potion
+- minecraft:lingering_potion
+
 #forge:raw_ores/iesnium
-- occultism:raw_iesnium
+'raw_iesnium
 
 #forge:planks/archwood
-- ars_nouveau:archwood_planks
+'archwood_planks
 
 #minecraft:slabs
 - #minecraft:wooden_slabs
@@ -2564,7 +2459,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - supplementaries:blackstone_tile_slab
 - supplementaries:ash_bricks_slab
 - supplementaries:lapis_bricks_slab
-- ars_nouveau:archwood_slab
+'archwood_slab
 - quark:andesite_bricks_slab
 - quark:azalea_planks_slab
 - quark:blackstone_bricks_slab
@@ -2631,18 +2526,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #supplementaries:pedestal_upright
 - minecraft:wooden_sword?
 
-#forge:dusts/strontium_carbonate
-- chemlib:strontium_carbonate_dust
-
 #forge:seeds/hops
 - thermal:hops_seeds
 
 #forge:plates/steel
 - thermal:steel_plate
 - immersiveengineering:plate_steel
-
-#forge:dusts/magnesium_oxide
-- chemlib:magnesium_oxide_dust
 
 #create:casing
 - create_crystal_clear:andesite_glass_casing
@@ -2662,9 +2551,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - create:refined_radiance_casing
 - create:railway_casing
 
-#forge:dusts/lead_sulfate
-- chemlib:lead_sulfate_dust
-
 #libx:impl_wooden_trapdoors
 
 #ae2:p2p_attunements/me_p2p_tunnel
@@ -2673,9 +2559,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - #ae2:glass_cable
 - #ae2:smart_cable
 - #ae2:smart_dense_cable
-
-#forge:storage_blocks/zirconium
-- chemlib:zirconium_metal_block
 
 #chipped:blue_wool
 - minecraft:blue_wool
@@ -2707,25 +2590,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:porkchop
 - farmersdelight:bacon
 
-#forge:plates/scandium
-- chemlib:scandium_plate
-
-#forge:dusts/cadmium_nitrate
-- chemlib:cadmium_nitrate_dust
-
 #forge:storage_blocks/niter
 - thermal:niter_block
 
 #nocubes_farmer_compats:fillet_fish_ten
-- aquaculture:tuna
-- aquaculture:arapaima
-- aquaculture:capitaine
-
-#forge:storage_blocks/strontium
-- chemlib:strontium_metal_block
-
-#forge:dusts/amide
-- chemlib:amide_dust
+'tuna
+'arapaima
+'capitaine
 
 #minecraft:wooden_pressure_plates
 - minecraft:oak_pressure_plate
@@ -2740,7 +2611,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - undergarden:smogstem_pressure_plate
 - undergarden:wigglewood_pressure_plate
 - undergarden:grongle_pressure_plate
-- ars_nouveau:archwood_pressure_plate
+'archwood_pressure_plate
 
 #forge:storage_blocks/ender_eye
 - cyclic:eye_redstone?
@@ -2749,27 +2620,26 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:snowball
 
 #ae2:smart_dense_cable
-- ae2:white_smart_dense_cable
-- ae2:orange_smart_dense_cable
-- ae2:magenta_smart_dense_cable
-- ae2:light_blue_smart_dense_cable
-- ae2:yellow_smart_dense_cable
-- ae2:lime_smart_dense_cable
-- ae2:pink_smart_dense_cable
-- ae2:gray_smart_dense_cable
-- ae2:light_gray_smart_dense_cable
-- ae2:cyan_smart_dense_cable
-- ae2:purple_smart_dense_cable
-- ae2:blue_smart_dense_cable
-- ae2:brown_smart_dense_cable
-- ae2:green_smart_dense_cable
-- ae2:red_smart_dense_cable
-- ae2:black_smart_dense_cable
-- ae2:fluix_smart_dense_cable
+'white_smart_dense_cable
+'orange_smart_dense_cable
+'magenta_smart_dense_cable
+'light_blue_smart_dense_cable
+'yellow_smart_dense_cable
+'lime_smart_dense_cable
+'pink_smart_dense_cable
+'gray_smart_dense_cable
+'light_gray_smart_dense_cable
+'cyan_smart_dense_cable
+'purple_smart_dense_cable
+'blue_smart_dense_cable
+'brown_smart_dense_cable
+'green_smart_dense_cable
+'red_smart_dense_cable
+'black_smart_dense_cable
+'fluix_smart_dense_cable
 
 #forge:nuggets/osmium
 - mekanism:nugget_osmium
-- chemlib:osmium_nugget
 
 #botania:petals/purple
 - botania:purple_petal
@@ -2841,6 +2711,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - #silentgems:glowroses/black_diamond
 - #silentgems:glowroses/white_diamond
 
+#crossroads:gems/densus
+- crossroads:solid_densus
+
 #forge:sheetmetals/silver
 - immersiveengineering:sheetmetal_silver
 
@@ -2850,9 +2723,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #botania:petals/green
 - botania:green_petal
 - botania:green_mushroom
-
-#forge:dusts/lithium_chloride
-- chemlib:lithium_chloride_dust
 
 #forge:crops/sadiroot
 - thermal:sadiroot
@@ -2922,9 +2792,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - immersiveengineering:pickaxe_steel
 - quark:pickarang
 - quark:flamerang
-
-#forge:storage_blocks/calcium
-- chemlib:calcium_metal_block
 
 #tombstone:voodoo_poppet_ingredient_suffocation
 - minecraft:lily_pad
@@ -3004,9 +2871,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #curios:heartamulet
 - bhc:heart_amulet
 
-#forge:ingots/molybdenum
-- chemlib:molybdenum_ingot
-
 #chipped:yellow_terracotta
 - minecraft:yellow_terracotta
 - chipped:yellow_terracotta_1
@@ -3083,12 +2947,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - #tombstone:voodoo_poppet_ingredient_fall
 - #tombstone:voodoo_poppet_ingredient_cold
 
-#forge:dusts/zirconium
-- chemlib:zirconium_dust
-
-#forge:dusts/potassium_hydroxide
-- chemlib:potassium_hydroxide_dust
-
 #tombstone:decorative_graves
 - tombstone:decorative_grave_simple
 - tombstone:decorative_grave_normal
@@ -3096,9 +2954,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - tombstone:decorative_tombstone
 - tombstone:decorative_subaraki_grave
 - tombstone:decorative_grave_original
-
-#forge:dusts/cadmium_sulfate
-- chemlib:cadmium_sulfate_dust
 
 #forge:crossbows
 - minecraft:crossbow
@@ -3230,15 +3085,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #mekanism:enriched/redstone
 - mekanism:enriched_redstone
 
-#forge:ingots/lutetium
-- chemlib:lutetium_ingot
-
 #forge:dusts/cinnabar
 - thermal:cinnabar_dust
-- chemlib:mercury_sulfide_dust
-
-#forge:plates/europium
-- chemlib:europium_plate
 
 #rftoolsutility:living/living
 - #rftoolsutility:living/lowyield
@@ -3256,10 +3104,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:dusts/tungsten
 - bluepower:tungsten_dust
-- chemlib:tungsten_dust
-
-#forge:dusts/cesium_carbonate
-- chemlib:cesium_carbonate_dust
 
 #forge:storage_blocks/tyrian_steel
 - silentgear:tyrian_steel_block
@@ -3343,9 +3187,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:warped_hyphae
 - minecraft:stripped_warped_hyphae
 
-#forge:storage_blocks/cadmium
-- chemlib:cadmium_metal_block
-
 #chipped:spruce_leaves
 - minecraft:spruce_leaves
 - chipped:spruce_leaves_1
@@ -3363,7 +3204,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:dusts/ender_pearl
 - thermal:ender_pearl_dust
-- ae2:ender_dust
+'ender_dust
 
 #chipped:special_lantern
 - minecraft:lantern
@@ -3396,7 +3237,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - bloodmagic:soulshovel
 
 #balm:iron_ingots
-- #forge:ingots/iron?
+'iron?
 - minecraft:iron_ingot
 
 #forge:storage_blocks/iron
@@ -3420,9 +3261,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - create:red_seat
 - create:black_seat
 
-#forge:dusts/lanthanum
-- chemlib:lanthanum_dust
-
 #chipped:birch_log
 - minecraft:birch_log
 - chipped:birch_log_1
@@ -3441,27 +3279,18 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - create:sand_paper
 - create:red_sand_paper
 
-#forge:storage_blocks/polonium
-- chemlib:polonium_metal_block
-
-#forge:storage_blocks/gadolinium
-- chemlib:gadolinium_metal_block
-
 #forge:hammers
 - silentgear:hammer
 - silentgear:prospector_hammer
 
-#forge:dusts/iodine
-- chemlib:iodine_dust
-
 #supplementaries:throwable_bricks
-- #forge:ingots/nether_brick?
-- #forge:ingots/brick?
+'nether_brick?
+'brick?
 - unnamedanimalmod:dried_mud_brick?
 - unnamedanimalmod:mud_brick?
 - architects_palette:algal_brick?
 - architects_palette:sunmetal_brick?
-- ars_nouveau:arcane_brick?
+'arcane_brick?
 - biomesoplenty:mud_brick?
 - byg:yellow_nether_brick?
 - byg:blue_nether_brick?
@@ -3499,9 +3328,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:netherite_axe
 - immersiveengineering:axe_steel
 
-#forge:dusts/cobalt
-- chemlib:cobalt_dust
-
 #balm:red_dyes
 - #forge:dyes/red?
 - minecraft:red_dye
@@ -3522,9 +3348,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:circuits/basic
 - mekanism:basic_control_circuit
-
-#forge:dusts/sodium_chloride
-- chemlib:sodium_chloride_dust
 
 #forge:storage_blocks/steel
 - thermal:steel_block
@@ -3549,9 +3372,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - create:small_limestone_brick_wall
 - create:layered_limestone
 - create:limestone_pillar
-
-#forge:dusts/iron_ii_sulfate
-- chemlib:iron_ii_sulfate_dust
 
 #forge:storage_blocks/lumium
 - thermal:lumium_block
@@ -3593,12 +3413,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:black_concrete
 - minecraft:gray_concrete
 - minecraft:light_gray_concrete
-
-#forge:storage_blocks/cerium
-- chemlib:cerium_metal_block
-
-#forge:dusts/francium
-- chemlib:francium_dust
 
 #forge:storage_blocks/refined_glowstone
 - mekanism:block_refined_glowstone
@@ -3656,6 +3470,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - thermal:emerald_gear
 
 #forge:storage_blocks/bronze
+- crossroads:block_bronze
 - thermal:bronze_block
 - mekanism:block_bronze
 
@@ -3667,9 +3482,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - #mekanism:shards/tin
 - #mekanism:shards/lead
 - #mekanism:shards/uranium
-
-#forge:dusts/nitrate
-- chemlib:nitrate_dust
 
 #forge:tools/obsidianite
 - rainbowcompound:obsidianite_sword
@@ -3718,10 +3530,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - undergarden:smogstem_sapling
 - undergarden:wigglewood_sapling
 - undergarden:grongle_sapling
-- ars_nouveau:red_archwood_sapling
-- ars_nouveau:blue_archwood_sapling
-- ars_nouveau:green_archwood_sapling
-- ars_nouveau:purple_archwood_sapling
+'red_archwood_sapling
+'blue_archwood_sapling
+'green_archwood_sapling
+'purple_archwood_sapling
 - quark:blue_blossom_sapling
 - quark:lavender_blossom_sapling
 - quark:orange_blossom_sapling
@@ -3730,6 +3542,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - quark:red_blossom_sapling
 
 #forge:ores/copper
+- crossroads:ore_copper
 - #minecraft:copper_ores
 - #minecraft:copper_ores
 - #minecraft:copper_ores
@@ -3737,9 +3550,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #botania:petals/cyan
 - botania:cyan_petal
 - botania:cyan_mushroom
-
-#forge:dusts/potassium_cyanide
-- chemlib:potassium_cyanide_dust
 
 #minecraft:banners
 - minecraft:white_banner
@@ -3777,12 +3587,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - undergarden:smogstem_fence
 - undergarden:wigglewood_fence
 - undergarden:grongle_fence
-- ars_nouveau:archwood_fence
+'archwood_fence
 - quark:azalea_fence
 - quark:blossom_fence
-
-#forge:dusts/rubidium_nitrate
-- chemlib:rubidium_nitrate_dust
 
 #chipped:hay_block
 - minecraft:hay_block
@@ -3809,7 +3616,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:ingots/tungsten
 - bluepower:tungsten_ingot
-- chemlib:tungsten_ingot
 
 #mekanism:clumps/osmium
 - mekanism:clump_osmium
@@ -3924,21 +3730,15 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:dyes/indigo
 - bluepower:indigo_dye
 
-#forge:ingots/cadmium
-- chemlib:cadmium_ingot
-
 #forge:gems/niter
 - thermal:niter
-
-#forge:dusts/potassium_ethyl_xanthate
-- chemlib:potassium_ethyl_xanthate_dust
 
 #forge:raw_materials/copper
 - minecraft:raw_copper
 - minecraft:raw_copper
 
-#forge:dusts/lutetium
-- chemlib:lutetium_dust
+#crossroads:storage_blocks/copshowium
+- crossroads:block_copshowium
 
 #forge:glass/magenta
 - minecraft:magenta_stained_glass
@@ -4013,21 +3813,18 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:gray_terracotta_66
 
 #forge:dusts/end_stone
-- occultism:crushed_end_stone
+'crushed_end_stone
 
 #silentgear:blueprints/bow
 - silentgear:bow_blueprint
 - silentgear:bow_template
 
 #forge:gems/peridot
-- silentgems:peridot
+'peridot
 
 #balm:light_gray_dyes
 - #forge:dyes/light_gray?
 - minecraft:light_gray_dye
-
-#forge:dusts/diammonium_phosphate
-- chemlib:diammonium_phosphate_dust
 
 #immersiveengineering:circuits/solder
 - #forge:wires/copper
@@ -4043,12 +3840,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - thermal:raw_nickel
 - immersiveengineering:raw_nickel
 
-#forge:ingots/thallium
-- chemlib:thallium_ingot
-
-#forge:storage_blocks/gallium
-- chemlib:gallium_metal_block
-
 #appmek:mekanism_tanks
 - mekanism:basic_chemical_tank?
 - mekanism:advanced_chemical_tank?
@@ -4057,6 +3848,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - mekanism:creative_chemical_tank?
 
 #forge:dusts/salt
+- crossroads:dust_salt
 - mekanism:salt
 
 #forge:glass
@@ -4139,9 +3931,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - modularrouters:mod_filter
 - modularrouters:regex_filter
 
-#forge:nuggets/praseodymium
-- chemlib:praseodymium_nugget
-
 #chipped:magenta_glazed_terracotta
 - minecraft:magenta_glazed_terracotta
 - chipped:magenta_glazed_terracotta_1
@@ -4163,17 +3952,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - botania:stripped_livingwood
 - #botania:glimmering_livingwood_logs
 
-#forge:dusts/cesium_sulfate
-- chemlib:cesium_sulfate_dust
-
 #silentgear:blueprints/mattock
 - silentgear:mattock_blueprint
 - silentgear:mattock_template
 
-#forge:plates/zirconium
-- chemlib:zirconium_plate
-
 #forge:ores/ruby
+- crossroads:ore_ruby
 - thermal:ruby_ore
 - thermal:deepslate_ruby_ore
 - bluepower:ruby_ore
@@ -4183,9 +3967,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:liquid_dragon_egg
 - ends_delight:liquid_dragon_egg
 - ends_delight:liquid_dragon_egg_in_bowl
-
-#forge:dusts/molybdenum
-- chemlib:molybdenum_dust
 
 #forge:tools/wrench
 - pneumaticcraft:pneumatic_wrench
@@ -4197,9 +3978,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - create:wrench
 - rftoolsbase:smartwrench
 - rftoolsbase:smartwrench_select
-- ae2:certus_quartz_wrench
-- ae2:nether_quartz_wrench
-- ae2:network_tool
+'certus_quartz_wrench
+'nether_quartz_wrench
+'network_tool
 - immersiveengineering:hammer?
 
 #forge:furnaces/vibranium
@@ -4218,12 +3999,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - immersiveengineering:steel_scaffolding_wooden_top
 
 #forge:nuggets/tin
+- crossroads:nugget_tin
 - thermal:tin_nugget
 - mekanism:nugget_tin
-- chemlib:tin_nugget
-
-#forge:ingots/strontium
-- chemlib:strontium_ingot
 
 #minecraft:copper_ores
 - minecraft:copper_ore
@@ -4232,12 +4010,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:bones/dragon
 
 #forge:dusts/gold
-- occultism:gold_dust
+- crossroads:dust_gold
+'gold_dust
 - thermal:gold_dust
 - mekanism:dust_gold
 - bloodmagic:goldsand
 - immersiveengineering:dust_gold
-- chemlib:gold_dust
 
 #forge:wires/lead
 - immersiveengineering:wire_lead
@@ -4380,11 +4158,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #ftbultimine:excluded_tools/strict
 - mininggadgets:mininggadget?
-- ars_nouveau:wand?
-- ars_nouveau:novice_spell_book?
-- ars_nouveau:creative_spell_book?
-- ars_nouveau:archmage_spell_book?
-- ars_nouveau:apprentice_spell_book?
+'wand?
+'novice_spell_book?
+'creative_spell_book?
+'archmage_spell_book?
+'apprentice_spell_book?
 
 #create:toolboxes
 - create:white_toolbox
@@ -4404,12 +4182,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - create:red_toolbox
 - create:black_toolbox
 
-#forge:nuggets/lutetium
-- chemlib:lutetium_nugget
-
 #ae2:quartz_axe
-- ae2:certus_quartz_axe
-- ae2:nether_quartz_axe
+'certus_quartz_axe
+'nether_quartz_axe
 
 #silentgear:blueprints/sickle
 - silentgear:sickle_blueprint
@@ -4419,7 +4194,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - mekanism:block_raw_osmium
 
 #forge:tallow
-- occultism:tallow
+'tallow
 
 #chipped:pink_carpet
 - minecraft:pink_carpet
@@ -4443,12 +4218,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:pink_carpet_18
 - chipped:pink_carpet_19
 - chipped:pink_carpet_20
-
-#forge:dusts/antimony
-- chemlib:antimony_dust
-
-#forge:storage_blocks/vanadium
-- chemlib:vanadium_metal_block
 
 #supplementaries:hanging_signs
 - supplementaries:hanging_sign_dark_oak?
@@ -4476,8 +4245,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - supplementaries:undergarden/hanging_sign_smogstem
 - supplementaries:undergarden/hanging_sign_wigglewood
 - supplementaries:undergarden/hanging_sign_grongle
-- supplementaries:quark/hanging_sign_azalea
 - supplementaries:quark/hanging_sign_blossom
+- supplementaries:quark/hanging_sign_azalea
 
 #chipped:birch_trapdoor
 - minecraft:birch_trapdoor
@@ -4496,6 +4265,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:ingots/refined_glowstone
 - mekanism:ingot_refined_glowstone
 
+#crossroads:pure_ice
+- minecraft:packed_ice
+
 #silentgear:fluffy_blocks
 - silentgear:white_fluffy_block
 - silentgear:orange_fluffy_block
@@ -4513,12 +4285,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - silentgear:green_fluffy_block
 - silentgear:red_fluffy_block
 - silentgear:black_fluffy_block
-
-#forge:dusts/lithium_oxide
-- chemlib:lithium_oxide_dust
-
-#forge:dusts/triglyceride
-- chemlib:triglyceride_dust
 
 #supplementaries:cookies
 - minecraft:cookie?
@@ -4611,9 +4377,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - immersiveengineering:stairs_steel_scaffolding_standard
 - immersiveengineering:stairs_steel_scaffolding_grate_top
 - immersiveengineering:stairs_steel_scaffolding_wooden_top
-
-#forge:dusts/copper_carbonate
-- chemlib:copper_carbonate_dust
 
 #mekanism:dirty_dusts/tin
 - mekanism:dirty_dust_tin
@@ -4729,6 +4492,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:dark_oak_trapdoor_10
 - chipped:dark_oak_trapdoor_11
 
+#crossroads:storage_blocks/bright_quartz
+- crossroads:block_bright_quartz
+
 #chipped:stripped_acacia_log
 - minecraft:stripped_acacia_log
 - chipped:stripped_acacia_log_1
@@ -4748,9 +4514,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:stripped_acacia_log_15
 - chipped:stripped_acacia_log_16
 
-#forge:ingots/sodium
-- chemlib:sodium_ingot
-
 #forge:coins/steel
 - thermal:steel_coin
 
@@ -4762,12 +4525,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:ore_rates/sparse
 - minecraft:nether_gold_ore
-
-#forge:dusts/beta_carotene
-- chemlib:beta_carotene_dust
-
-#forge:dusts/neodymium
-- chemlib:neodymium_dust
 
 #forge:crops
 - sushigocrafting:rice
@@ -4806,11 +4563,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - corn_delight:corn
 - supplementaries:flax
 
+#crossroads:ores/void
+- crossroads:ore_void
+
 #forge:ore_bearing_ground/netherrack
 - minecraft:netherrack
 
 #forge:gems/citrine
-- silentgems:citrine
+'citrine
 
 #forge:dusts/brass
 - bluepower:brass_dust
@@ -4822,9 +4582,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - #rootsclassic:barks/jungle
 - #rootsclassic:barks/oak
 - #rootsclassic:barks/spruce
-
-#forge:plates/rubidium
-- chemlib:rubidium_plate
 
 #mekanism:dirty_dusts/copper
 - mekanism:dirty_dust_copper
@@ -4904,12 +4661,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:storage_blocks/raw_aluminum
 - immersiveengineering:raw_block_aluminum
 
-#forge:nuggets/francium
-- chemlib:francium_nugget
-
-#forge:storage_blocks/thallium
-- chemlib:thallium_metal_block
-
 #forge:rods/aluminum
 - immersiveengineering:stick_aluminum
 
@@ -4927,9 +4678,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:raw_fishes/tuna
 - sushigocrafting:raw_tuna
-
-#forge:dusts/cesium
-- chemlib:cesium_dust
 
 #chipped:stripped_jungle_log
 - minecraft:stripped_jungle_log
@@ -4949,9 +4697,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:stripped_jungle_log_14
 - chipped:stripped_jungle_log_15
 - chipped:stripped_jungle_log_16
-
-#forge:dusts/rubidium_hydroxide
-- chemlib:rubidium_hydroxide_dust
 
 #chipped:birch_door
 - minecraft:birch_door
@@ -5002,27 +4747,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:magenta_carpet_19
 - chipped:magenta_carpet_20
 
-#createdeco:placards
-- create:placard
-- createdeco:orange_placard
-- createdeco:magenta_placard
-- createdeco:light_blue_placard
-- createdeco:yellow_placard
-- createdeco:lime_placard
-- createdeco:pink_placard
-- createdeco:gray_placard
-- createdeco:light_gray_placard
-- createdeco:cyan_placard
-- createdeco:purple_placard
-- createdeco:blue_placard
-- createdeco:brown_placard
-- createdeco:green_placard
-- createdeco:red_placard
-- createdeco:black_placard
-
-#forge:ingots/francium
-- chemlib:francium_ingot
-
 #forge:foods/meat/cooked
 - minecraft:cooked_porkchop
 - minecraft:cooked_beef
@@ -5049,7 +4773,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - botania:travel_belt
 - naturesaura:aura_cache
 - naturesaura:aura_trove
-- occultism:satchel
+'satchel
 - thermal:satchel
 - thermal:potion_quiver
 - cyclic:charm_ultimate?
@@ -5057,16 +4781,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - cyclic:charm_stealthpotion?
 - cyclic:charm_torch_cave?
 - cyclic:charm_torch?
-- ars_nouveau:belt_of_levitation
-- ars_nouveau:belt_of_unstable_gifts
+'belt_of_levitation
+'belt_of_unstable_gifts
 - toolbelt:belt
 - reliquary:mob_charm_belt
 
 #forge:nuggets/emerald
 - silentgear:emerald_shard
-
-#forge:ingots/calcium
-- chemlib:calcium_ingot
 
 #balm:gold_nuggets
 - #forge:nuggets/gold?
@@ -5295,7 +5016,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - undergarden:smogstem_fence_gate
 - undergarden:wigglewood_fence_gate
 - undergarden:grongle_fence_gate
-- ars_nouveau:archwood_fence_gate
+'archwood_fence_gate
 - quark:azalea_fence_gate
 - quark:blossom_fence_gate
 
@@ -5372,13 +5093,16 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - mythicbotany:helheim_rune
 
 #nocubes_farmer_compats:fillet_fish_two
-- aquaculture:pollock
-- aquaculture:blackfish
-- aquaculture:carp
-- aquaculture:brown_trout
-- aquaculture:pink_salmon
-- aquaculture:rainbow_trout
-- aquaculture:smallmouth_bass
+'pollock
+'blackfish
+'carp
+'brown_trout
+'pink_salmon
+'rainbow_trout
+'smallmouth_bass
+
+#crossroads:gems/anti_densus
+- crossroads:solid_anti_densus
 
 #sereneseasons:spring_crops
 - thermal:barley_seeds
@@ -5435,10 +5159,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:red_stained_glass_10
 
 #forge:ores/iesnium
-- occultism:iesnium_ore
+'iesnium_ore
 
 #silentgems:glowroses/kyanite
-- silentgems:kyanite_glowrose
+'kyanite_glowrose
 
 #forge:ores/turquoise
 - #silentgems:ores/turquoise
@@ -5466,37 +5190,33 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - industrialforegoing:diamond_gear?
 - thermal:diamond_gear
 
-#forge:storage_blocks/cobalt
-- chemlib:cobalt_metal_block
-
 #forge:crops/soy_bean
 - sushigocrafting:soy_bean
 
 #ae2:covered_dense_cable
-- ae2:white_covered_dense_cable
-- ae2:orange_covered_dense_cable
-- ae2:magenta_covered_dense_cable
-- ae2:light_blue_covered_dense_cable
-- ae2:yellow_covered_dense_cable
-- ae2:lime_covered_dense_cable
-- ae2:pink_covered_dense_cable
-- ae2:gray_covered_dense_cable
-- ae2:light_gray_covered_dense_cable
-- ae2:cyan_covered_dense_cable
-- ae2:purple_covered_dense_cable
-- ae2:blue_covered_dense_cable
-- ae2:brown_covered_dense_cable
-- ae2:green_covered_dense_cable
-- ae2:red_covered_dense_cable
-- ae2:black_covered_dense_cable
-- ae2:fluix_covered_dense_cable
+'white_covered_dense_cable
+'orange_covered_dense_cable
+'magenta_covered_dense_cable
+'light_blue_covered_dense_cable
+'yellow_covered_dense_cable
+'lime_covered_dense_cable
+'pink_covered_dense_cable
+'gray_covered_dense_cable
+'light_gray_covered_dense_cable
+'cyan_covered_dense_cable
+'purple_covered_dense_cable
+'blue_covered_dense_cable
+'brown_covered_dense_cable
+'green_covered_dense_cable
+'red_covered_dense_cable
+'black_covered_dense_cable
+'fluix_covered_dense_cable
 
 #forge:seeds/strawberry
 - thermal:strawberry_seeds
 
 #forge:elytra
 - silentgear:elytra
-- rainbowcompound:obsidianite_elytra
 
 #curios:bracelet
 - silentgear:bracelet
@@ -5564,9 +5284,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - bloodmagic:intermediatecuttingfluid
 - bloodmagic:advancedcuttingfluid
 
-#forge:dusts/cadmium_hydroxide
-- chemlib:cadmium_hydroxide_dust
-
 #forge:rods/wooden
 - naturesaura:ancient_stick
 - minecraft:stick
@@ -5574,13 +5291,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - immersiveengineering:stick_treated
 
 #curios:curio
-- powah:battery_starter
-- powah:battery_basic
-- powah:battery_hardened
-- powah:battery_blazing
-- powah:battery_niotic
-- powah:battery_spirited
-- powah:battery_nitro
+'battery_starter
+'battery_basic
+'battery_hardened
+'battery_blazing
+'battery_niotic
+'battery_spirited
+'battery_nitro
 - botania:cosmetic_black_bowtie
 - botania:cosmetic_black_tie
 - botania:cosmetic_red_glasses
@@ -5617,9 +5334,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - pneumaticcraft:memory_stick
 - supplementaries:key
 
-#forge:ingots/gallium
-- chemlib:gallium_ingot
-
 #curios:back
 - industrialforegoing:infinity_backpack?
 - sophisticatedbackpacks:backpack
@@ -5630,16 +5344,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - silentgear:elytra
 - thermal:satchel
 - thermal:potion_quiver
-- rainbowcompound:obsidianite_elytra
-- rainbowcompound:dynamic_elytra_radiance
-- rainbowcompound:dynamic_elytra_feather
-- rainbowcompound:dynamic_elytra_fire
-- rainbowcompound:dynamic_elytra_ice
-- rainbowcompound:dynamic_elytra_66ccff
-- rainbowcompound:dynamic_elytra_ender
-- rainbowcompound:dynamic_elytra_slime
-- rainbowcompound:dynamic_elytra_rainbow
-- rainbowcompound:dynamic_elytra_flandre
 - cyclic:quiver_lightning?
 - cyclic:quiver_damage?
 - cyclic:charm_magicdefense?
@@ -5650,14 +5354,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:storage_blocks/diamond
 - minecraft:diamond_block
 
-#forge:dusts/potassium_nitrate
-- chemlib:potassium_nitrate_dust
-
 #forge:dusts/lead
 - thermal:lead_dust
 - mekanism:dust_lead
 - immersiveengineering:dust_lead
-- chemlib:lead_dust
 
 #chipped:stripped_spruce_log
 - minecraft:stripped_spruce_log
@@ -5748,10 +5448,17 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:crops/green_bean
 - thermal:green_bean
 
+#crossroads:gems/cavorite
+- crossroads:solid_cavorite
+
 #forge:nuggets
 - #forge:nuggets/elementium
 - #forge:nuggets/manasteel
 - #forge:nuggets/terrasteel
+- #forge:nuggets/copper
+- #forge:nuggets/tin
+- #forge:nuggets/bronze
+- #crossroads:nuggets/copshowium
 - #forge:nuggets/iron
 - #forge:nuggets/gold
 - #forge:nuggets/blaze_gold
@@ -5803,9 +5510,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - #forge:nuggets/electrum
 - #forge:nuggets/steel
 
-#forge:dusts/chromium
-- chemlib:chromium_dust
-
 #chipped:light_blue_concrete
 - minecraft:light_blue_concrete
 - chipped:light_blue_concrete_1
@@ -5856,9 +5560,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:gems/sulfur
 - thermal:sulfur
 
-#forge:dusts/manganese_sulfate
-- chemlib:manganese_sulfate_dust
-
 #quark:stools
 - quark:black_stool
 - quark:blue_stool
@@ -5903,7 +5604,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:storage_blocks/nickel
 - thermal:nickel_block
 - immersiveengineering:storage_nickel
-- chemlib:nickel_metal_block
 
 #forge:vegetables/carrot
 - minecraft:carrot
@@ -5922,8 +5622,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:dusts/ash
 - supplementaries:ash
 
+#crossroads:dusts/alchemy_salt
+- crossroads:waste_salt
+
 #balm:diamonds
-- #forge:gems/diamonds?
+'diamonds?
 - minecraft:diamond
 
 #forge:gears/silver
@@ -5931,9 +5634,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:sheetmetals/nickel
 - immersiveengineering:sheetmetal_nickel
-
-#forge:dusts/magnesium
-- chemlib:magnesium_dust
 
 #forge:circuits
 - #forge:circuits/basic
@@ -5951,6 +5651,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:ender_pearl
 
 #libx:impl_wooden_stairs
+
+#crossroads:dusts/voltus
+- crossroads:solid_voltus
 
 #mekanism:shards/gold
 - mekanism:shard_gold
@@ -6412,7 +6115,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - quark:blossom_trapped_chest
 
 #forge:storage_blocks/peridot
-- silentgems:peridot_block
+'peridot_block
 
 #balm:cyan_dyes
 - #forge:dyes/cyan?
@@ -6448,18 +6151,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:ingots/osmium
 - mekanism:ingot_osmium
-- chemlib:osmium_ingot
-
-#rainbowcompound:dynamic_elytra
-- rainbowcompound:dynamic_elytra_radiance
-- rainbowcompound:dynamic_elytra_feather
-- rainbowcompound:dynamic_elytra_fire
-- rainbowcompound:dynamic_elytra_ice
-- rainbowcompound:dynamic_elytra_66ccff
-- rainbowcompound:dynamic_elytra_ender
-
-#forge:ingots/thulium
-- chemlib:thulium_ingot
 
 #chipped:end_stone
 - minecraft:end_stone
@@ -6533,9 +6224,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:end_stone_68
 - chipped:end_stone_69
 
-#forge:plates/protactinium
-- chemlib:protactinium_plate
-
 #forge:raw_ores/gold
 - minecraft:raw_gold
 
@@ -6551,9 +6239,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:magenta_stained_glass_pane_8
 - chipped:magenta_stained_glass_pane_9
 - chipped:magenta_stained_glass_pane_10
-
-#forge:nuggets/terbium
-- chemlib:terbium_nugget
 
 #forge:raw_fishes/shrimp
 - sushigocrafting:shrimp
@@ -6633,9 +6318,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:cyan_terracotta_64
 - chipped:cyan_terracotta_65
 - chipped:cyan_terracotta_66
-
-#forge:nuggets/gallium
-- chemlib:gallium_nugget
 
 #chipped:warped_planks
 - minecraft:warped_planks
@@ -6725,16 +6407,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - supplementaries:netherite_door
 - supplementaries:silver_door
 - supplementaries:lead_door
-- ars_nouveau:archwood_door
+'archwood_door
 - quark:azalea_door
 - quark:blossom_door
 
 #botania:petals/red
 - botania:red_petal
 - botania:red_mushroom
-
-#forge:ingots/beryllium
-- chemlib:beryllium_ingot
 
 #chipped:melon
 - minecraft:melon
@@ -6763,9 +6442,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - silentgear:saw_blueprint
 - silentgear:saw_template
 
-#forge:plates/chromium
-- chemlib:chromium_plate
-
 #chipped:black_concrete
 - minecraft:black_concrete
 - chipped:black_concrete_1
@@ -6793,12 +6469,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:furnaces/diamond
 - ironfurnaces:diamond_furnace
 
-#forge:plates/palladium
-- chemlib:palladium_plate
-
-#forge:dusts/cesium_nitrate
-- chemlib:cesium_nitrate_dust
-
 #forge:cooked_beef
 - butchersdelight:cookedbeefribs
 - butchersdelight:coockedbeeftenderloin
@@ -6806,17 +6476,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:cooked_beef
 - farmersdelight:beef_patty
 
-#forge:ingots/niobium
-- chemlib:niobium_ingot
-
 #silentgems:ores/turquoise
-- silentgems:turquoise_ore
-- silentgems:deepslate_turquoise_ore
-- silentgems:turquoise_nether_ore
-- silentgems:turquoise_end_ore
-
-#forge:ingots/radium
-- chemlib:radium_ingot
+'turquoise_ore
+'deepslate_turquoise_ore
+'turquoise_nether_ore
+'turquoise_end_ore
 
 #chipped:magenta_wool
 - minecraft:magenta_wool
@@ -6912,7 +6576,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:storage_blocks/osmium
 - mekanism:block_osmium
-- chemlib:osmium_metal_block
 
 #bookshelf:slime_balls
 - #forge:slimeballs
@@ -6921,12 +6584,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - thermal:frost_melon_seeds
 
 #forge:tools/knives
-- aquaculture:wooden_fillet_knife
-- aquaculture:stone_fillet_knife
-- aquaculture:iron_fillet_knife
-- aquaculture:gold_fillet_knife
-- aquaculture:diamond_fillet_knife
-- aquaculture:neptunium_fillet_knife
+'wooden_fillet_knife
+'stone_fillet_knife
+'iron_fillet_knife
+'gold_fillet_knife
+'diamond_fillet_knife
+'neptunium_fillet_knife
 - butchersdelight:cleaver
 - create_things_and_misc:copper_knife
 - create_things_and_misc:brass_knife
@@ -6948,9 +6611,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #balm:white_dyes
 - #forge:dyes/white?
 - minecraft:white_dye
-
-#forge:storage_blocks/iridium
-- chemlib:iridium_metal_block
 
 #chipped:magenta_concrete
 - minecraft:magenta_concrete
@@ -6977,7 +6637,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:magenta_concrete_21
 
 #forge:gems/black_diamond
-- silentgems:black_diamond
+'black_diamond
+
+#essentials:circuit_components
+- minecraft:quartz
 
 #forge:ores/teslatite
 - bluepower:teslatite_ore
@@ -7010,9 +6673,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:orange_stained_glass_8
 - chipped:orange_stained_glass_9
 - chipped:orange_stained_glass_10
-
-#forge:nuggets/polonium
-- chemlib:polonium_nugget
 
 #forge:coins/constantan
 - thermal:constantan_coin
@@ -7053,7 +6713,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - thermal:tea_seeds
 
 #immersiveengineering:toolbox/tools
-- immersivepetroleum:projector
 - immersiveengineering:railgun
 - immersiveengineering:chemthrower
 - immersiveengineering:revolver
@@ -7078,10 +6737,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:fishing_rod
 
 #create:modded_stripped_wood
-- ars_nouveau:stripped_blue_archwood_wood?
-- ars_nouveau:stripped_purple_archwood_wood?
-- ars_nouveau:stripped_green_archwood_wood?
-- ars_nouveau:stripped_red_archwood_wood?
+'stripped_blue_archwood_wood?
+'stripped_purple_archwood_wood?
+'stripped_green_archwood_wood?
+'stripped_red_archwood_wood?
 - botania:stripped_livingwood?
 - botania:stripped_dreamwood?
 - forbidden_arcanus:stripped_cherrywood?
@@ -7169,9 +6828,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:pink_glazed_terracotta_10
 - chipped:pink_glazed_terracotta_11
 
-#forge:dusts/beryllium_sulfate
-- chemlib:beryllium_sulfate_dust
-
 #forge:tools/knife
 - sushigocrafting:cleaver_knife
 
@@ -7199,9 +6855,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - mekanism:block_charcoal
 - quark:charcoal_block
 
-#forge:dusts/cerium
-- chemlib:cerium_dust
-
 #forge:armor/netherite
 - minecraft:netherite_boots
 - minecraft:netherite_chestplate
@@ -7212,18 +6865,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - #forge:wrenches
 - #forge:tools/wrench
 
-#forge:plates/strontium
-- chemlib:strontium_plate
-
 #forge:manuals
-- occultism:dictionary_of_spirits
+'dictionary_of_spirits
 
 #silentgear:blueprints/prospector_hammer
 - silentgear:prospector_hammer_blueprint
 - silentgear:prospector_hammer_template
-
-#forge:dusts/potassium
-- chemlib:potassium_dust
 
 #balm:green_dyes
 - #forge:dyes/green?
@@ -7249,9 +6896,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #botania:terrasteel_blocks
 - botania:terrasteel_block
-
-#forge:dusts/zinc_carbonate
-- chemlib:zinc_carbonate_dust
 
 #forge:clocks
 - minecraft:clock
@@ -7303,10 +6947,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:ingots/aluminum
 - createindustry:aluminum_ingot
 - immersiveengineering:ingot_aluminum
-- chemlib:aluminum_ingot
 
 #occultism:miners/master
-- occultism:miner_marid_master
+'miner_marid_master
 
 #createplus:goggle
 - createplus:goggle_chainmail_helmet
@@ -7352,6 +6995,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:blue_glazed_terracotta_10
 - chipped:blue_glazed_terracotta_11
 
+#crossroads:dusts/elem_expansion
+- crossroads:solid_elem_expansion
+
 #minecraft:beacon_payment_items
 - minecraft:netherite_ingot
 - minecraft:emerald
@@ -7372,8 +7018,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - undergarden:regalium_crystal
 - undergarden:forgotten_ingot
 - minecraft:copper_ingot
-- #create:create_ingots
-- ars_nouveau:source_gem
+'create_ingots
+'source_gem
 - bluepower:brass_ingot
 - bluepower:silver_ingot
 - bluepower:tungsten_ingot
@@ -7382,22 +7028,22 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - bluepower:green_sapphire_gem
 - bluepower:ruby_gem
 - bluepower:sapphire_gem
-- silentgems:ruby
-- silentgems:carnelian
-- silentgems:topaz
-- silentgems:citrine
-- silentgems:heliodor
-- silentgems:moldavite
-- silentgems:peridot
-- silentgems:turquoise
-- silentgems:kyanite
-- silentgems:sapphire
-- silentgems:iolite
-- silentgems:alexandrite
-- silentgems:ammolite
-- silentgems:rose_quartz
-- silentgems:black_diamond
-- silentgems:white_diamond
+'ruby
+'carnelian
+'topaz
+'citrine
+'heliodor
+'moldavite
+'peridot
+'turquoise
+'kyanite
+'sapphire
+'iolite
+'alexandrite
+'ammolite
+'rose_quartz
+'black_diamond
+'white_diamond
 
 #forge:ores/quartz
 - minecraft:nether_quartz_ore
@@ -7406,27 +7052,24 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:nuggets/signalum
 - thermal:signalum_nugget
 
-#forge:dusts/boron
-- chemlib:boron_dust
-
 #ae2:smart_cable
-- ae2:white_smart_cable
-- ae2:orange_smart_cable
-- ae2:magenta_smart_cable
-- ae2:light_blue_smart_cable
-- ae2:yellow_smart_cable
-- ae2:lime_smart_cable
-- ae2:pink_smart_cable
-- ae2:gray_smart_cable
-- ae2:light_gray_smart_cable
-- ae2:cyan_smart_cable
-- ae2:purple_smart_cable
-- ae2:blue_smart_cable
-- ae2:brown_smart_cable
-- ae2:green_smart_cable
-- ae2:red_smart_cable
-- ae2:black_smart_cable
-- ae2:fluix_smart_cable
+'white_smart_cable
+'orange_smart_cable
+'magenta_smart_cable
+'light_blue_smart_cable
+'yellow_smart_cable
+'lime_smart_cable
+'pink_smart_cable
+'gray_smart_cable
+'light_gray_smart_cable
+'cyan_smart_cable
+'purple_smart_cable
+'blue_smart_cable
+'brown_smart_cable
+'green_smart_cable
+'red_smart_cable
+'black_smart_cable
+'fluix_smart_cable
 
 #forge:sickles
 - silentgear:sickle
@@ -7442,10 +7085,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - immersiveengineering:duroplast
 
 #silentgems:glowroses/ruby
-- silentgems:ruby_glowrose
-
-#forge:dusts/germanium
-- chemlib:germanium_dust
+'ruby_glowrose
 
 #chipped:lapis_block
 - minecraft:lapis_block
@@ -7525,12 +7165,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:crops/amaranth
 - thermal:amaranth
 
-#forge:dusts/magnesium_hydroxide
-- chemlib:magnesium_hydroxide_dust
-
-#forge:dusts/barium_chloride
-- chemlib:barium_chloride_dust
-
 #minecraft:logs
 - #minecraft:logs_that_burn
 - #minecraft:crimson_stems
@@ -7539,30 +7173,30 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - naturesaura:ancient_bark
 - sushigocrafting:avocado_log
 - sushigocrafting:avocado_leaves_logged
-- occultism:otherworld_log
-- occultism:otherworld_log_natural
+'otherworld_log
+'otherworld_log_natural
 - #silentgear:netherwood_logs
 - culturaldelights:avocado_log
 - culturaldelights:avocado_wood
 - #undergarden:smogstem_logs
 - #undergarden:wigglewood_logs
 - #undergarden:grongle_logs
-- ars_nouveau:red_archwood_log
-- ars_nouveau:blue_archwood_log
-- ars_nouveau:purple_archwood_log
-- ars_nouveau:green_archwood_log
-- ars_nouveau:red_archwood_wood
-- ars_nouveau:blue_archwood_wood
-- ars_nouveau:green_archwood_wood
-- ars_nouveau:purple_archwood_wood
-- ars_nouveau:stripped_blue_archwood_log
-- ars_nouveau:stripped_blue_archwood_wood
-- ars_nouveau:stripped_green_archwood_log
-- ars_nouveau:stripped_green_archwood_wood
-- ars_nouveau:stripped_red_archwood_log
-- ars_nouveau:stripped_red_archwood_wood
-- ars_nouveau:stripped_purple_archwood_log
-- ars_nouveau:stripped_purple_archwood_wood
+'red_archwood_log
+'blue_archwood_log
+'purple_archwood_log
+'green_archwood_log
+'red_archwood_wood
+'blue_archwood_wood
+'green_archwood_wood
+'purple_archwood_wood
+'stripped_blue_archwood_log
+'stripped_blue_archwood_wood
+'stripped_green_archwood_log
+'stripped_green_archwood_wood
+'stripped_red_archwood_log
+'stripped_red_archwood_wood
+'stripped_purple_archwood_log
+'stripped_purple_archwood_wood
 - quark:azalea_log
 - quark:stripped_azalea_log
 - quark:azalea_wood
@@ -7627,16 +7261,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - silentgear:helmet_blueprint
 - silentgear:helmet_template
 
-#forge:nuggets/indium
-- chemlib:indium_nugget
-
 #forge:treated_wood_slab
 - immersiveengineering:slab_treated_wood_horizontal
 - immersiveengineering:slab_treated_wood_vertical
 - immersiveengineering:slab_treated_wood_packaged
 
 #forge:jolly_boxes/large_present_single_stack
-- aquaculture:neptunium_ingot
+'neptunium_ingot
 
 #chipped:emerald_block
 - minecraft:emerald_block
@@ -7654,8 +7285,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:emerald_block_12
 
 #forge:ores/certus_quartz
-- ae2:quartz_ore
-- ae2:deepslate_quartz_ore
+'quartz_ore
+'deepslate_quartz_ore
 
 #forge:tools/diamond
 - minecraft:diamond_axe
@@ -7730,10 +7361,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - sushigocrafting:wasabi_seeds
 
 #silentgems:ores/moldavite
-- silentgems:moldavite_ore
-- silentgems:deepslate_moldavite_ore
-- silentgems:moldavite_nether_ore
-- silentgems:moldavite_end_ore
+'moldavite_ore
+'deepslate_moldavite_ore
+'moldavite_nether_ore
+'moldavite_end_ore
 
 #quark:vertical_slab
 - quark:acacia_vertical_slab
@@ -7855,18 +7486,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:purple_stained_glass_pane_9
 - chipped:purple_stained_glass_pane_10
 
-#forge:dusts/lithium_carbonate
-- chemlib:lithium_carbonate_dust
-
 #forge:dusts/coal_coke
 - immersiveengineering:dust_coke
-
-#forge:pineapples
-- pineapple_delight:pineapple
-- pineapple_delight:pineapple_side
-
-#forge:plates/polonium
-- chemlib:polonium_plate
 
 #chipped:red_terracotta
 - minecraft:red_terracotta
@@ -7950,9 +7571,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:ores/kyanite
 - #silentgems:ores/kyanite
 
-#forge:dusts/tantalum
-- chemlib:tantalum_dust
-
 #forge:seeds/wheat
 - minecraft:wheat_seeds
 
@@ -7993,7 +7611,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - mythicbotany:ice_ring
 - mythicbotany:cursed_andwari_ring
 - mythicbotany:andwari_ring
-- occultism:familiar_ring
+'familiar_ring
 - silentgear:ring
 - cyclic:charm_ultimate?
 - cyclic:charm_knockback_resistance?
@@ -8001,18 +7619,15 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - cyclic:charm_xp_speed?
 - cyclic:charm_xp_blocker?
 - cyclic:antigravity?
-- ars_nouveau:ring_of_lesser_discount
-- ars_nouveau:ring_of_greater_discount
+'ring_of_lesser_discount
+'ring_of_greater_discount
 
 #balm:iron_nuggets
 - #forge:nuggets/iron?
 - minecraft:iron_nugget
 
-#forge:dusts/vanadium
-- chemlib:vanadium_dust
-
 #forge:gems/ammolite
-- silentgems:ammolite
+'ammolite
 
 #minecraft:anvil
 - minecraft:anvil
@@ -8100,9 +7715,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - butchersdelight:ham
 - butchersdelight:sheepshank
 
-#forge:storage_blocks/lanthanum
-- chemlib:lanthanum_metal_block
-
 #forge:fences/nether_brick
 - minecraft:nether_brick_fence
 
@@ -8145,8 +7757,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:pink_wool_20
 
 #ae2:knife
-- ae2:certus_quartz_cutting_knife
-- ae2:nether_quartz_cutting_knife
+'certus_quartz_cutting_knife
+'nether_quartz_cutting_knife
 
 #immersiveengineering:scaffoldings/aluminum
 - immersiveengineering:alu_scaffolding_standard
@@ -8228,14 +7840,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:orange_terracotta_65
 - chipped:orange_terracotta_66
 
-#forge:dusts/lead_sulfide
-- chemlib:lead_sulfide_dust
-
 #tombstone:voodoo_poppet_ingredient_lightning
 - #forge:rods/wooden
-
-#forge:nuggets/potassium
-- chemlib:potassium_nugget
 
 #bloodmagic:fragments
 - #bloodmagic:fragments/iron
@@ -8243,9 +7849,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - #bloodmagic:fragments/copper
 - #bloodmagic:fragments/netherite_scrap
 - #bloodmagic:fragments/hellforged
-
-#forge:storage_blocks/lutetium
-- chemlib:lutetium_metal_block
 
 #chipped:birch_planks
 - minecraft:birch_planks
@@ -8295,7 +7898,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - silentgear:raw_azure_silver
 
 #forge:gems/kyanite
-- silentgems:kyanite
+'kyanite
 
 #minecraft:wooden_buttons
 - minecraft:oak_button
@@ -8310,7 +7913,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - undergarden:smogstem_button
 - undergarden:wigglewood_button
 - undergarden:grongle_button
-- ars_nouveau:archwood_button
+'archwood_button
 - quark:azalea_button
 - quark:blossom_button
 
@@ -8335,12 +7938,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - undergarden:cloggrum_leggings
 - undergarden:cloggrum_boots
 
-#forge:storage_blocks/indium
-- chemlib:indium_metal_block
-
-#forge:nuggets/neodymium
-- chemlib:neodymium_nugget
-
 #forge:fertilizer
 - industrialforegoing:fertilizer
 - minecraft:bone_meal
@@ -8348,23 +7945,17 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:dyes/green
 - minecraft:green_dye
 
-#forge:dusts/nickel_sulfate
-- chemlib:nickel_sulfate_dust
-
 #cyclic:disenchanter_immune
 - quark:ancient_tome?
 
 #forge:barrels/iron
 - metalbarrels:iron_barrel
 
-#forge:dusts/cellulose
-- chemlib:cellulose_dust
-
 #botania:dragonstone_gems
 - botania:dragonstone
 
 #forge:storage_blocks/moldavite
-- silentgems:moldavite_block
+'moldavite_block
 
 #forge:crops/onion
 - thermal:onion
@@ -8372,6 +7963,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:tool/wrench
 - supplementaries:wrench
+
+#crossroads:gems/pure_quartz
+- crossroads:pure_quartz
 
 #chipped:crimson_trapdoor
 - minecraft:crimson_trapdoor
@@ -8389,9 +7983,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:storage_blocks/bitumen
 - thermal:bitumen_block
-
-#forge:storage_blocks/cesium
-- chemlib:cesium_metal_block
 
 #chipped:red_mushroom
 - minecraft:red_mushroom
@@ -8412,16 +8003,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:red_mushroom_15
 
 #immersiveengineering:recycling/ignored_components
-- #forge:ingots/brick
+'brick
 - immersiveengineering:hammer
 - immersiveengineering:screwdriver
 - immersiveengineering:wirecutter
 
 #forge:ingots/regalium
 - undergarden:regalium_crystal
-
-#forge:dusts/calcium_hydroxide
-- chemlib:calcium_hydroxide_dust
 
 #integrateddynamics:menril_logs
 - integrateddynamics:menril_log
@@ -8441,7 +8029,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - thermal:iron_plate
 - create:iron_sheet
 - immersiveengineering:plate_iron
-- chemlib:iron_plate
 
 #forge:shulker_boxes
 - minecraft:shulker_box
@@ -8469,15 +8056,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - mekanism:dust_charcoal
 
 #forge:nuggets/silver
-- occultism:silver_nugget
+'silver_nugget
 - thermal:silver_nugget
 - immersiveengineering:nugget_silver
 - bluepower:silver_nugget
-- chemlib:silver_nugget
-- silentgems:silver_nugget
-
-#forge:dusts/strontium_nitrate
-- chemlib:strontium_nitrate_dust
+'silver_nugget
 
 #bookshelf:bows
 - #forge:bows
@@ -8487,10 +8070,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:barrel
 
 #create:modded_stripped_logs
-- ars_nouveau:stripped_blue_archwood_log?
-- ars_nouveau:stripped_purple_archwood_log?
-- ars_nouveau:stripped_green_archwood_log?
-- ars_nouveau:stripped_red_archwood_log?
+'stripped_blue_archwood_log?
+'stripped_purple_archwood_log?
+'stripped_green_archwood_log?
+'stripped_red_archwood_log?
 - botania:stripped_livingwood_log?
 - botania:stripped_dreamwood_log?
 - forbidden_arcanus:stripped_cherrywood_log?
@@ -8659,17 +8242,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:lime_glazed_terracotta_10
 - chipped:lime_glazed_terracotta_11
 
-#forge:dusts/sucrose
-- chemlib:sucrose_dust
-
-#forge:dusts/samarium
-- chemlib:samarium_dust
-
-#forge:dusts/cobalt_carbonate
-- chemlib:cobalt_carbonate_dust
-
 #aquaculture:bobber
-- aquaculture:bobber
+'bobber
 
 #create:stone_types/calcite
 - create:cut_calcite
@@ -8796,12 +8370,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:batteries
 - mekanism:energy_tablet
 
-#forge:nuggets/rhodium
-- chemlib:rhodium_nugget
-
-#forge:dusts/protactinium
-- chemlib:protactinium_dust
-
 #chipped:gray_stained_glass_pane
 - minecraft:gray_stained_glass_pane
 - chipped:gray_stained_glass_pane_1
@@ -8815,9 +8383,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:gray_stained_glass_pane_9
 - chipped:gray_stained_glass_pane_10
 
-#forge:ingots/palladium
-- chemlib:palladium_ingot
-
 #forge:wires/copper
 - immersiveengineering:wire_copper
 
@@ -8829,9 +8394,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:glass_panes/cyan
 - minecraft:cyan_stained_glass_pane
-
-#forge:dusts/magnesium_carbonate
-- chemlib:magnesium_carbonate_dust
 
 #forge:raw_fishes/tropical_fish
 - minecraft:tropical_fish
@@ -8954,12 +8516,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - rainbowcompound:rainbow_shovel
 - rainbowcompound:rainbow_hoe
 
-#forge:dusts/tin_oxide
-- chemlib:tin_oxide_dust
-
-#forge:storage_blocks/beryllium
-- chemlib:beryllium_metal_block
-
 #forge:rollmatout/bottle_foods
 - farmersdelight:milk_bottle
 - minecraft:potion
@@ -8985,10 +8541,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - cyclic:dark_glass_connected?
 
 #forge:gems/alexandrite
-- silentgems:alexandrite
-
-#forge:dusts/silicon
-- chemlib:silicon_dust
+'alexandrite
 
 #forge:barrels/copper
 - metalbarrels:copper_barrel
@@ -9018,7 +8571,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:nuggets/aluminum
 - immersiveengineering:nugget_aluminum
-- chemlib:aluminum_nugget
 
 #forge:stained_glass
 - minecraft:white_stained_glass
@@ -9053,7 +8605,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:dusts/zinc
 - bluepower:zinc_dust
-- chemlib:zinc_dust
 
 #forge:yellow_cake_uranium
 - mekanism:yellow_cake_uranium
@@ -9067,34 +8618,28 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - supplementaries:sign_post_birch?
 - supplementaries:sign_post_crimson?
 - supplementaries:sign_post_warped?
-- supplementaries:sign_post_oak
-- supplementaries:sign_post_birch
-- supplementaries:naturesaura/sign_post_ancient
-- supplementaries:quark/sign_post_azalea
-- supplementaries:sign_post_warped
-- supplementaries:undergarden/sign_post_smogstem
-- supplementaries:sign_post_dark_oak
-- supplementaries:botania/sign_post_dreamwood
-- supplementaries:sign_post_acacia
-- supplementaries:integrateddynamics/sign_post_menril
 - supplementaries:quark/sign_post_blossom
-- supplementaries:silentgear/sign_post_netherwood
-- supplementaries:sign_post_jungle
 - supplementaries:undergarden/sign_post_grongle
-- supplementaries:sign_post_crimson
+- supplementaries:sign_post_dark_oak
+- supplementaries:naturesaura/sign_post_ancient
+- supplementaries:sign_post_jungle
+- supplementaries:undergarden/sign_post_smogstem
 - supplementaries:botania/sign_post_livingwood
 - supplementaries:sign_post_spruce
-- supplementaries:evilcraft/sign_post_undead
+- supplementaries:sign_post_crimson
 - supplementaries:undergarden/sign_post_wigglewood
-
-#forge:dusts/cadmium_sulfide
-- chemlib:cadmium_sulfide_dust
-
-#forge:ingots/thorium
-- chemlib:thorium_ingot
+- supplementaries:quark/sign_post_azalea
+- supplementaries:botania/sign_post_dreamwood
+- supplementaries:sign_post_oak
+- supplementaries:sign_post_acacia
+- supplementaries:evilcraft/sign_post_undead
+- supplementaries:integrateddynamics/sign_post_menril
+- supplementaries:sign_post_birch
+- supplementaries:silentgear/sign_post_netherwood
+- supplementaries:sign_post_warped
 
 #forge:gems/carnelian
-- silentgems:carnelian
+'carnelian
 
 #forge:bones
 - evilcraft:werewolf_bone
@@ -9184,17 +8729,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:oak_leaves_11
 - chipped:oak_leaves_12
 
-#forge:ingots/europium
-- chemlib:europium_ingot
-
 #forge:gems/mana_diamond
 - #botania:mana_diamond_gems
 
 #forge:flour/wheat
 - create:wheat_flour
-
-#forge:dusts/cucurbitacin
-- chemlib:cucurbitacin_dust
 
 #forge:vegetables/onion
 - farmersdelight:onion
@@ -9250,10 +8789,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:gray_carpet_20
 
 #silentgems:glowroses/sapphire
-- silentgems:sapphire_glowrose
+'sapphire_glowrose
 
 #forge:ingots/neptunium
-- aquaculture:neptunium_ingot
+'neptunium_ingot
 
 #forge:ingots/signalum
 - thermal:signalum_ingot
@@ -9263,9 +8802,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:netherite_ingot
 
 #forge:storage_blocks/tin
+- crossroads:block_tin
 - thermal:tin_block
 - mekanism:block_tin
-- chemlib:tin_metal_block
 
 #forge:foods/meat/raw
 - minecraft:porkchop
@@ -9276,9 +8815,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:seeds/beetroot
 - minecraft:beetroot_seeds
-
-#forge:plates/lutetium
-- chemlib:lutetium_plate
 
 #silentgear:blueprints/ring
 - silentgear:ring_blueprint
@@ -9360,29 +8896,23 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - potionmaster:calcinatedunobtanium_powder?
 - potionmaster:calcinatednetherite_powder?
 
-#forge:dusts/yttrium
-- chemlib:yttrium_dust
-
-#forge:dusts/calcium_nitrate
-- chemlib:calcium_nitrate_dust
-
 #ae2:paint_balls
-- ae2:white_paint_ball
-- ae2:orange_paint_ball
-- ae2:magenta_paint_ball
-- ae2:light_blue_paint_ball
-- ae2:yellow_paint_ball
-- ae2:lime_paint_ball
-- ae2:pink_paint_ball
-- ae2:gray_paint_ball
-- ae2:light_gray_paint_ball
-- ae2:cyan_paint_ball
-- ae2:purple_paint_ball
-- ae2:blue_paint_ball
-- ae2:brown_paint_ball
-- ae2:green_paint_ball
-- ae2:red_paint_ball
-- ae2:black_paint_ball
+'white_paint_ball
+'orange_paint_ball
+'magenta_paint_ball
+'light_blue_paint_ball
+'yellow_paint_ball
+'lime_paint_ball
+'pink_paint_ball
+'gray_paint_ball
+'light_gray_paint_ball
+'cyan_paint_ball
+'purple_paint_ball
+'blue_paint_ball
+'brown_paint_ball
+'green_paint_ball
+'red_paint_ball
+'black_paint_ball
 
 #chipped:ice
 - minecraft:ice
@@ -9457,7 +8987,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:ice_69
 
 #forge:fruits/berry
-- ars_nouveau:source_berry
+'source_berry
 
 #botania:petals/orange
 - botania:orange_petal
@@ -9476,6 +9006,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:cooked_fishes
 - #forge:cooked_fishes/cod
 - #forge:cooked_fishes/salmon
+
+#essentials:linking_tool
+- essentials:linking_tool
 
 #chipped:green_wool
 - minecraft:green_wool
@@ -9502,9 +9035,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:furnaces/rainbow
 - ironfurnaces:million_furnace
-
-#forge:nuggets/lithium
-- chemlib:lithium_nugget
 
 #forge:cooked_chicken
 - minecraft:cooked_chicken
@@ -9585,28 +9115,19 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #botania:manasteel_blocks
 - botania:manasteel_block
 
-#forge:ingots/dysprosium
-- chemlib:dysprosium_ingot
-
 #silentgems:ores/white_diamond
-- silentgems:white_diamond_ore
-- silentgems:deepslate_white_diamond_ore
-- silentgems:white_diamond_nether_ore
-- silentgems:white_diamond_end_ore
-
-#forge:nuggets/thulium
-- chemlib:thulium_nugget
+'white_diamond_ore
+'deepslate_white_diamond_ore
+'white_diamond_nether_ore
+'white_diamond_end_ore
 
 #forge:fishing_rods
 - minecraft:fishing_rod
 - minecraft:fishing_rod
-- aquaculture:iron_fishing_rod?
-- aquaculture:gold_fishing_rod?
-- aquaculture:diamond_fishing_rod?
-- aquaculture:neptunium_fishing_rod?
-
-#waystones:warp_scrolls
-- waystones:warp_scroll
+'iron_fishing_rod?
+'gold_fishing_rod?
+'diamond_fishing_rod?
+'neptunium_fishing_rod?
 
 #c:glass
 - #chipped:glass
@@ -9621,6 +9142,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - ironfurnaces:crystal_furnace
 
 #forge:storage_blocks/raw_tin
+- crossroads:block_raw_tin
 - thermal:raw_tin_block
 - mekanism:block_raw_tin
 
@@ -9673,27 +9195,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - silentgear:knife
 - silentgear:dagger
 
-#forge:storage_blocks/actinium
-- chemlib:actinium_metal_block
-
-#forge:plates/yttrium
-- chemlib:yttrium_plate
-
 #forge:storage_blocks/gunpowder
 - thermal:gunpowder_block
 
-#forge:dusts/calcium_chloride
-- chemlib:calcium_chloride_dust
-
 #forge:raw_materials/tin
+- crossroads:raw_tin
 - thermal:raw_tin
 - mekanism:raw_tin
-
-#forge:dusts/rubidium_carbonate
-- chemlib:rubidium_carbonate_dust
-
-#forge:nuggets/niobium
-- chemlib:niobium_nugget
 
 #botania:petals/light_blue
 - botania:light_blue_petal
@@ -9708,10 +9216,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - silentgear:leggings_template
 
 #silentgems:ores/kyanite
-- silentgems:kyanite_ore
-- silentgems:deepslate_kyanite_ore
-- silentgems:kyanite_nether_ore
-- silentgems:kyanite_end_ore
+'kyanite_ore
+'deepslate_kyanite_ore
+'kyanite_nether_ore
+'kyanite_end_ore
 
 #chipped:black_carpet
 - minecraft:black_carpet
@@ -9811,8 +9319,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - naturesaura:ancient_leaves
 - naturesaura:decayed_leaves
 - integrateddynamics:menril_leaves
-- occultism:otherworld_leaves
-- occultism:otherworld_leaves_natural
+'otherworld_leaves
+'otherworld_leaves_natural
 - silentgear:netherwood_leaves
 - #chipped:acacia_leaves
 - #chipped:birch_leaves
@@ -9969,12 +9477,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - bloodmagic:saltpeter
 - immersiveengineering:dust_saltpeter
 
-#forge:ingots/zirconium
-- chemlib:zirconium_ingot
-
-#forge:plates/rhenium
-- chemlib:rhenium_plate
-
 #bookshelf:compasses
 - #forge:compasses
 
@@ -9991,9 +9493,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #botania:mana_diamond_gems
 - botania:mana_diamond
 
-#forge:ingots/terbium
-- chemlib:terbium_ingot
-
 #chipped:dark_oak_leaves
 - minecraft:dark_oak_leaves
 - chipped:dark_oak_leaves_1
@@ -10008,9 +9507,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:dark_oak_leaves_10
 - chipped:dark_oak_leaves_11
 - chipped:dark_oak_leaves_12
-
-#forge:dusts/rhenium
-- chemlib:rhenium_dust
 
 #hearthwell:spire_devices
 - hearthwell:spire_device_combiner
@@ -10090,13 +9586,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:dusts/osmium
 - mekanism:dust_osmium
-- chemlib:osmium_dust
-
-#forge:nuggets/ytterbium
-- chemlib:ytterbium_nugget
-
-#forge:storage_blocks/sodium
-- chemlib:sodium_metal_block
 
 #immersiveengineering:scaffolding_stairs/aluminum
 - immersiveengineering:stairs_alu_scaffolding_standard
@@ -10113,34 +9602,31 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - #mekanism:alloys/atomic
 
 #forge:jolly_boxes/small_present_common
-- aquaculture:tin_can
-- aquaculture:driftwood
-- aquaculture:message_in_a_bottle
+'tin_can
+'driftwood
+'message_in_a_bottle
 
 #forge:glass/light_gray
 - minecraft:light_gray_stained_glass
 
-#forge:dusts/thulium
-- chemlib:thulium_dust
-
 #ae2:memory_cards
-- ae2:memory_card_white
-- ae2:memory_card_orange
-- ae2:memory_card_magenta
-- ae2:memory_card_light_blue
-- ae2:memory_card_yellow
-- ae2:memory_card_lime
-- ae2:memory_card_pink
-- ae2:memory_card_gray
-- ae2:memory_card_light_gray
-- ae2:memory_card_cyan
-- ae2:memory_card_purple
-- ae2:memory_card_blue
-- ae2:memory_card_brown
-- ae2:memory_card_green
-- ae2:memory_card_red
-- ae2:memory_card_black
-- ae2:memory_card
+'memory_card_white
+'memory_card_orange
+'memory_card_magenta
+'memory_card_light_blue
+'memory_card_yellow
+'memory_card_lime
+'memory_card_pink
+'memory_card_gray
+'memory_card_light_gray
+'memory_card_cyan
+'memory_card_purple
+'memory_card_blue
+'memory_card_brown
+'memory_card_green
+'memory_card_red
+'memory_card_black
+'memory_card
 
 #supplementaries:statue_swords
 - minecraft:wooden_sword?
@@ -10228,9 +9714,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:dyes/white
 - minecraft:white_dye
 
-#forge:dusts/gadolinium
-- chemlib:gadolinium_dust
-
 #forge:asphalt
 - immersivepetroleum:asphalt
 
@@ -10276,23 +9759,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - cyclic:flower_lime_carnation?
 - bluepower:indigo_flower
 
-#thermal:machines
-- thermal:machine_furnace
-- thermal:machine_sawmill
-- thermal:machine_pulverizer
-- thermal:machine_smelter
-- thermal:machine_insolator
-- thermal:machine_centrifuge
-- thermal:machine_press
-- thermal:machine_crucible
-- thermal:machine_chiller
-- thermal:machine_refinery
-- thermal:machine_pyrolyzer
-- thermal:machine_bottler
-- thermal:machine_brewer
-- thermal:machine_crystallizer
-- thermal:machine_crafter
-
 #chipped:bookshelf
 - minecraft:bookshelf
 - chipped:bookshelf_1
@@ -10318,12 +9784,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:ores/osmium
 - mekanism:osmium_ore
 - mekanism:deepslate_osmium_ore
-
-#forge:dusts/sodium_sulfate
-- chemlib:sodium_sulfate_dust
-
-#forge:dusts/erbium
-- chemlib:erbium_dust
 
 #chipped:light_blue_stained_glass
 - minecraft:light_blue_stained_glass
@@ -10381,9 +9841,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:tools/scythes
 - rainbowcompound:refined_radiance_scythes
 
-#forge:dusts/mercury_sulfide
-- chemlib:mercury_sulfide_dust
-
 #forge:gears/copper
 - thermal:copper_gear
 
@@ -10391,16 +9848,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - silentgear:shield_blueprint
 - silentgear:shield_template
 
-#forge:ingots/praseodymium
-- chemlib:praseodymium_ingot
-
 #forge:gears/signalum
 - thermal:signalum_gear
 
 #curios:createplus.backtank_slot
-
-#forge:dusts/zinc_oxide
-- chemlib:zinc_oxide_dust
 
 #forge:raw_materials/azure_silver
 - silentgear:raw_azure_silver
@@ -10409,41 +9860,28 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - thermal:lead_nugget
 - mekanism:nugget_lead
 - immersiveengineering:nugget_lead
-- chemlib:lead_nugget
-
-#forge:ingots/cerium
-- chemlib:cerium_ingot
-
-#forge:ingots/lanthanum
-- chemlib:lanthanum_ingot
 
 #occultism:tools/knives
-- occultism:butcher_knife
-
-#forge:plates/thulium
-- chemlib:thulium_plate
+'butcher_knife
 
 #forge:plates/brass
 - create:brass_sheet
 
-#forge:nuggets/rhenium
-- chemlib:rhenium_nugget
-
 #mekanism:shards/lead
 - mekanism:shard_lead
 
-#forge:dusts/astatine
-- chemlib:astatine_dust
+#crossroads:dusts/bedrock
+- crossroads:dust_bedrock
+
+#crossroads:explode_on_hit
+- crossroads:nitroglycerin
 
 #forge:crops/tomato
 - thermal:tomato
 - farmersdelight:tomato
 
-#forge:plates/samarium
-- chemlib:samarium_plate
-
-#forge:nuggets/protactinium
-- chemlib:protactinium_nugget
+#crossroads:dusts/nitric_acid
+- crossroads:solid_fortis
 
 #forge:clay
 - minecraft:clay_ball
@@ -10464,9 +9902,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - create:layered_crimsite
 - create:crimsite_pillar
 
-#forge:storage_blocks/tantalum
-- chemlib:tantalum_metal_block
-
 #chipped:brown_stained_glass
 - minecraft:brown_stained_glass
 - chipped:brown_stained_glass_1
@@ -10480,11 +9915,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:brown_stained_glass_9
 - chipped:brown_stained_glass_10
 
-#waystones:bound_scrolls
-- waystones:bound_scroll
-
 #forge:gems/turquoise
-- silentgems:turquoise
+'turquoise
 
 #forge:crops/spinach
 - thermal:spinach
@@ -10523,7 +9955,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - bloodmagic:sand_hellforged
 
 #forge:gems/heliodor
-- silentgems:heliodor
+'heliodor
 
 #silentgear:blueprints/slingshot
 - silentgear:slingshot_blueprint
@@ -10552,8 +9984,26 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:dusts
 - evilcraft:dark_gem_crushed
 - #forge:dusts/mana
-- occultism:burnt_otherstone
-- occultism:otherworld_ashes
+- #forge:dusts/salt
+- #forge:dusts/slag
+- #forge:dusts/sulfur
+- #forge:dusts/iron
+- #forge:dusts/gold
+- #forge:dusts/copper
+- #forge:dusts/tin
+- #crossroads:dusts/adamant
+- #crossroads:dusts/alchemy_salt
+- #crossroads:dusts/aqua_regia
+- #crossroads:dusts/bedrock
+- #crossroads:dusts/chlorine
+- #crossroads:dusts/hydrochloric_acid
+- #crossroads:dusts/nitric_acid
+- #crossroads:dusts/sulfur_dioxide
+- #crossroads:dusts/sulfuric_acid
+- #crossroads:dusts/vanadium
+- #crossroads:dusts/elem_enchantment
+'burnt_otherstone
+'otherworld_ashes
 - #forge:dusts/obsidian
 - #forge:dusts/copper
 - #forge:dusts/silver
@@ -10634,10 +10084,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - #forge:dusts/iron
 - #forge:dusts/gold
 - supplementaries:ash
-- ae2:certus_quartz_dust
-- ae2:ender_dust
-- ae2:fluix_dust
-- ae2:sky_dust
+'certus_quartz_dust
+'ender_dust
+'fluix_dust
+'sky_dust
 
 #forge:alloys/advanced
 - mekanism:alloy_infused
@@ -10656,9 +10106,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - bluepower:amethyst_saw
 - bluepower:green_sapphire_saw
 - bluepower:tungcarb_saw
-
-#forge:nuggets/cobalt
-- chemlib:cobalt_nugget
 
 #forge:gears/ruby
 - thermal:ruby_gear
@@ -10688,9 +10135,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:carved_pumpkin_21
 - chipped:carved_pumpkin_22
 
-#forge:dusts/mullite
-- chemlib:mullite_dust
-
 #botania:contributor_headflowers
 - #botania:special_flowers
 - botania:daybloom_motif
@@ -10698,12 +10142,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:ingots/compressed_iron
 - pneumaticcraft:ingot_iron_compressed
-
-#forge:nuggets/magnesium
-- chemlib:magnesium_nugget
-
-#forge:dusts/manganese_oxide
-- chemlib:manganese_oxide_dust
 
 #chipped:gravel
 - minecraft:gravel
@@ -10732,8 +10170,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - create:asurine_pillar
 
 #occultism:miners/basic_resources
-- occultism:miner_foliot_unspecialized
-- occultism:miner_debug_unspecialized
+'miner_foliot_unspecialized
+'miner_debug_unspecialized
 
 #bluepower:canvas_bag
 - bluepower:canvas_bag_white
@@ -10760,7 +10198,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - silentgear:shears_template
 
 #forge:storage_blocks/neptunium
-- aquaculture:neptunium_block
+'neptunium_block
 
 #forge:barrels
 - #forge:barrels/wooden
@@ -10790,17 +10228,17 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:yellow_concrete_21
 
 #silentgems:ores/ruby
-- silentgems:ruby_ore
-- silentgems:deepslate_ruby_ore
-- silentgems:ruby_nether_ore
-- silentgems:ruby_end_ore
+'ruby_ore
+'deepslate_ruby_ore
+'ruby_nether_ore
+'ruby_end_ore
 
 #forge:ores/inferium
 
 #aquaculture:turtle
-- aquaculture:box_turtle
-- aquaculture:arrau_turtle
-- aquaculture:starshell_turtle
+'box_turtle
+'arrau_turtle
+'starshell_turtle
 
 #forge:barrels/diamond
 - metalbarrels:diamond_barrel
@@ -10865,9 +10303,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:orange_carpet_19
 - chipped:orange_carpet_20
 
-#forge:ingots/hafnium
-- chemlib:hafnium_ingot
-
 #forge:grain/corn
 - corn_delight:corn
 
@@ -10902,14 +10337,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #create:blaze_burner_fuel/regular
 
-#forge:dusts/niobium
-- chemlib:niobium_dust
-
 #forge:ores/azure_silver
 - silentgear:azure_silver_ore
-
-#forge:plates/niobium
-- chemlib:niobium_plate
 
 #botania:semi_disposable
 - minecraft:andesite
@@ -10955,9 +10384,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:saws
 - silentgear:saw
 
-#forge:dusts/keratin
-- chemlib:keratin_dust
-
 #forge:furnaces/iron
 - ironfurnaces:iron_furnace
 
@@ -10974,12 +10400,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - silentgear:paxel_template
 
 #farmersdelight:tools/knives
-- aquaculture:wooden_fillet_knife
-- aquaculture:stone_fillet_knife
-- aquaculture:iron_fillet_knife
-- aquaculture:gold_fillet_knife
-- aquaculture:diamond_fillet_knife
-- aquaculture:neptunium_fillet_knife
+'wooden_fillet_knife
+'stone_fillet_knife
+'iron_fillet_knife
+'gold_fillet_knife
+'diamond_fillet_knife
+'neptunium_fillet_knife
 - create_things_and_misc:copper_knife
 - create_things_and_misc:brass_knife
 - create_things_and_misc:zinc_knife
@@ -10996,34 +10422,28 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - ends_delight:end_stone_knife
 - ends_delight:purpur_knife
 
-#forge:storage_blocks/holmium
-- chemlib:holmium_metal_block
-
 #silentgear:blueprints/trident
 - silentgear:trident_blueprint
 - silentgear:trident_template
 
 #ae2:covered_cable
-- ae2:white_covered_cable
-- ae2:orange_covered_cable
-- ae2:magenta_covered_cable
-- ae2:light_blue_covered_cable
-- ae2:yellow_covered_cable
-- ae2:lime_covered_cable
-- ae2:pink_covered_cable
-- ae2:gray_covered_cable
-- ae2:light_gray_covered_cable
-- ae2:cyan_covered_cable
-- ae2:purple_covered_cable
-- ae2:blue_covered_cable
-- ae2:brown_covered_cable
-- ae2:green_covered_cable
-- ae2:red_covered_cable
-- ae2:black_covered_cable
-- ae2:fluix_covered_cable
-
-#forge:plates/tantalum
-- chemlib:tantalum_plate
+'white_covered_cable
+'orange_covered_cable
+'magenta_covered_cable
+'light_blue_covered_cable
+'yellow_covered_cable
+'lime_covered_cable
+'pink_covered_cable
+'gray_covered_cable
+'light_gray_covered_cable
+'cyan_covered_cable
+'purple_covered_cable
+'blue_covered_cable
+'brown_covered_cable
+'green_covered_cable
+'red_covered_cable
+'black_covered_cable
+'fluix_covered_cable
 
 #forge:dusts/quartz
 - thermal:quartz_dust
@@ -11063,7 +10483,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - undergarden:wigglewood_planks
 - undergarden:grongle_planks
 - immersiveengineering:fiberboard
-- ars_nouveau:archwood_planks
+'archwood_planks
 - quark:azalea_planks
 - quark:blossom_planks
 
@@ -11084,12 +10504,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #c:glass_blocks
 - #forge:glass
 
-#forge:dusts/actinium
-- chemlib:actinium_dust
-
-#forge:dusts/sodium_oxide
-- chemlib:sodium_oxide_dust
-
 #forge:seeds/tomato
 - thermal:tomato_seeds
 - farmersdelight:tomato_seeds
@@ -11097,14 +10511,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:storage_blocks/gold
 - minecraft:gold_block
 
+#forge:storage_blocks/salt
+- crossroads:block_salt
+
 #apotheosis:spearfishing_drops
 - #minecraft:fishes
-
-#forge:nuggets/europium
-- chemlib:europium_nugget
-
-#forge:nuggets/dysprosium
-- chemlib:dysprosium_nugget
 
 #forge:dusts/coal_petcoke
 - immersivepetroleum:petcoke_dust
@@ -11118,11 +10529,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #mekanism:crystals/iron
 - mekanism:crystal_iron
 
+#crossroads:storage_blocks/cavorite
+- crossroads:block_cavorite
+
 #silentgems:ores/ammolite
-- silentgems:ammolite_ore
-- silentgems:deepslate_ammolite_ore
-- silentgems:ammolite_nether_ore
-- silentgems:ammolite_end_ore
+'ammolite_ore
+'deepslate_ammolite_ore
+'ammolite_nether_ore
+'ammolite_end_ore
 
 #forge:dusts/prismarine
 - minecraft:prismarine_shard
@@ -11226,14 +10640,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - thermal:iron_coin
 
 #ae2:pattern_provider
-- ae2:cable_pattern_provider
-- ae2:pattern_provider
+'cable_pattern_provider
+'pattern_provider
 
 #forge:plates/copper
 - thermal:copper_plate
 - create:copper_sheet
 - immersiveengineering:plate_copper
-- chemlib:copper_plate
 
 #forge:nuggets/refined_obsidian
 - mekanism:nugget_refined_obsidian
@@ -11245,8 +10658,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - silentgear:axe_blueprint
 - silentgear:axe_template
 
-#forge:dusts/praseodymium
-- chemlib:praseodymium_dust
+#crossroads:anti_alkahest
+- crossroads:prac_stone
 
 #chipped:lime_terracotta
 - minecraft:lime_terracotta
@@ -11417,9 +10830,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - undergarden:grongle_wood
 - undergarden:stripped_grongle_wood
 
-#forge:dusts/cobalt_aluminate
-- chemlib:cobalt_aluminate_dust
-
 #silentgear:starlight_charger_catalysts/tier1
 - #forge:dusts/blaze_gold
 
@@ -11443,30 +10853,23 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:yellow_stained_glass_pane_10
 
 #forge:ingots/silver
-- occultism:silver_ingot
+'silver_ingot
 - thermal:silver_ingot
 - immersiveengineering:ingot_silver
 - bluepower:silver_ingot
-- chemlib:silver_ingot
-- silentgems:silver_ingot
+'silver_ingot
 
 #silentgear:starlight_charger_catalysts/tier3
 - #forge:dusts/starmetal
 
 #silentgems:glowroses/topaz
-- silentgems:topaz_glowrose
+'topaz_glowrose
 
 #forge:nuggets/tyrian_steel
 - silentgear:tyrian_steel_nugget
 
-#forge:ingots/platinum
-- chemlib:platinum_ingot
-
 #forge:glass_panes/light_gray
 - minecraft:light_gray_stained_glass_pane
-
-#forge:ingots/rhodium
-- chemlib:rhodium_ingot
 
 #chipped:jack_o_lantern
 - minecraft:jack_o_lantern
@@ -11516,31 +10919,31 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:light_gray_wool_19
 - chipped:light_gray_wool_20
 
-#forge:dusts/lithium_hydroxide
-- chemlib:lithium_hydroxide_dust
+#crossroads:dusts/sulfuric_acid
+- crossroads:solid_vitriol
 
 #aquaculture:tooltip
-- aquaculture:neptunium_fishing_rod
-- aquaculture:neptunium_helmet
-- aquaculture:neptunium_chestplate
-- aquaculture:neptunium_leggings
-- aquaculture:neptunium_boots
-- aquaculture:neptunium_pickaxe
-- aquaculture:neptunium_axe
-- aquaculture:neptunium_hoe
-- aquaculture:neptunium_shovel
-- aquaculture:neptunium_sword
-- aquaculture:neptunium_bow
-- aquaculture:neptunium_fillet_knife
-- aquaculture:iron_hook
-- aquaculture:gold_hook
-- aquaculture:diamond_hook
-- aquaculture:light_hook
-- aquaculture:heavy_hook
-- aquaculture:double_hook
-- aquaculture:redstone_hook
-- aquaculture:note_hook
-- aquaculture:nether_star_hook
+'neptunium_fishing_rod
+'neptunium_helmet
+'neptunium_chestplate
+'neptunium_leggings
+'neptunium_boots
+'neptunium_pickaxe
+'neptunium_axe
+'neptunium_hoe
+'neptunium_shovel
+'neptunium_sword
+'neptunium_bow
+'neptunium_fillet_knife
+'iron_hook
+'gold_hook
+'diamond_hook
+'light_hook
+'heavy_hook
+'double_hook
+'redstone_hook
+'note_hook
+'nether_star_hook
 
 #botania:loonium_blacklist
 - botania:lexicon
@@ -11565,7 +10968,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - #forge:chests/ender
 - #forge:chests/trapped
 - #forge:chests/wooden
-- aquaculture:neptunes_bounty
+'neptunes_bounty
 - quark:nether_brick_chest
 - quark:purpur_chest
 - quark:prismarine_chest
@@ -11587,16 +10990,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:storage_blocks/uranium
 - mekanism:block_uranium
 - immersiveengineering:storage_uranium
-- chemlib:uranium_metal_block
-
-#forge:nuggets/thorium
-- chemlib:thorium_nugget
 
 #forge:salad_ingredients
 - #forge:salad_ingredients/cabbage
-
-#forge:plates/erbium
-- chemlib:erbium_plate
 
 #forge:ores/crimson_iron
 - silentgear:crimson_iron_ore
@@ -11607,7 +11003,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - culturaldelights:white_eggplant
 
 #forge:storage_blocks/iesnium
-- occultism:iesnium_block
+'iesnium_block
 
 #forge:dusts/lapis
 - thermal:lapis_dust
@@ -11616,6 +11012,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #balm:yellow_dyes
 - #forge:dyes/yellow?
 - minecraft:yellow_dye
+
+#forge:wrench
+- essentials:wrench
+- crossroads:liech_wrench
 
 #forge:cobblestone/deepslate
 - minecraft:cobbled_deepslate
@@ -11655,11 +11055,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:cocoa_beans
 
 #ae2:interface
-- ae2:cable_interface
-- ae2:interface
-
-#forge:dusts/zinc_hydroxide
-- chemlib:zinc_hydroxide_dust
+'cable_interface
+'interface
 
 #chipped:raw_copper_block
 - minecraft:raw_copper_block
@@ -11727,70 +11124,74 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:fence_gates
 - #forge:fence_gates/wooden
-- ars_nouveau:archwood_fence_gate
+'archwood_fence_gate
 - quark:azalea_fence_gate
 - quark:blossom_fence_gate
 - quark:nether_brick_fence_gate
 
 #curios:an_focus
-- ars_nouveau:summon_focus
-- ars_nouveau:shapers_focus
+'summon_focus
+'shapers_focus
 
 #forge:ingots
-- powah:steel_energized
-- #forge:ingots/elementium
-- #forge:ingots/manasteel
-- #forge:ingots/terrasteel
-- #forge:ingots/compressed_iron
-- #forge:ingots/brick
-- #forge:ingots/copper
-- #forge:ingots/gold
-- #forge:ingots/iron
-- #forge:ingots/netherite
-- #forge:ingots/nether_brick
-- #forge:ingots/blaze_gold
-- #forge:ingots/crimson_iron
-- #forge:ingots/crimson_steel
-- #forge:ingots/azure_silver
-- #forge:ingots/azure_electrum
-- #forge:ingots/tyrian_steel
-- #forge:ingots/enderium
-- #forge:ingots/lumium
-- #forge:ingots/signalum
-- #forge:ingots/lead
-- #forge:ingots/nickel
-- #forge:ingots/silver
-- #forge:ingots/tin
-- #forge:ingots/bronze
-- #forge:ingots/constantan
-- #forge:ingots/electrum
-- #forge:ingots/invar
-- #forge:ingots/rose_gold
-- #forge:ingots/steel
-- aquaculture:neptunium_ingot
-- #forge:ingots/osmium
-- #forge:ingots/tin
-- #forge:ingots/lead
-- #forge:ingots/uranium
-- #forge:ingots/bronze
-- #forge:ingots/refined_glowstone
-- #forge:ingots/refined_obsidian
-- #forge:ingots/steel
-- #forge:ingots/cloggrum
-- #forge:ingots/froststeel
-- #forge:ingots/utherium
-- #forge:ingots/regalium
-- #forge:ingots/forgotten_metal
-- #create:create_ingots
-- #forge:ingots/hellforged
-- #forge:ingots/aluminum
-- #forge:ingots/lead
-- #forge:ingots/silver
-- #forge:ingots/nickel
-- #forge:ingots/uranium
-- #forge:ingots/constantan
-- #forge:ingots/electrum
-- #forge:ingots/steel
+'steel_energized
+'elementium
+'manasteel
+'terrasteel
+'compressed_iron
+'copper
+'tin
+'bronze
+'copshowium
+'brick
+'copper
+'gold
+'iron
+'netherite
+'nether_brick
+'blaze_gold
+'crimson_iron
+'crimson_steel
+'azure_silver
+'azure_electrum
+'tyrian_steel
+'enderium
+'lumium
+'signalum
+'lead
+'nickel
+'silver
+'tin
+'bronze
+'constantan
+'electrum
+'invar
+'rose_gold
+'steel
+'neptunium_ingot
+'osmium
+'tin
+'lead
+'uranium
+'bronze
+'refined_glowstone
+'refined_obsidian
+'steel
+'cloggrum
+'froststeel
+'utherium
+'regalium
+'forgotten_metal
+'create_ingots
+'hellforged
+'aluminum
+'lead
+'silver
+'nickel
+'uranium
+'constantan
+'electrum
+'steel
 
 #forge:ices
 - #forge:ices/ice
@@ -11798,16 +11199,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - #forge:ices/blue
 - #forge:ices/dry
 
-#waystones:return_scrolls
-- waystones:return_scroll
-
 #forge:nuggets/terrasteel
 - #botania:terrasteel_nuggets
 
-#forge:plates/potassium
-- chemlib:potassium_plate
-
 #forge:storage_blocks/copper
+- minecraft:copper_block
+- crossroads:block_copper
 - minecraft:copper_block
 
 #minecraft:coals
@@ -11817,11 +11214,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - immersiveengineering:coal_coke
 
 #ae2:quartz_sword
-- ae2:certus_quartz_sword
-- ae2:nether_quartz_sword
-
-#forge:nuggets/sodium
-- chemlib:sodium_nugget
+'certus_quartz_sword
+'nether_quartz_sword
 
 #immersiveengineering:cut_stairs/copper
 - minecraft:cut_copper_stairs
@@ -11837,10 +11231,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:bread
 
 #forge:gems/moldavite
-- silentgems:moldavite
+'moldavite
 
 #forge:raw_materials/uraninite
-- powah:uraninite_raw
+'uraninite_raw
 
 #chipped:cyan_stained_glass_pane
 - minecraft:cyan_stained_glass_pane
@@ -11857,7 +11251,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:dusts/lithium
 - mekanism:dust_lithium
-- chemlib:lithium_dust
 
 #bloodmagic:crystals/demon
 - bloodmagic:defaultcrystal
@@ -11866,11 +11259,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - bloodmagic:vengefulcrystal
 - bloodmagic:steadfastcrystal
 
-#forge:dusts/barium
-- chemlib:barium_dust
-
 #forge:storage_blocks/iolite
-- silentgems:iolite_block
+'iolite_block
 
 #chipped:green_glazed_terracotta
 - minecraft:green_glazed_terracotta
@@ -11917,26 +11307,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:wooden_pickaxe
 - bloodmagic:soulpickaxe
 
-#forge:nuggets/radium
-- chemlib:radium_nugget
-
-#forge:dusts/scandium
-- chemlib:scandium_dust
-
-#forge:dusts/magnesium_nitrate
-- chemlib:magnesium_nitrate_dust
-
-#forge:dusts/ammonium_chloride
-- chemlib:ammonium_chloride_dust
-
-#forge:plates/lithium
-- chemlib:lithium_plate
-
 #silentgems:ores/alexandrite
-- silentgems:alexandrite_ore
-- silentgems:deepslate_alexandrite_ore
-- silentgems:alexandrite_nether_ore
-- silentgems:alexandrite_end_ore
+'alexandrite_ore
+'deepslate_alexandrite_ore
+'alexandrite_nether_ore
+'alexandrite_end_ore
 
 #pneumaticcraft:chests
 - pneumaticcraft:smart_chest
@@ -11969,8 +11344,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:brown_concrete_20
 - chipped:brown_concrete_21
 
-#forge:ingots/scandium
-- chemlib:scandium_ingot
+#crossroads:blast_furnace_carbon
+- #minecraft:coals
 
 #forge:ores/lead
 - thermal:lead_ore
@@ -11981,23 +11356,23 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - immersiveengineering:deepslate_ore_lead
 
 #ae2:glass_cable
-- ae2:white_glass_cable
-- ae2:orange_glass_cable
-- ae2:magenta_glass_cable
-- ae2:light_blue_glass_cable
-- ae2:yellow_glass_cable
-- ae2:lime_glass_cable
-- ae2:pink_glass_cable
-- ae2:gray_glass_cable
-- ae2:light_gray_glass_cable
-- ae2:cyan_glass_cable
-- ae2:purple_glass_cable
-- ae2:blue_glass_cable
-- ae2:brown_glass_cable
-- ae2:green_glass_cable
-- ae2:red_glass_cable
-- ae2:black_glass_cable
-- ae2:fluix_glass_cable
+'white_glass_cable
+'orange_glass_cable
+'magenta_glass_cable
+'light_blue_glass_cable
+'yellow_glass_cable
+'lime_glass_cable
+'pink_glass_cable
+'gray_glass_cable
+'light_gray_glass_cable
+'cyan_glass_cable
+'purple_glass_cable
+'blue_glass_cable
+'brown_glass_cable
+'green_glass_cable
+'red_glass_cable
+'black_glass_cable
+'fluix_glass_cable
 
 #quark:corundum
 - quark:red_corundum
@@ -12009,9 +11384,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - quark:violet_corundum
 - quark:white_corundum
 - quark:black_corundum
-
-#forge:plates/gadolinium
-- chemlib:gadolinium_plate
 
 #chipped:green_carpet
 - minecraft:green_carpet
@@ -12039,9 +11411,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #bookshelf:clocks
 - #forge:clocks
 
-#forge:dusts/beryllium_nitrate
-- chemlib:beryllium_nitrate_dust
-
 #forge:storage_blocks/invar
 - thermal:invar_block
 
@@ -12051,9 +11420,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #bloodmagic:fragments/hellforged
 - bloodmagic:demonitefragment
-
-#forge:dusts/beryl
-- chemlib:beryl_dust
 
 #forge:coins/tin
 - thermal:tin_coin
@@ -12165,6 +11531,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - thermal:raw_nickel_block
 - immersiveengineering:raw_block_nickel
 
+#crossroads:dusts/sulfur_dioxide
+- crossroads:solid_sulfur_dioxide
+
 #forge:pellets/plutonium
 - mekanism:pellet_plutonium
 
@@ -12173,8 +11542,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - integrateddynamics:menril_berries
 - minecraft:apple
 - silentgear:nether_banana
-- pineapple_delight:pineapple
-- pineapple_delight:pineapple_side
 
 #forge:ores/cloggrum
 - undergarden:depthrock_cloggrum_ore
@@ -12186,34 +11553,19 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:wires/aluminum
 - immersiveengineering:wire_aluminum
 
-#forge:dusts/copper_ii_sulfate
-- chemlib:copper_ii_sulfate_dust
-
-#forge:storage_blocks/samarium
-- chemlib:samarium_metal_block
-
-#forge:dusts/sodium
-- chemlib:sodium_dust
-
 #forge:sand/colorless
 - minecraft:sand
 - undergarden:sediment
 
 #forge:raw_materials/iesnium
-- occultism:raw_iesnium
+'raw_iesnium
 
 #forge:storage_blocks/kyanite
-- silentgems:kyanite_block
+'kyanite_block
 
 #minecraft:redstone_ores
 - minecraft:redstone_ore
 - minecraft:deepslate_redstone_ore
-
-#forge:dusts/aluminum_hydroxide
-- chemlib:aluminum_hydroxide_dust
-
-#forge:nuggets/actinium
-- chemlib:actinium_nugget
 
 #cyclic:anvil_immune
 - cyclic:torch_launcher?
@@ -12279,9 +11631,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:ingots/enderium
 - thermal:enderium_ingot
-
-#forge:plates/gallium
-- chemlib:gallium_plate
 
 #forge:gems/diamond
 - minecraft:diamond
@@ -12439,29 +11788,25 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - quark:tuff_bricks_wall
 - quark:tuff_wall
 
-#forge:dusts/barium_carbonate
-- chemlib:barium_carbonate_dust
-
 #forge:dusts/mana
 - #botania:mana_dusts
 
 #ae2:all_fluix
-- ae2:fluix_crystal
+'fluix_crystal
 
 #evilcraft:gems/dark
 - evilcraft:dark_gem
 
 #ae2:p2p_attunements/fe_p2p_tunnel
-- ae2:dense_energy_cell
-- ae2:energy_acceptor
-- ae2:energy_cell
-- ae2:creative_energy_cell
+'dense_energy_cell
+'energy_acceptor
+'energy_cell
+'creative_energy_cell
 
 #forge:storage_blocks/lead
 - thermal:lead_block
 - mekanism:block_lead
 - immersiveengineering:storage_lead
-- chemlib:lead_metal_block
 
 #balm:gray_dyes
 - #forge:dyes/gray?
@@ -12495,47 +11840,54 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - storagedrawers:compacting_drawers_3
 
 #forge:gems
-- powah:crystal_blazing
-- powah:crystal_niotic
-- powah:crystal_spirited
-- powah:crystal_nitro
-- #forge:gems/dragonstone
-- #forge:gems/mana_diamond
-- occultism:spirit_attuned_gem
-- #forge:gems/amethyst
-- #forge:gems/diamond
-- #forge:gems/emerald
-- #forge:gems/lapis
-- #forge:gems/prismarine
-- #forge:gems/quartz
-- #forge:gems/bort
-- #forge:gems/apatite
-- #forge:gems/cinnabar
-- #forge:gems/niter
-- #forge:gems/sulfur
-- #forge:gems/ruby
-- #forge:gems/sapphire
-- #forge:gems/fluorite
-- ae2:certus_quartz_crystal
-- ae2:charged_certus_quartz_crystal
-- ae2:fluix_crystal
-- ars_nouveau:source_gem
-- silentgems:ruby
-- silentgems:carnelian
-- silentgems:topaz
-- silentgems:citrine
-- silentgems:heliodor
-- silentgems:moldavite
-- silentgems:peridot
-- silentgems:turquoise
-- silentgems:kyanite
-- silentgems:sapphire
-- silentgems:iolite
-- silentgems:alexandrite
-- silentgems:ammolite
-- silentgems:rose_quartz
-- silentgems:black_diamond
-- silentgems:white_diamond
+'crystal_blazing
+'crystal_niotic
+'crystal_spirited
+'crystal_nitro
+'dragonstone
+'mana_diamond
+'ruby
+'mercury
+'void
+'pure_quartz
+'bright_quartz
+'cavorite
+'alch_cryst
+'spirit_attuned_gem
+'amethyst
+'diamond
+'emerald
+'lapis
+'prismarine
+'quartz
+'bort
+'apatite
+'cinnabar
+'niter
+'sulfur
+'ruby
+'sapphire
+'fluorite
+'certus_quartz_crystal
+'charged_certus_quartz_crystal
+'fluix_crystal
+'source_gem
+'ruby
+'carnelian
+'topaz
+'citrine
+'heliodor
+'moldavite
+'peridot
+'turquoise
+'kyanite
+'sapphire
+'iolite
+'alexandrite
+'ammolite
+'rose_quartz
+'black_diamond
+'white_diamond
 
 #forge:ores/soulium
 
@@ -12637,7 +11989,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - evilcraft:undead_wood_stripped
 
 #forge:gems/topaz
-- silentgems:topaz
+'topaz
 
 #evilcraft:gems/dark_power
 - evilcraft:dark_power_gem
@@ -12648,24 +12000,19 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:sheetmetals/uranium
 - immersiveengineering:sheetmetal_uranium
 
-#forge:nuggets/barium
-- chemlib:barium_nugget
-
 #silentgems:ores/citrine
-- silentgems:citrine_ore
-- silentgems:deepslate_citrine_ore
-- silentgems:citrine_nether_ore
-- silentgems:citrine_end_ore
+'citrine_ore
+'deepslate_citrine_ore
+'citrine_nether_ore
+'citrine_end_ore
 
 #forge:ingots/bronze
+- crossroads:ingot_bronze
 - thermal:bronze_ingot
 - mekanism:ingot_bronze
 
 #forge:storage_blocks/white_diamond
-- silentgems:white_diamond_block
-
-#forge:storage_blocks/erbium
-- chemlib:erbium_metal_block
+'white_diamond_block
 
 #rsgauges:buttons
 - #minecraft:buttons
@@ -12708,7 +12055,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - undergarden:smogstem_trapdoor
 - undergarden:wigglewood_trapdoor
 - undergarden:grongle_trapdoor
-- ars_nouveau:archwood_trapdoor
+'archwood_trapdoor
 - quark:azalea_trapdoor
 - quark:blossom_trapdoor
 
@@ -12756,9 +12103,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:nuggets/elementium
 - #botania:elementium_nuggets
 
-#forge:dusts/radium
-- chemlib:radium_dust
-
 #forge:wires
 - #forge:wires/copper
 - #forge:wires/electrum
@@ -12771,19 +12115,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - bluepower:brass_ingot
 
 #silentgems:ores/carnelian
-- silentgems:carnelian_ore
-- silentgems:deepslate_carnelian_ore
-- silentgems:carnelian_nether_ore
-- silentgems:carnelian_end_ore
-
-#forge:ingots/rhenium
-- chemlib:rhenium_ingot
+'carnelian_ore
+'deepslate_carnelian_ore
+'carnelian_nether_ore
+'carnelian_end_ore
 
 #forge:coins/electrum
 - thermal:electrum_coin
-
-#forge:ingots/iridium
-- chemlib:iridium_ingot
 
 #mekanism:enriched/tin
 - mekanism:enriched_tin
@@ -12802,7 +12140,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:white_stained_glass_10
 
 #silentgems:glowroses/alexandrite
-- silentgems:alexandrite_glowrose
+'alexandrite_glowrose
 
 #chipped:crimson_door
 - minecraft:crimson_door
@@ -12826,6 +12164,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:crimson_door_18
 - chipped:crimson_door_19
 - chipped:crimson_door_20
+
+#crossroads:nuggets/copshowium
+- crossroads:nugget_copshowium
 
 #forge:ores/cinnabar
 - thermal:cinnabar_ore
@@ -12851,14 +12192,15 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - reliquary:tipped_arrow
 
 #forge:storage_blocks/uraninite
-- powah:uraninite_block
+'uraninite_block
+
+#crossroads:salt_reactor_coolant
+- #forge:dusts/salt
+- #crossroads:dusts/alchemy_salt
 
 #forge:foods/fish/cooked
 - minecraft:cooked_cod
 - minecraft:cooked_salmon
-
-#forge:dusts/gallium
-- chemlib:gallium_dust
 
 #minecraft:wooden_doors
 - minecraft:oak_door
@@ -12875,7 +12217,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - undergarden:smogstem_door
 - undergarden:wigglewood_door
 - undergarden:grongle_door
-- ars_nouveau:archwood_door
+'archwood_door
 - quark:azalea_door
 - quark:blossom_door
 
@@ -12912,9 +12254,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:cyan_dye
 
 #ars_nouveau:wilden_drop
-- ars_nouveau:wilden_horn
-- ars_nouveau:wilden_spike
-- ars_nouveau:wilden_wing
+'wilden_horn
+'wilden_spike
+'wilden_wing
 
 #minecraft:terracotta
 - minecraft:terracotta
@@ -12934,9 +12276,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:green_terracotta
 - minecraft:red_terracotta
 - minecraft:black_terracotta
-
-#forge:storage_blocks/thulium
-- chemlib:thulium_metal_block
 
 #cofh_core:crafting/securable
 - thermal:satchel
@@ -13099,9 +12438,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:obsidian_68
 - chipped:obsidian_69
 
-#forge:nuggets/platinum
-- chemlib:platinum_nugget
-
 #chipped:soul_lantern
 - minecraft:soul_lantern
 - chipped:soul_lantern_1
@@ -13139,11 +12475,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:waxed_oxidized_copper_10
 - chipped:waxed_oxidized_copper_11
 
+#crossroads:alkahest
+- crossroads:phil_stone
+
 #forge:tools/refined_radiance
 - rainbowcompound:refined_radiance_scythes
-
-#forge:dusts/cesium_hydroxide
-- chemlib:cesium_hydroxide_dust
 
 #forge:ingots/terrasteel
 - #botania:terrasteel_ingots
@@ -13177,8 +12513,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - thermal:ruby_dust
 
 #forge:stripped_wood
-- #create:vanilla_stripped_wood
-- #create:modded_stripped_wood
+'vanilla_stripped_wood
+'modded_stripped_wood
 
 #forge:ores/gold
 - #minecraft:gold_ores
@@ -13187,6 +12523,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:raw_materials
 - #forge:raw_materials/uraninite
+- #forge:raw_materials/tin
 - mythicbotany:raw_elementium
 - #forge:raw_materials/silver
 - #forge:raw_materials/iesnium
@@ -13354,14 +12691,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:gears/steel
 - thermal:steel_gear
 
-#forge:plates/terbium
-- chemlib:terbium_plate
-
 #forge:cooked_eggs
 - farmersdelight:fried_egg
-
-#forge:ingots/rubidium
-- chemlib:rubidium_ingot
 
 #forge:crops/cucumber
 - sushigocrafting:cucumber
@@ -13557,17 +12888,21 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:acacia_planks_40
 - chipped:acacia_planks_41
 
+#crossroads:storage_blocks/coal_lenient
+- #forge:storage_blocks/coal
+- #forge:storage_blocks/charcoal
+
 #ars_nouveau:whirlisprig/denied_drop
 - minecraft:dirt
 - #forge:seeds
 
 #forge:dusts/copper
-- occultism:copper_dust
+- crossroads:dust_copper
+'copper_dust
 - thermal:copper_dust
 - mekanism:dust_copper
 - bloodmagic:coppersand
 - immersiveengineering:dust_copper
-- chemlib:copper_dust
 
 #chipped:red_nether_bricks
 - minecraft:red_nether_bricks
@@ -13655,9 +12990,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:vine_10
 - chipped:vine_11
 
-#forge:dusts/nickel_sulfide
-- chemlib:nickel_sulfide_dust
-
 #forge:gems/emerald
 - minecraft:emerald
 
@@ -13692,7 +13024,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:nuggets/uranium
 - mekanism:nugget_uranium
 - immersiveengineering:nugget_uranium
-- chemlib:uranium_nugget
 
 #minecraft:stone_bricks
 - minecraft:stone_bricks
@@ -13703,12 +13034,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - #pneumaticcraft:compressed_stone_bricks
 
 #silentgems:glowroses/citrine
-- silentgems:citrine_glowrose
+'citrine_glowrose
 
 #forge:nuggets/nickel
 - thermal:nickel_nugget
 - immersiveengineering:nugget_nickel
-- chemlib:nickel_nugget
 
 #forge:coins/nickel
 - thermal:nickel_coin
@@ -13716,15 +13046,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #ae2:blacklisted/annihilation_plane
 
 #forge:nuggets/iesnium
-- occultism:iesnium_nugget
+'iesnium_nugget
 
 #forge:gems/fluix
-- ae2:fluix_crystal
+'fluix_crystal
 
 #ftbultimine:included_tools
-
-#forge:dusts/nickel_chloride
-- chemlib:nickel_chloride_dust
 
 #forge:raw_mutton
 - butchersdelight:sheeploin
@@ -13737,13 +13064,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - thermal:gold_plate
 - create:golden_sheet
 - immersiveengineering:plate_gold
-- chemlib:gold_plate
 
 #forge:paper
 - minecraft:paper
 
 #silentgems:glowroses/peridot
-- silentgems:peridot_glowrose
+'peridot_glowrose
 
 #minecraft:guarded_by_piglins
 - quark:azalea_chest
@@ -13751,11 +13077,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - quark:blossom_chest
 - quark:blossom_trapped_chest
 
-#forge:dusts/ytterbium
-- chemlib:ytterbium_dust
-
 #forge:storage_blocks/topaz
-- silentgems:topaz_block
+'topaz_block
 
 #botania:petals/gray
 - botania:gray_petal
@@ -13763,15 +13086,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:crops/cassava
 - createcafe:cassava_root
-
-#forge:ingots/yttrium
-- chemlib:yttrium_ingot
-
-#forge:dusts/iron_ii_oxide
-- chemlib:iron_ii_oxide_dust
-
-#forge:dusts/beryllium_carbonate
-- chemlib:beryllium_carbonate_dust
 
 #botania:misc_special_flowers
 - botania:manastar
@@ -13854,9 +13168,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - thermal:apatite_ore
 - thermal:deepslate_apatite_ore
 
-#forge:ingots/neodymium
-- chemlib:neodymium_ingot
-
 #forge:gears/sapphire
 - thermal:sapphire_gear
 
@@ -13867,7 +13178,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - #libx:impl_buttons
 - undergarden:depthrock_button
 - undergarden:shiverstone_button
-- ars_nouveau:archwood_button
+'archwood_button
 - quark:azalea_button
 - quark:blossom_button
 - quark:gold_button
@@ -13875,15 +13186,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #ftbultimine:excluded_tools
 - #ftbultimine:excluded_tools/strict?
-
-#forge:nuggets/ruthenium
-- chemlib:ruthenium_nugget
-
-#forge:nuggets/hafnium
-- chemlib:hafnium_nugget
-
-#forge:storage_blocks/thorium
-- chemlib:thorium_metal_block
 
 #minecraft:rails
 - minecraft:rail
@@ -13897,15 +13199,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #ae2:all_quartz_dust
 - #forge:dusts/certus_quartz
-
-#forge:dusts/terbium
-- chemlib:terbium_dust
-
-#forge:dusts/potassium_oxide
-- chemlib:potassium_oxide_dust
-
-#forge:dusts/iron_disulfide
-- chemlib:iron_disulfide_dust
 
 #pneumaticcraft:slabs
 - pneumaticcraft:reinforced_brick_slab
@@ -13929,33 +13222,20 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - create:layered_tuff
 - create:tuff_pillar
 
-#forge:ingots/manganese
-- chemlib:manganese_ingot
-
-#forge:dusts/lead_oxide
-- chemlib:lead_oxide_dust
-
 #silentgems:ores/heliodor
-- silentgems:heliodor_ore
-- silentgems:deepslate_heliodor_ore
-- silentgems:heliodor_nether_ore
-- silentgems:heliodor_end_ore
-
-#forge:plates/neodymium
-- chemlib:neodymium_plate
+'heliodor_ore
+'deepslate_heliodor_ore
+'heliodor_nether_ore
+'heliodor_end_ore
 
 #bookshelf:leggings
 - #forge:leggings
-
-#forge:dusts/iron_carbonate
-- chemlib:iron_carbonate_dust
 
 #c:cobblestone
 - #chipped:cobblestone
 
 #forge:plates/tin
 - thermal:tin_plate
-- chemlib:tin_plate
 
 #forge:bows
 - minecraft:bow
@@ -13968,11 +13248,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - pocketstorage:psu_3?
 - pocketstorage:psu_4?
 
-#forge:storage_blocks/ytterbium
-- chemlib:ytterbium_metal_block
-
-#forge:dusts/copper_i_oxide
-- chemlib:copper_i_oxide_dust
+#crossroads:dusts/vanadium
+- crossroads:vanadium_oxide
 
 #balm:orange_dyes
 - #forge:dyes/orange?
@@ -13991,18 +13268,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #farmersdelight:offhand_equipment
 - minecraft:shield
 - create:extendo_grip?
-
-#forge:dusts/rubidium
-- chemlib:rubidium_dust
-
-#forge:dusts/nickel_nitrate
-- chemlib:nickel_nitrate_dust
-
-#forge:storage_blocks/chromium
-- chemlib:chromium_metal_block
-
-#forge:dusts/iron_iii_nitrate
-- chemlib:iron_iii_nitrate_dust
 
 #mekanism:colorable/banners
 - minecraft:white_banner
@@ -14023,10 +13288,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:black_banner
 
 #silentgems:ores/iolite
-- silentgems:iolite_ore
-- silentgems:deepslate_iolite_ore
-- silentgems:iolite_nether_ore
-- silentgems:iolite_end_ore
+'iolite_ore
+'deepslate_iolite_ore
+'iolite_nether_ore
+'iolite_end_ore
 
 #forge:ingots/elementium
 - #botania:elementium_ingots
@@ -14266,9 +13531,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:gravel
 - immersiveengineering:slag_gravel
 
-#forge:plates/beryllium
-- chemlib:beryllium_plate
-
 #forge:armor/gold
 - minecraft:golden_boots
 - minecraft:golden_chestplate
@@ -14309,9 +13571,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - silentgear:stripped_netherwood_log
 - silentgear:netherwood_wood
 - silentgear:stripped_netherwood_wood
-
-#forge:nuggets/samarium
-- chemlib:samarium_nugget
 
 #industrialforegoing:enchantment_extractor_blacklist
 
@@ -14387,9 +13646,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:magma_block_68
 - chipped:magma_block_69
 
-#forge:plates/manganese
-- chemlib:manganese_plate
-
 #supplementaries:hourglass_sands
 - #forge:sand?
 - #minecraft:sand?
@@ -14406,10 +13662,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - bluepower:zinc_ore
 - bluepower:zinc_deepslate
 
-#forge:dusts/carbonate
-- chemlib:carbonate_dust
-
 #forge:nuggets/copper
+- crossroads:nugget_copper
 - thermal:copper_nugget
 - cyclic:copper_nugget
 - create:copper_nugget
@@ -14423,10 +13677,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:carrot
 
 #forge:gems/white_diamond
-- silentgems:white_diamond
-
-#forge:storage_blocks/dysprosium
-- chemlib:dysprosium_metal_block
+'white_diamond
 
 #chipped:purple_stained_glass
 - minecraft:purple_stained_glass
@@ -14494,8 +13745,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - immersiveengineering:pickaxe_steel
 
 #ae2:quartz_hoe
-- ae2:certus_quartz_hoe
-- ae2:nether_quartz_hoe
+'certus_quartz_hoe
+'nether_quartz_hoe
 
 #chipped:jungle_door
 - minecraft:jungle_door
@@ -14698,9 +13949,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #mekanism:shards/uranium
 - mekanism:shard_uranium
 
-#forge:plates/tungsten
-- chemlib:tungsten_plate
-
 #forge:dead_plants
 - minecraft:dead_bush
 - minecraft:dead_tube_coral_fan
@@ -14811,9 +14059,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - botania:green_mushroom?
 - botania:red_mushroom?
 
-#forge:ingots/potassium
-- chemlib:potassium_ingot
-
 #forge:dusts/rose_gold
 - thermal:rose_gold_dust
 
@@ -14834,9 +14079,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:black_concrete_powder
 - minecraft:gray_concrete_powder
 - minecraft:light_gray_concrete_powder
-
-#forge:dusts/strontium_sulfate
-- chemlib:strontium_sulfate_dust
 
 #chipped:warped_trapdoor
 - minecraft:warped_trapdoor
@@ -14879,21 +14121,19 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:pointed_dripstone_12
 - chipped:pointed_dripstone_13
 
+#essentials:fertile_soil_filler
+- minecraft:bone_meal
+- #forge:dusts/slag
+
 #minecraft:fences
 - #minecraft:wooden_fences
 - minecraft:nether_brick_fence
 - botania:dreamwood_fence
 - botania:livingwood_fence
 - #libx:impl_fences
-- ars_nouveau:archwood_fence
+'archwood_fence
 - quark:azalea_fence
 - quark:blossom_fence
-
-#forge:ingots/indium
-- chemlib:indium_ingot
-
-#forge:dusts/barium_nitrate
-- chemlib:barium_nitrate_dust
 
 #forge:coins/lumium
 - thermal:lumium_coin
@@ -14914,9 +14154,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:gears/quartz
 - thermal:quartz_gear
-
-#forge:storage_blocks/barium
-- chemlib:barium_metal_block
 
 #diet:vegetables
 - sushigocrafting:salmon_maki
@@ -14999,7 +14236,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - aoa3:orange_glowshroom?
 - aoa3:purple_glowshroom?
 - aoa3:yellow_glowshroom?
-- aquaculture:algae?
+'algae?
 - atmospheric:aloe_leaves?
 - betterdefaultbiomes:gray_mushroom?
 - betterdefaultbiomes:white_mushroom?
@@ -15336,13 +14573,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - rootsclassic:dark_oak_bark
 
 #forge:storage_blocks/citrine
-- silentgems:citrine_block
+'citrine_block
 
 #industrialforegoing:machine_frame/supreme
 - industrialforegoing:machine_frame_supreme
-
-#forge:storage_blocks/ruthenium
-- chemlib:ruthenium_metal_block
 
 #quark:revertable_trapped_chests
 - quark:oak_trapped_chest
@@ -15357,7 +14591,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - quark:blossom_trapped_chest
 
 #aquaculture:fishing_line
-- aquaculture:fishing_line
+'fishing_line
 
 #forge:buckets/honey
 - create:honey_bucket
@@ -15371,6 +14605,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:storage_blocks/forgotten_metal
 - undergarden:forgotten_block
+
+#crossroads:gems/void
+- crossroads:void_crystal
 
 #chipped:torch
 - minecraft:torch
@@ -15390,12 +14627,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - undergarden:shiverstone_coal_ore
 - #minecraft:coal_ores
 
-#forge:plates/lanthanum
-- chemlib:lanthanum_plate
-
-#forge:plates/hafnium
-- chemlib:hafnium_plate
-
 #mekanism:colorable/wool
 - minecraft:white_wool
 - minecraft:orange_wool
@@ -15414,17 +14645,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:red_wool
 - minecraft:black_wool
 
-#forge:plates/titanium
-- chemlib:titanium_plate
-
 #forge:pasta
 - #forge:pasta/raw_pasta
-
-#curios:magic_book
-- tombstone:book_of_disenchantment
-- tombstone:book_of_magic_impregnation
-- tombstone:book_of_recycling
-- tombstone:book_of_repairing
 
 #forge:nuggets/refined_glowstone
 - mekanism:nugget_refined_glowstone
@@ -15465,9 +14687,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - modularrouters:vacuum_module
 - modularrouters:void_module
 
-#forge:dusts/hafnium
-- chemlib:hafnium_dust
-
 #minecraft:trapdoors
 - #minecraft:wooden_trapdoors
 - minecraft:iron_trapdoor
@@ -15486,7 +14705,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - supplementaries:netherite_trapdoor
 - supplementaries:silver_trapdoor
 - supplementaries:lead_trapdoor
-- ars_nouveau:archwood_trapdoor
+'archwood_trapdoor
 - quark:azalea_trapdoor
 - quark:blossom_trapdoor
 
@@ -15546,14 +14765,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #mysticalagriculture:prosperity_shard
 
+#crossroads:dusts/stasisol
+- crossroads:solid_stasisol
+
 #silentgear:blueprint_paper
 - silentgear:blueprint_paper
 
 #forge:nuggets/iron
 - minecraft:iron_nugget
-
-#forge:dusts/selenium
-- chemlib:selenium_dust
 
 #forge:dusts/enderium
 - thermal:enderium_dust
@@ -15583,11 +14802,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:raw_materials/aluminum
 - immersiveengineering:raw_aluminum
 
-#forge:gems/rose_quartz
-- silentgems:rose_quartz
+#crossroads:incubator_egg
+- minecraft:egg
 
-#forge:dusts/antimony_trioxide
-- chemlib:antimony_trioxide_dust
+#forge:gems/rose_quartz
+'rose_quartz
 
 #forge:storage_blocks/rose_gold
 - thermal:rose_gold_block
@@ -15595,8 +14814,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:storage_blocks/brass
 - create:brass_block
 
-#forge:dusts/calcium_sulfate
-- chemlib:calcium_sulfate_dust
+#forge:dusts/slag
+- crossroads:slag
 
 #forge:crops/potato
 - minecraft:potato
@@ -15619,9 +14838,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - undergarden:depthrock_regalium_ore
 - undergarden:shiverstone_regalium_ore
 
-#forge:dusts/sodium_nitrate
-- chemlib:sodium_nitrate_dust
-
 #forge:stained_glass_panes
 - minecraft:white_stained_glass_pane
 - minecraft:orange_stained_glass_pane
@@ -15641,13 +14857,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:black_stained_glass_pane
 
 #occultism:books/book_of_calling_foliot
-- occultism:book_of_calling_foliot_lumberjack
+'book_of_calling_foliot_lumberjack
 
 #curios:head
 - industrialforegoing:meat_feeder?
 - botania:flight_tiara
 - botania:itemfinder
-- occultism:otherworld_goggles
+'otherworld_goggles
 - cyclic:glowing_helmet?
 - cyclic:charm_antipotion?
 - cyclic:charm_boostpotion?
@@ -15656,27 +14872,19 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - immersiveengineering:earmuffs
 
 #silentgems:glowroses/carnelian
-- silentgems:carnelian_glowrose
-
-#forge:dusts/manganese_nitrate
-- chemlib:manganese_nitrate_dust
+'carnelian_glowrose
 
 #forge:storage_blocks/zinc
 - create:zinc_block
 - bluepower:zinc_block
-- chemlib:zinc_metal_block
 
 #forge:dusts/nickel
 - thermal:nickel_dust
 - immersiveengineering:dust_nickel
-- chemlib:nickel_dust
 
 #balm:emeralds
-- #forge:gems/emeralds?
+'emeralds?
 - minecraft:emerald
-
-#forge:storage_blocks/manganese
-- chemlib:manganese_metal_block
 
 #chipped:sea_lantern
 - minecraft:sea_lantern
@@ -15702,9 +14910,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:plates/lapis_lazuli
 - rainbowcompound:lapis_sheet
-
-#forge:dusts/potassium_carbonate
-- chemlib:potassium_carbonate_dust
 
 #chipped:light_blue_wool
 - minecraft:light_blue_wool
@@ -15732,15 +14937,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:dyes/light_blue
 - minecraft:light_blue_dye
 
-#forge:storage_blocks/radium
-- chemlib:radium_metal_block
-
-#forge:plates/thallium
-- chemlib:thallium_plate
-
 #balm:blue_dyes
 - minecraft:blue_dye
 - #forge:dyes/blue?
+
+#crossroads:dusts/eldrine
+- crossroads:solid_eldrine
 
 #forge:bitumen
 - immersivepetroleum:bitumen
@@ -15751,14 +14953,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:glass_panes/black
 - minecraft:black_stained_glass_pane
-
-#forge:ores/dimensional_shard
-- rftoolsbase:dimensionalshard_end
-- rftoolsbase:dimensionalshard_nether
-- rftoolsbase:dimensionalshard_overworld
-
-#forge:dusts/urea
-- chemlib:urea_dust
 
 #farmersdelight:wild_crops
 - farmersdelight:wild_carrots
@@ -15805,23 +14999,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:black_glazed_terracotta_10
 - chipped:black_glazed_terracotta_11
 
-#forge:plates/cobalt
-- chemlib:cobalt_plate
-
 #forge:crops/wheat
 - minecraft:wheat
 
-#forge:dusts/strontium_oxide
-- chemlib:strontium_oxide_dust
-
-#forge:plates/osmium
-- chemlib:osmium_plate
-
 #forge:ices/ice
 - minecraft:ice
-
-#forge:storage_blocks/rubidium
-- chemlib:rubidium_metal_block
 
 #forge:wrenches
 - mekanism:configurator
@@ -15830,14 +15012,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #mekanism:dirty_dusts/gold
 - mekanism:dirty_dust_gold
 
-#forge:dusts/ruthenium
-- chemlib:ruthenium_dust
-
 #immersiveengineering:tools/wirecutters
 - immersiveengineering:wirecutter
-
-#forge:nuggets/scandium
-- chemlib:scandium_nugget
 
 #farmersdelight:cabinets/wooden
 - farmersdelight:acacia_cabinet
@@ -15863,22 +15039,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:furnaces/gold
 - ironfurnaces:gold_furnace
 
-#forge:storage_blocks/platinum
-- chemlib:platinum_metal_block
-
 #forge:crops/bell_pepper
 - thermal:bell_pepper
-
-#forge:dusts/strontium_hydroxide
-- chemlib:strontium_hydroxide_dust
-
-#forge:dusts/calcium_carbonate
-- chemlib:calcium_carbonate_dust
 
 #forge:ingots/nickel
 - thermal:nickel_ingot
 - immersiveengineering:ingot_nickel
-- chemlib:nickel_ingot
 
 #create:crushed_ores
 - create:crushed_iron_ore
@@ -15894,9 +15060,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - create:crushed_aluminum_ore
 - create:crushed_uranium_ore
 - create:crushed_nickel_ore
-
-#forge:plates/polyvinyl_chloride
-- chemlib:polyvinyl_chloride_plate
 
 #forge:armor
 - #forge:helmets
@@ -15941,7 +15104,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - aoa3:heart_fruit?
 - aoa3:magic_marang?
 - aoa3:nature_melon_slice?
-- ars_nouveau:mana_berry?
+'mana_berry?
 - atmospheric:passionfruit?
 - atmospheric:yucca_fruit?
 - atum:date?
@@ -16206,15 +15369,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - rainbowcompound:rainbow_knife
 - #farmersdelight:tools/knives
 
-#forge:plates/thorium
-- chemlib:thorium_plate
-
 #bloodmagic:arc/furnace
 - bloodmagic:furnacecell_primitive
 - bloodmagic:lavacrystal
-
-#forge:dusts/manganese
-- chemlib:manganese_dust
 
 #forge:pellets/polonium
 - mekanism:pellet_polonium
@@ -16235,6 +15392,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - angelring:itemring
 - naturesaura:eye
 - naturesaura:eye_improved
+- crossroads:beam_cage
+- crossroads:leyden_jar
 - thermal:flux_capacitor
 - thermal:flux_magnet
 - thermal:fluid_reservoir
@@ -16286,20 +15445,17 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:stone_pressure_plate
 
 #nocubes_farmer_compats:fillet_fish_four
-- aquaculture:gar
-- aquaculture:bayad
-
-#forge:dusts/platinum
-- chemlib:platinum_dust
+'gar
+'bayad
 
 #ae2:metal_ingots
-- #forge:ingots/copper?
-- #forge:ingots/tin?
-- #forge:ingots/iron?
-- #forge:ingots/gold?
-- #forge:ingots/brass?
-- #forge:ingots/nickel?
-- #forge:ingots/aluminium?
+'copper?
+'tin?
+'iron?
+'gold?
+'brass?
+'nickel?
+'aluminium?
 
 #nethersdelight:meal_item
 - farmersdelight:bacon_and_eggs
@@ -16308,7 +15464,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - bluepower:green_sapphire_block
 
 #forge:storage_blocks/ammolite
-- silentgems:ammolite_block
+'ammolite_block
 
 #chipped:purple_concrete
 - minecraft:purple_concrete
@@ -16404,7 +15560,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - undergarden:gloomgourd_seeds
 - immersiveengineering:seed
 - supplementaries:flax_seeds
-- ars_nouveau:magebloom_crop
+'magebloom_crop
 
 #botania:rods
 - botania:dirt_rod
@@ -16421,9 +15577,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - botania:gravity_rod
 - botania:missile_rod
 
-#forge:ingots/protactinium
-- chemlib:protactinium_ingot
-
 #minecraft:oak_logs
 - minecraft:oak_log
 - minecraft:oak_wood
@@ -16438,11 +15591,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - angelring:reinforced_angel_ring
 - angelring:resonant_angel_ring
 
-#forge:dusts/thorium
-- chemlib:thorium_dust
-
 #forge:gems/source
-- ars_nouveau:source_gem
+'source_gem
 
 #mekanism:crystals/osmium
 - mekanism:crystal_osmium
@@ -16487,9 +15637,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:golden_shovel
 - minecraft:golden_sword
 
-#forge:dusts/magnesium_chloride
-- chemlib:magnesium_chloride_dust
-
 #silentgear:blueprints/arrow
 - silentgear:arrow_blueprint
 - silentgear:arrow_template
@@ -16502,7 +15649,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:dusts/niter
 - thermal:niter_dust
-- chemlib:potassium_nitrate_dust
 
 #minecraft:spruce_logs
 - minecraft:spruce_log
@@ -16511,11 +15657,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:stripped_spruce_wood
 
 #occultism:miners/ores
-- occultism:miner_foliot_unspecialized
-- occultism:miner_debug_unspecialized
-- occultism:miner_djinni_ores
-- occultism:miner_afrit_deeps
-- occultism:miner_marid_master
+'miner_foliot_unspecialized
+'miner_debug_unspecialized
+'miner_djinni_ores
+'miner_afrit_deeps
+'miner_marid_master
 
 #mythicbotany:alfheim_ores
 - mythicbotany:elementium_ore
@@ -16605,40 +15751,31 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #minecraft:dyes/red
 - evilcraft:hardened_blood_shard
 
-#forge:storage_blocks/praseodymium
-- chemlib:praseodymium_metal_block
-
 #forge:glass_panes/lime
 - minecraft:lime_stained_glass_pane
 
-#forge:dusts/cobalt_nitrate
-- chemlib:cobalt_nitrate_dust
+#crossroads:witchcraft_unlock_key
+- minecraft:shears
 
 #forge:gems/ruby
+- crossroads:gem_ruby
 - thermal:ruby
 - bluepower:ruby_gem
-- silentgems:ruby
+'ruby
 
 #forge:grain
 - #forge:grain/wheat
 - #forge:grain/rice
 - minecraft:wheat
 
-#forge:dusts/phosphoric_acid
-- chemlib:phosphoric_acid_dust
-
 #appbot:p2p_attunements/mana_p2p_tunnel
 - #botania:petals?
 - #botania:mana_dusts?
-
-#forge:plates/vanadium
-- chemlib:vanadium_plate
 
 #forge:ingots/lead
 - thermal:lead_ingot
 - mekanism:ingot_lead
 - immersiveengineering:ingot_lead
-- chemlib:lead_ingot
 
 #quark:blossom_logs
 - quark:blossom_log
@@ -16720,9 +15857,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:ores/alexandrite
 - #silentgems:ores/alexandrite
-
-#forge:plates/barium
-- chemlib:barium_plate
 
 #forge:ores/peridot
 - #silentgems:ores/peridot
@@ -16814,9 +15948,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - corn_delight:corn_seeds
 
 #forge:dusts/tin
+- crossroads:dust_tin
 - thermal:tin_dust
 - mekanism:dust_tin
-- chemlib:tin_dust
 
 #forge:dusts/flour
 - pneumaticcraft:wheat_flour
@@ -16832,9 +15966,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - mythicbotany:raindeletia
 - mythicbotany:feysythia
 - mythicbotany:petrunia
-
-#forge:dusts/polonium
-- chemlib:polonium_dust
 
 #lychee:block_exploding_catalysts
 - minecraft:tnt
@@ -16891,9 +16022,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:amethyst_shard
 - bluepower:amethyst_gem
 
-#forge:dusts/rubidium_chloride
-- chemlib:rubidium_chloride_dust
-
 #forge:nuggets/rose_gold
 - thermal:rose_gold_nugget
 
@@ -16921,9 +16049,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:dyes/brown
 - minecraft:brown_dye
-
-#forge:ingots/cesium
-- chemlib:cesium_ingot
 
 #forge:gears/lumium
 - thermal:lumium_gear
@@ -17004,6 +16129,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - evilcraft:dark_ore
 - evilcraft:dark_ore_deepslate
 - #forge:ores/uraninite
+- #forge:ores/copper
+- #forge:ores/tin
+- #forge:ores/ruby
+- #crossroads:ores/void
 - #mythicbotany:alfheim_ores
 - #forge:ores/copper
 - #forge:ores/silver
@@ -17085,7 +16214,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - #forge:ores/silver
 
 #forge:storage_blocks/rose_quartz
-- silentgems:rose_quartz_block
+'rose_quartz_block
 
 #forge:rods/steel
 - immersiveengineering:stick_steel
@@ -17166,14 +16295,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - thermal:flax_seeds
 - supplementaries:flax_seeds
 
-#forge:ingots/bismuth
-- chemlib:bismuth_ingot
-
 #immersiveengineering:circuits/pcb
 - immersiveengineering:circuit_board
-
-#forge:dusts/indium
-- chemlib:indium_dust
 
 #create:stone_types/dripstone
 - create:cut_dripstone
@@ -17195,11 +16318,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - thermal:onion_seeds
 
 #ae2:all_certus_quartz
-- #forge:gems/certus_quartz
-- ae2:charged_certus_quartz_crystal
-
-#forge:dusts/phosphate
-- chemlib:phosphate_dust
+'certus_quartz
+'charged_certus_quartz_crystal
 
 #forge:storage_blocks/bamboo
 - thermal:bamboo_block
@@ -17232,16 +16352,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:storage_blocks/tungsten
 - bluepower:tungsten_block
-- chemlib:tungsten_metal_block
-
-#forge:dusts/manganese_hydroxide
-- chemlib:manganese_hydroxide_dust
-
-#forge:ingots/polonium
-- chemlib:polonium_ingot
-
-#forge:dusts/copper_ii_hydroxide
-- chemlib:copper_ii_hydroxide_dust
 
 #forge:dragon_egg_shell
 - ends_delight:dragon_egg_shell
@@ -17266,12 +16376,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:rotten_flesh
 
 #ars_nouveau:summon_bed
-- ars_nouveau:red_sbed
-- ars_nouveau:green_sbed
-- ars_nouveau:yellow_sbed
-- ars_nouveau:blue_sbed
-- ars_nouveau:orange_sbed
-- ars_nouveau:purple_sbed
+'red_sbed
+'green_sbed
+'yellow_sbed
+'blue_sbed
+'orange_sbed
+'purple_sbed
 
 #chipped:white_glazed_terracotta
 - minecraft:white_glazed_terracotta
@@ -17289,7 +16399,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:plates/zinc
 - createdeco:zinc_sheet
-- chemlib:zinc_plate
 
 #minecraft:occludes_vibration_signals
 - #minecraft:wool
@@ -17343,6 +16452,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:flour
 - create:wheat_flour
+
+#crossroads:bobo_unlock_key
+- minecraft:poisonous_potato
+- minecraft:nether_star
 
 #mekanism:clumps/tin
 - mekanism:clump_tin
@@ -17406,10 +16519,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:blaze_rod
 
 #forge:storage_blocks/source
-- ars_nouveau:source_gem_block
-
-#forge:storage_blocks/lithium
-- chemlib:lithium_metal_block
+'source_gem_block
 
 #mekanism:crystals/lead
 - mekanism:crystal_lead
@@ -17772,32 +16882,21 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - undergarden:cloggrum_nugget
 
 #forge:storage_blocks/turquoise
-- silentgems:turquoise_block
-
-#forge:plates/bismuth
-- chemlib:bismuth_plate
+'turquoise_block
 
 #forge:nuggets/bronze
+- crossroads:nugget_bronze
 - thermal:bronze_nugget
 - mekanism:nugget_bronze
 
-#forge:storage_blocks/neodymium
-- chemlib:neodymium_metal_block
+#crossroads:dusts/adamant
+- crossroads:adamant
 
 #forge:armor/diamond
 - minecraft:diamond_boots
 - minecraft:diamond_chestplate
 - minecraft:diamond_helmet
 - minecraft:diamond_leggings
-
-#forge:dusts/iron_oxide
-- chemlib:iron_oxide_dust
-
-#forge:ingots/ruthenium
-- chemlib:ruthenium_ingot
-
-#forge:plates/radium
-- chemlib:radium_plate
 
 #chipped:nether_wart_block
 - minecraft:nether_wart_block
@@ -17815,9 +16914,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:nether_wart_block_12
 - chipped:nether_wart_block_13
 - chipped:nether_wart_block_14
-
-#forge:dusts/bismuth
-- chemlib:bismuth_dust
 
 #chipped:red_mushroom_block
 - minecraft:red_mushroom_block
@@ -17840,7 +16936,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:dusts/uranium
 - mekanism:dust_uranium
 - immersiveengineering:dust_uranium
-- chemlib:uranium_dust
 
 #chipped:blackstone
 - minecraft:blackstone
@@ -17970,12 +17065,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:fiber
 - supplementaries:flax
 
-#forge:dusts/copper_nitrate
-- chemlib:copper_nitrate_dust
-
-#forge:ingots/vanadium
-- chemlib:vanadium_ingot
-
 #forge:ingots/obsidianite
 - rainbowcompound:obsidianite_ingot
 
@@ -17987,7 +17076,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - silentgear:machete_template
 
 #forge:ices/dry
-- powah:dry_ice
+'dry_ice
 
 #ftbchunks:right_click_whitelist
 - minecraft:shield
@@ -18031,40 +17120,37 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:salmon
 - sushigocrafting:shrimp
 - sushigocrafting:raw_tuna
-- aquaculture:atlantic_cod
-- aquaculture:blackfish
-- aquaculture:pacific_halibut
-- aquaculture:atlantic_halibut
-- aquaculture:atlantic_herring
-- aquaculture:pink_salmon
-- aquaculture:pollock
-- aquaculture:rainbow_trout
-- aquaculture:bayad
-- aquaculture:boulti
-- aquaculture:capitaine
-- aquaculture:synodontis
-- aquaculture:smallmouth_bass
-- aquaculture:bluegill
-- aquaculture:brown_trout
-- aquaculture:carp
-- aquaculture:catfish
-- aquaculture:gar
-- aquaculture:minnow
-- aquaculture:muskellunge
-- aquaculture:perch
-- aquaculture:arapaima
-- aquaculture:piranha
-- aquaculture:tambaqui
-- aquaculture:brown_shrooma
-- aquaculture:red_shrooma
-- aquaculture:red_grouper
-- aquaculture:tuna
+'atlantic_cod
+'blackfish
+'pacific_halibut
+'atlantic_halibut
+'atlantic_herring
+'pink_salmon
+'pollock
+'rainbow_trout
+'bayad
+'boulti
+'capitaine
+'synodontis
+'smallmouth_bass
+'bluegill
+'brown_trout
+'carp
+'catfish
+'gar
+'minnow
+'muskellunge
+'perch
+'arapaima
+'piranha
+'tambaqui
+'brown_shrooma
+'red_shrooma
+'red_grouper
+'tuna
 - #forge:raw_fishes/cod
 - #forge:raw_fishes/salmon
 - #forge:raw_fishes/tropical_fish
-
-#forge:storage_blocks/potassium
-- chemlib:potassium_metal_block
 
 #forge:storage_blocks/cinnabar
 - thermal:cinnabar_block
@@ -18093,11 +17179,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - silentgear:bort_ore
 - silentgear:deepslate_bort_ore
 
-#forge:nuggets/calcium
-- chemlib:calcium_nugget
-
 #forge:dusts/iesnium
-- occultism:iesnium_dust
+'iesnium_dust
 
 #chipped:iron_block
 - minecraft:iron_block
@@ -18117,9 +17200,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:storage_blocks/azure_electrum
 - silentgear:azure_electrum_block
 
-#forge:nuggets/tantalum
-- chemlib:tantalum_nugget
-
 #forge:coins/gold
 - thermal:gold_coin
 
@@ -18133,7 +17213,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:ingots/uranium
 - mekanism:ingot_uranium
 - immersiveengineering:ingot_uranium
-- chemlib:uranium_ingot
 
 #forge:ore_rates/dense
 - minecraft:copper_ore
@@ -18155,10 +17234,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - thermal:signalum_block
 
 #forge:ingots/iesnium
-- occultism:iesnium_ingot
-
-#forge:storage_blocks/rhodium
-- chemlib:rhodium_metal_block
+'iesnium_ingot
 
 #tombstone:grave_marbles
 - tombstone:dark_marble
@@ -18188,9 +17264,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - silentgear:cord_template
 
 #forge:raw_ores/silver
-- occultism:raw_silver
+'raw_silver
 
 #forge:ores/tin
+- crossroads:ore_tin
+- crossroads:ore_tin_deep
 - thermal:tin_ore
 - thermal:deepslate_tin_ore
 - mekanism:tin_ore
@@ -18335,9 +17413,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - silentgear:binding_blueprint
 - silentgear:binding_template
 
-#forge:dusts/graphite
-- chemlib:graphite_dust
-
 #forge:wither_bones
 - bhc:wither_bone
 
@@ -18350,9 +17425,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - create_sa:grapplin_whisk
 - create_sa:andesite_jetpack_chestplate
 
-#forge:dusts/acetylsalicylic_acid
-- chemlib:acetylsalicylic_acid_dust
-
 #forge:crops/barley
 - thermal:barley
 
@@ -18363,14 +17435,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:cobblestone/normal
 - minecraft:cobblestone
 
-#forge:plates/ytterbium
-- chemlib:ytterbium_plate
-
 #forge:ores/topaz
 - #silentgems:ores/topaz
-
-#forge:ingots/chromium
-- chemlib:chromium_ingot
 
 #forge:boots
 - minecraft:leather_boots
@@ -18409,6 +17475,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:nether_sprouts_18
 - chipped:nether_sprouts_19
 - chipped:nether_sprouts_20
+
+#crossroads:dusts/hydrochloric_acid
+- crossroads:solid_muriatic
 
 #forge:crops/cabbage
 - farmersdelight:cabbage
@@ -18502,9 +17571,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:raw_materials/froststeel
 - undergarden:raw_froststeel
 
-#forge:plates/cesium
-- chemlib:cesium_plate
-
 #xnet:connectors
 - xnet:connector_blue
 - xnet:connector_yellow
@@ -18513,7 +17579,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - xnet:connector_routing
 
 #silentgems:glowroses/heliodor
-- silentgems:heliodor_glowrose
+'heliodor_glowrose
 
 #aquaculture:tackle_box
 - minecraft:string
@@ -18524,9 +17590,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:bubble_coral_block
 - minecraft:fire_coral_block
 - minecraft:horn_coral_block
-
-#forge:dusts/polyvinyl_chloride
-- chemlib:polyvinyl_chloride_dust
 
 #chipped:acacia_door
 - minecraft:acacia_door
@@ -18568,9 +17631,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - bloodmagic:irongravel
 
 #ae2:all_quartz
-- #forge:gems/quartz
-- #forge:gems/certus_quartz
-- ae2:charged_certus_quartz_crystal
+'quartz
+'certus_quartz
+'charged_certus_quartz_crystal
 
 #botania:manasteel_nuggets
 - botania:manasteel_nugget
@@ -18611,8 +17674,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - culturaldelights:avocado
 - culturaldelights:cut_avocado
 
-#forge:nuggets/erbium
-- chemlib:erbium_nugget
+#crossroads:path_unlock_filler
+- minecraft:paper
 
 #forge:ores/sulfur
 - thermal:sulfur_ore
@@ -18665,7 +17728,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - undergarden:smogstem_fence
 - undergarden:wigglewood_fence
 - undergarden:grongle_fence
-- ars_nouveau:archwood_fence
+'archwood_fence
 - quark:azalea_fence
 - quark:blossom_fence
 
@@ -18675,11 +17738,20 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:storage_blocks
 - evilcraft:dark_block
 - evilcraft:dark_power_gem_block
-- powah:uraninite_block
+'uraninite_block
 - #forge:storage_blocks/elementium
 - #forge:storage_blocks/manasteel
 - #forge:storage_blocks/terrasteel
 - #forge:storage_blocks/compressed_iron
+- #forge:storage_blocks/copper
+- #forge:storage_blocks/tin
+- #forge:storage_blocks/bronze
+- #forge:storage_blocks/ruby
+- #forge:storage_blocks/salt
+- #crossroads:storage_blocks/copshowium
+- #crossroads:storage_blocks/pure_quartz
+- #crossroads:storage_blocks/bright_quartz
+- #crossroads:storage_blocks/cavorite
 - integrateddynamics:crystalized_chorus_block
 - integrateddynamics:crystalized_menril_block
 - #forge:storage_blocks/amethyst
@@ -18759,7 +17831,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - create:raw_zinc_block
 - create:zinc_block
 - create:brass_block
-- createdeco:cast_iron_block
 - #forge:storage_blocks/aluminum
 - #forge:storage_blocks/raw_aluminum
 - #forge:storage_blocks/lead
@@ -18774,20 +17845,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - #forge:storage_blocks/electrum
 - #forge:storage_blocks/steel
 - #forge:storage_blocks/certus_quartz
-- ars_nouveau:source_gem_block
+'source_gem_block
 - #forge:storage_blocks/charcoal
-
-#forge:dusts/hydroxide
-- chemlib:hydroxide_dust
 
 #forge:coins/lead
 - thermal:lead_coin
 
 #forge:glass_panes/orange
 - minecraft:orange_stained_glass_pane
-
-#forge:ingots/samarium
-- chemlib:samarium_ingot
 
 #chipped:green_stained_glass_pane
 - minecraft:green_stained_glass_pane
@@ -18903,7 +17968,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:plates/aluminum
 - immersiveengineering:plate_aluminum
-- chemlib:aluminum_plate
 
 #forge:raw_beef
 - butchersdelight:legcow
@@ -18915,9 +17979,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:plates/electrum
 - thermal:electrum_plate
 - immersiveengineering:plate_electrum
-
-#forge:dusts/barium_sulfide
-- chemlib:barium_sulfide_dust
 
 #bloodmagic:tiny_dusts/corrupted
 - bloodmagic:corrupted_tinydust
@@ -18941,7 +18002,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:gems/sapphire
 - thermal:sapphire
 - bluepower:sapphire_gem
-- silentgems:sapphire
+'sapphire
 
 #c:quartz_blocks
 - #forge:storage_blocks/quartz
@@ -19116,7 +18177,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - supplementaries:ash_bricks_stairs
 - supplementaries:lapis_bricks_stairs
 - supplementaries:stone_tile_stairs
-- ars_nouveau:archwood_stairs
+'archwood_stairs
 - quark:andesite_bricks_stairs
 - quark:azalea_planks_stairs
 - quark:blackstone_bricks_stairs
@@ -19184,22 +18245,22 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - ends_delight:raw_dragon_meat
 
 #forge:logs/archwood
-- ars_nouveau:red_archwood_log
-- ars_nouveau:blue_archwood_log
-- ars_nouveau:purple_archwood_log
-- ars_nouveau:green_archwood_log
-- ars_nouveau:red_archwood_wood
-- ars_nouveau:blue_archwood_wood
-- ars_nouveau:green_archwood_wood
-- ars_nouveau:purple_archwood_wood
-- ars_nouveau:stripped_blue_archwood_log
-- ars_nouveau:stripped_blue_archwood_wood
-- ars_nouveau:stripped_green_archwood_log
-- ars_nouveau:stripped_green_archwood_wood
-- ars_nouveau:stripped_red_archwood_log
-- ars_nouveau:stripped_red_archwood_wood
-- ars_nouveau:stripped_purple_archwood_log
-- ars_nouveau:stripped_purple_archwood_wood
+'red_archwood_log
+'blue_archwood_log
+'purple_archwood_log
+'green_archwood_log
+'red_archwood_wood
+'blue_archwood_wood
+'green_archwood_wood
+'purple_archwood_wood
+'stripped_blue_archwood_log
+'stripped_blue_archwood_wood
+'stripped_green_archwood_log
+'stripped_green_archwood_wood
+'stripped_red_archwood_log
+'stripped_red_archwood_wood
+'stripped_purple_archwood_log
+'stripped_purple_archwood_wood
 
 #forge:vegetables/tomato
 - farmersdelight:tomato
@@ -19228,9 +18289,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - thermal:slag
 - immersiveengineering:slag
 
-#forge:dusts/chitin
-- chemlib:chitin_dust
-
 #create:vanilla_stripped_wood
 - minecraft:stripped_acacia_wood
 - minecraft:stripped_birch_wood
@@ -19251,28 +18309,25 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - bluepower:green_sapphire_gem
 
 #silentgems:gems
-- #forge:gems/ruby
-- #forge:gems/carnelian
-- #forge:gems/topaz
-- #forge:gems/citrine
-- #forge:gems/heliodor
-- #forge:gems/moldavite
-- #forge:gems/peridot
-- #forge:gems/turquoise
-- #forge:gems/kyanite
-- #forge:gems/sapphire
-- #forge:gems/iolite
-- #forge:gems/alexandrite
-- #forge:gems/ammolite
-- #forge:gems/rose_quartz
-- #forge:gems/black_diamond
-- #forge:gems/white_diamond
+'ruby
+'carnelian
+'topaz
+'citrine
+'heliodor
+'moldavite
+'peridot
+'turquoise
+'kyanite
+'sapphire
+'iolite
+'alexandrite
+'ammolite
+'rose_quartz
+'black_diamond
+'white_diamond
 
 #forge:dusts/sapphire
 - thermal:sapphire_dust
-
-#forge:dusts/aluminum_nitrate
-- chemlib:aluminum_nitrate_dust
 
 #minecraft:emerald_ores
 - minecraft:emerald_ore
@@ -19382,12 +18437,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #farmersdelight:cabinets
 - #farmersdelight:cabinets/wooden
 
-#forge:plates/holmium
-- chemlib:holmium_plate
-
-#forge:dusts/antimony_trisulfide
-- chemlib:antimony_trisulfide_dust
-
 #forge:dusts/crimson_steel
 - silentgear:crimson_steel_dust
 
@@ -19396,12 +18445,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #curios:bundle
 - minecraft:bundle
-
-#forge:dusts/rubidium_sulfate
-- chemlib:rubidium_sulfate_dust
-
-#forge:dusts/cadmium_carbonate
-- chemlib:cadmium_carbonate_dust
 
 #immersiveengineering:toolbox/wiring
 - immersiveengineering:wirecoil_copper
@@ -19430,18 +18473,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - immersiveengineering:connector_bundled
 - immersiveengineering:balloon
 - immersiveengineering:razor_wire
-
-#thermal:dynamos
-- thermal:dynamo_stirling
-- thermal:dynamo_compression
-- thermal:dynamo_magmatic
-- thermal:dynamo_numismatic
-- thermal:dynamo_lapidary
-- thermal:dynamo_disenchantment
-- thermal:dynamo_gourmand
-
-#forge:plates/molybdenum
-- chemlib:molybdenum_plate
 
 #forge:ingots/crimson_steel
 - silentgear:crimson_steel_ingot
@@ -19519,9 +18550,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:coal_block_67
 
 #ae2:illuminated_panel
-- ae2:monitor
-- ae2:semi_dark_monitor
-- ae2:dark_monitor
+'monitor
+'semi_dark_monitor
+'dark_monitor
 
 #createindustry:stone_types/bauxite
 - createindustry:cut_bauxite
@@ -19536,9 +18567,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - createindustry:polished_cut_bauxite_wall
 - createindustry:cut_bauxite_brick_wall
 - createindustry:small_bauxite_brick_wall
-
-#forge:dusts/sodium_hydroxide
-- chemlib:sodium_hydroxide_dust
 
 #chipped:white_concrete
 - minecraft:white_concrete
@@ -19563,9 +18591,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:white_concrete_19
 - chipped:white_concrete_20
 - chipped:white_concrete_21
-
-#forge:storage_blocks/hafnium
-- chemlib:hafnium_metal_block
 
 #ftbchunks:right_click_blacklist
 - minecraft:bucket
@@ -19837,8 +18862,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - botania:white_mystical_flower
 - botania:yellow_mystical_flower
 
-#forge:plates/ruthenium
-- chemlib:ruthenium_plate
+#crossroads:dusts/aqua_regia
+- crossroads:solid_regia
 
 #chipped:granite
 - minecraft:granite
@@ -19912,8 +18937,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:granite_68
 - chipped:granite_69
 
-#forge:dusts/zinc_sulfate
-- chemlib:zinc_sulfate_dust
+#crossroads:dusts/chlorine
+- crossroads:solid_chlorine
 
 #minecraft:stone_crafting_materials
 - minecraft:cobblestone
@@ -19928,10 +18953,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:ingots/zinc
 - create:zinc_ingot
 - bluepower:zinc_ingot
-- chemlib:zinc_ingot
-
-#forge:dusts/carbon
-- chemlib:carbon_dust
 
 #botania:disposable
 - minecraft:dirt
@@ -19960,7 +18981,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - farmersdelight:black_canvas_sign
 
 #forge:raw_materials/silver
-- occultism:raw_silver
+'raw_silver
 - thermal:raw_silver
 - immersiveengineering:raw_silver
 
@@ -19970,17 +18991,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:gears/lead
 - thermal:lead_gear
 
-#forge:dusts/holmium
-- chemlib:holmium_dust
-
-#forge:dusts/rubidium_oxide
-- chemlib:rubidium_oxide_dust
-
 #forge:seeds/coffeebean
 - createcafe:coffee_beans
 
 #supplementaries:blackboard_white
-- #forge:gems/quartz?
+'quartz?
 - #forge:dyes/white?
 - chalk:white_chalk?
 - minecraft:quartz?
@@ -20102,7 +19117,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - undergarden:smogstem_stairs
 - undergarden:wigglewood_stairs
 - undergarden:grongle_stairs
-- ars_nouveau:archwood_stairs
+'archwood_stairs
 - quark:azalea_planks_stairs
 - quark:blossom_planks_stairs
 
@@ -20151,8 +19166,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:stripped_oak_log_16
 
 #ae2:quartz_wrench
-- ae2:certus_quartz_wrench
-- ae2:nether_quartz_wrench
+'certus_quartz_wrench
+'nether_quartz_wrench
 
 #forge:gears/tin
 - thermal:tin_gear
@@ -20173,9 +19188,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:storage_blocks/raw_zinc
 - create:raw_zinc_block
-
-#forge:ingots/tantalum
-- chemlib:tantalum_ingot
 
 #chipped:pink_concrete
 - minecraft:pink_concrete
@@ -20201,18 +19213,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:pink_concrete_20
 - chipped:pink_concrete_21
 
-#forge:dusts/lithium_nitrate
-- chemlib:lithium_nitrate_dust
-
-#forge:nuggets/vanadium
-- chemlib:vanadium_nugget
-
 #forge:ores/emerald
 - #minecraft:emerald_ores
 - #minecraft:emerald_ores
-
-#forge:ingots/cobalt
-- chemlib:cobalt_ingot
 
 #balm:lime_dyes
 - #forge:dyes/lime?
@@ -20239,21 +19242,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:dyes/lime
 - minecraft:lime_dye
 
-#forge:dusts/barium_hydroxide
-- chemlib:barium_hydroxide_dust
-
 #forge:dusts/diamond
 - thermal:diamond_dust
 - mekanism:dust_diamond
 
-#forge:dusts/lead_nitrate
-- chemlib:lead_nitrate_dust
-
-#forge:dusts/calcium_oxide
-- chemlib:calcium_oxide_dust
-
 #forge:crops/datura
-- occultism:datura
+'datura
 
 #mekanism:alloys/reinforced
 - #forge:alloys/elite
@@ -20280,11 +19274,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - #silentgems:ores/carnelian
 
 #forge:seeds/datura
-- occultism:datura_seeds
+'datura_seeds
 
 #forge:nuggets/tungsten
 - bluepower:tungsten_nugget
-- chemlib:tungsten_nugget
 
 #bookshelf:hoes
 - #forge:hoes
@@ -20314,17 +19307,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:moss_block_10
 - chipped:moss_block_11
 
-#forge:storage_blocks/scandium
-- chemlib:scandium_metal_block
-
-#forge:dusts/caffeine
-- chemlib:caffeine_dust
-
 #forge:gems/iolite
-- silentgems:iolite
-
-#forge:nuggets/cadmium
-- chemlib:cadmium_nugget
+'iolite
 
 #immersiveengineering:tools/hammers
 - immersiveengineering:hammer
@@ -20333,11 +19317,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - sushigocrafting:avocado
 
 #forge:dusts/certus_quartz
-- ae2:certus_quartz_dust
-- ae2:certus_quartz_dust
+'certus_quartz_dust
+'certus_quartz_dust
 
 #forge:books
-- occultism:dictionary_of_spirits
+'dictionary_of_spirits
 - minecraft:book
 - minecraft:writable_book
 - minecraft:written_book
@@ -20383,9 +19367,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:storage_blocks/cloggrum
 - undergarden:cloggrum_block
-
-#forge:nuggets/manganese
-- chemlib:manganese_nugget
 
 #minecraft:tall_flowers
 - minecraft:sunflower
@@ -20439,12 +19420,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - #forge:dyes/red
 - #forge:dyes/black
 
-#forge:nuggets/cerium
-- chemlib:cerium_nugget
-
-#forge:storage_blocks/europium
-- chemlib:europium_metal_block
-
 #chipped:lime_stained_glass
 - minecraft:lime_stained_glass
 - chipped:lime_stained_glass_1
@@ -20459,7 +19434,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:lime_stained_glass_10
 
 #forge:dusts/obsidian
-- occultism:obsidian_dust
+'obsidian_dust
 - mekanism:dust_obsidian
 
 #minecraft:dirt
@@ -20475,9 +19450,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:gears/constantan
 - thermal:constantan_gear
 
-#forge:plates/francium
-- chemlib:francium_plate
-
 #pneumaticcraft:basic_drones
 - pneumaticcraft:logistics_drone
 - pneumaticcraft:guard_drone
@@ -20485,8 +19457,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - pneumaticcraft:collector_drone
 
 #nocubes_farmer_compats:fillet_fish_six
-- aquaculture:atlantic_cod
-- aquaculture:catfish
+'atlantic_cod
+'catfish
 
 #supplementaries:chains
 - minecraft:chain?
@@ -20504,9 +19476,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - dustrial_decor:large_chain?
 - forbidden_arcanus:arcane_golden_chain?
 
-#forge:storage_blocks/terbium
-- chemlib:terbium_metal_block
-
 #create_sa:jetpack
 - create_sa:brass_jetpack_chestplate
 - create_sa:copper_jetpack_chestplate
@@ -20517,9 +19486,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:egg
 - minecraft:egg
 - minecraft:turtle_egg
-
-#forge:plates/lapis
-- rainbowcompound:lapis_sheet
 
 #chipped:lily_pad
 - minecraft:lily_pad
@@ -20546,9 +19512,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:lily_pad_21
 - chipped:lily_pad_22
 
-#forge:dusts/nickel_carbonate
-- chemlib:nickel_carbonate_dust
-
 #forge:dyes/red
 - minecraft:red_dye
 
@@ -20574,18 +19537,18 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - bloodmagic:fragment_netherite_scrap
 
 #occultism:miners/deeps
-- occultism:miner_afrit_deeps
-- occultism:miner_marid_master
+'miner_afrit_deeps
+'miner_marid_master
 
-#forge:plates/praseodymium
-- chemlib:praseodymium_plate
+#crossroads:storage_blocks/pure_quartz
+- crossroads:block_pure_quartz
+
+#crossroads:ingots/copshowium
+- crossroads:ingot_copshowium
 
 #forge:popcorn
 - corn_delight:popcorn
 - culturaldelights:popcorn?
-
-#forge:ingots/barium
-- chemlib:barium_ingot
 
 #chipped:stone
 - minecraft:stone
@@ -20659,9 +19622,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:stone_68
 - chipped:stone_69
 
-#forge:dusts/calcium
-- chemlib:calcium_dust
-
 #forge:raw_materials/lead
 - thermal:raw_lead
 - mekanism:raw_lead
@@ -20677,7 +19637,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - #forge:feathers
 
 #forge:nuggets/neptunium
-- aquaculture:neptunium_nugget
+'neptunium_nugget
 
 #forge:nuggets/blaze_gold
 - silentgear:blaze_gold_nugget
@@ -20686,9 +19646,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:nether_star
 
 #forge:ingots/tin
+- crossroads:ingot_tin
 - thermal:tin_ingot
 - mekanism:ingot_tin
-- chemlib:tin_ingot
 
 #chipped:brown_carpet
 - minecraft:brown_carpet
@@ -20727,14 +19687,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - silentgear:hammer_blueprint
 - silentgear:hammer_template
 
-#forge:dusts/europium
-- chemlib:europium_dust
-
 #bookshelf:chestplates
 - #forge:chestplates
-
-#forge:storage_blocks/yttrium
-- chemlib:yttrium_metal_block
 
 #quark:ladders
 - minecraft:ladder
@@ -20750,7 +19704,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - quark:blossom_ladder
 
 #forge:enchanting_fuels
-- #forge:gems/lapis
+'lapis
 
 #minecraft:non_flammable_wood
 - minecraft:warped_stem
@@ -20795,12 +19749,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - mekanism:deepslate_fluorite_ore
 
 #forge:dusts/iron
-- occultism:iron_dust
+- crossroads:dust_iron
+'iron_dust
 - thermal:iron_dust
 - mekanism:dust_iron
 - bloodmagic:ironsand
 - immersiveengineering:dust_iron
-- chemlib:iron_dust
 
 #mekanism:colorable/concrete
 - minecraft:white_concrete
@@ -20820,9 +19774,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:red_concrete
 - minecraft:black_concrete
 
-#forge:nuggets/palladium
-- chemlib:palladium_nugget
-
 #industrialforegoing:machine_frame/simple
 - industrialforegoing:machine_frame_simple
 
@@ -20832,9 +19783,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:wires/electrum
 - immersiveengineering:wire_electrum
 
-#forge:storage_blocks/molybdenum
-- chemlib:molybdenum_metal_block
-
 #forge:storage_blocks/flint
 - cyclic:flint_block?
 
@@ -20842,7 +19790,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - undergarden:froststeel_nugget
 
 #forge:storage_blocks/carnelian
-- silentgems:carnelian_block
+'carnelian_block
 
 #forge:storage_blocks/raw_lead
 - thermal:raw_lead_block
@@ -20930,11 +19878,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:white_terracotta_66
 
 #forge:stripped_logs
-- #create:vanilla_stripped_logs
-- #create:modded_stripped_logs
-
-#forge:dusts/cadmium
-- chemlib:cadmium_dust
+'vanilla_stripped_logs
+'modded_stripped_logs
 
 #tombstone:magic_books
 - tombstone:book_of_disenchantment
@@ -20951,7 +19896,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - silentgear:sword_template
 
 #silentgems:glowroses/ammolite
-- silentgems:ammolite_glowrose
+'ammolite_glowrose
 
 #chipped:purple_carpet
 - minecraft:purple_carpet
@@ -20996,8 +19941,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - bloodmagic:soulgemlesser
 - bloodmagic:soulgemcommon
 - bloodmagic:soulgemgreater
-- ars_nouveau:amulet_of_mana_boost
-- ars_nouveau:amulet_of_mana_regen
+'amulet_of_mana_boost
+'amulet_of_mana_regen
 - reliquary:fortune_coin
 
 #chipped:dried_kelp_block
@@ -21015,9 +19960,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:dried_kelp_block_11
 - chipped:dried_kelp_block_12
 
-#forge:plates/calcium
-- chemlib:calcium_plate
-
 #forge:charcoal
 - minecraft:charcoal
 
@@ -21027,9 +19969,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:storage_blocks/raw_uranium
 - mekanism:block_raw_uranium
 - immersiveengineering:raw_block_uranium
-
-#forge:nuggets/zirconium
-- chemlib:zirconium_nugget
 
 #chipped:smooth_stone
 - minecraft:smooth_stone
@@ -21104,12 +20043,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:smooth_stone_69
 
 #nocubes_farmer_compats:fillet_fish_three
-- aquaculture:tambaqui
-- aquaculture:red_grouper
-- aquaculture:muskellunge
-
-#forge:storage_blocks/rhenium
-- chemlib:rhenium_metal_block
+'tambaqui
+'red_grouper
+'muskellunge
 
 #forge:storage_blocks/constantan
 - thermal:constantan_block
@@ -21133,48 +20069,33 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - pneumaticcraft:plastic_brick_red
 - pneumaticcraft:plastic_brick_black
 
-#forge:dusts/manganese_carbonate
-- chemlib:manganese_carbonate_dust
-
-#forge:nuggets/rubidium
-- chemlib:rubidium_nugget
-
-#forge:crops/fruits
-- pineapple_delight:pineapple
-- pineapple_delight:pineapple_side
-
 #forge:feathers
 - minecraft:feather
+
+#crossroads:dusts/elem_enchantment
+- crossroads:solid_elem_enchantment
 
 #bloodmagic:arc/hydrate
 - bloodmagic:primitive_hydration_cell
 
 #forge:dusts/fluix
-- ae2:fluix_dust
+'fluix_dust
 
 #forge:dusts/silver
-- occultism:silver_dust
+'silver_dust
 - thermal:silver_dust
 - immersiveengineering:dust_silver
 - bluepower:silver_dust
-- chemlib:silver_dust
-
-#forge:ingots/ytterbium
-- chemlib:ytterbium_ingot
 
 #forge:plates/lead
 - thermal:lead_plate
 - immersiveengineering:plate_lead
-- chemlib:lead_plate
 
 #supplementaries:key
 - supplementaries:key?
 
 #forge:storage_blocks/elementium
 - #botania:elementium_blocks
-
-#forge:nuggets/iridium
-- chemlib:iridium_nugget
 
 #forge:string
 - minecraft:string
@@ -21195,9 +20116,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:ores/hellforged
 - bloodmagic:dungeon_ore
 
-#forge:dusts/beryllium_chloride
-- chemlib:beryllium_chloride_dust
-
 #balm:stones
 - #forge:stone?
 - minecraft:andesite
@@ -21216,12 +20134,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #bookshelf:fishing_rods
 - #forge:fishing_rods
 
-#forge:dusts/potassium_chloride
-- chemlib:potassium_chloride_dust
-
 #forge:gems/certus_quartz
-- ae2:certus_quartz_crystal
-- ae2:charged_certus_quartz_crystal
+'certus_quartz_crystal
+'charged_certus_quartz_crystal
 
 #xnet:advanced_connectors
 - xnet:advanced_connector_blue
@@ -21231,16 +20146,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - xnet:advanced_connector_routing
 
 #forge:jolly_boxes/large_present_one_to_eight
-- aquaculture:treasure_chest
+'treasure_chest
 
 #forge:silicon
-- ae2:silicon
-
-#forge:dusts/cesium_chloride
-- chemlib:cesium_chloride_dust
-
-#forge:ingots/holmium
-- chemlib:holmium_ingot
+'silicon
 
 #rftoolsutility:living/averageyield
 - minecraft:melon
@@ -21261,16 +20170,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - undergarden:veil_mushroom
 - undergarden:blood_mushroom
 
-#forge:ingots/titanium
-- chemlib:titanium_ingot
-
 #forge:crops/peanut
 - thermal:peanut
 
 #ae2:p2p_attunements/item_p2p_tunnel
-- ae2:storage_bus
-- ae2:export_bus
-- ae2:import_bus
+'storage_bus
+'export_bus
+'import_bus
 - minecraft:hopper
 - minecraft:chest
 - minecraft:trapped_chest
@@ -21280,11 +20186,16 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - create:blaze_cake
 
 #ars_nouveau:magic_food
-- ars_nouveau:source_berry_pie
-- ars_nouveau:source_berry_roll
+'source_berry_pie
+'source_berry_roll
 
 #forge:glass_panes/gray
 - minecraft:gray_stained_glass_pane
+
+#crossroads:ice
+- #crossroads:pure_ice
+- #crossroads:raw_ice
+- minecraft:blue_ice
 
 #minecraft:acacia_logs
 - minecraft:acacia_log
@@ -21325,9 +20236,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - silentgear:golden_nether_banana
 - silentgear:blaze_gold_dust
 - silentgear:blaze_gold_ingot
-- aquaculture:gold_fishing_rod
-- aquaculture:gold_fillet_knife
-- aquaculture:gold_hook
+'gold_fishing_rod
+'gold_fillet_knife
+'gold_hook
 - rainbowcompound:rainbow_helmet
 - rainbowcompound:rainbow_chestplate
 - rainbowcompound:rainbow_leggings
@@ -21391,7 +20302,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #forge:dusts/aluminum
 - immersiveengineering:dust_aluminum
-- chemlib:aluminum_dust
 
 #forge:sand/red
 - minecraft:red_sand
@@ -21468,9 +20378,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:packed_ice_68
 - chipped:packed_ice_69
 
-#forge:nuggets/lanthanum
-- chemlib:lanthanum_nugget
-
 #forge:glass/brown
 - minecraft:brown_stained_glass
 
@@ -21500,22 +20407,22 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - #undergarden:smogstem_logs
 - #undergarden:wigglewood_logs
 - #undergarden:grongle_logs
-- ars_nouveau:red_archwood_log
-- ars_nouveau:blue_archwood_log
-- ars_nouveau:purple_archwood_log
-- ars_nouveau:green_archwood_log
-- ars_nouveau:red_archwood_wood
-- ars_nouveau:blue_archwood_wood
-- ars_nouveau:green_archwood_wood
-- ars_nouveau:purple_archwood_wood
-- ars_nouveau:stripped_blue_archwood_log
-- ars_nouveau:stripped_blue_archwood_wood
-- ars_nouveau:stripped_green_archwood_log
-- ars_nouveau:stripped_green_archwood_wood
-- ars_nouveau:stripped_red_archwood_log
-- ars_nouveau:stripped_red_archwood_wood
-- ars_nouveau:stripped_purple_archwood_log
-- ars_nouveau:stripped_purple_archwood_wood
+'red_archwood_log
+'blue_archwood_log
+'purple_archwood_log
+'green_archwood_log
+'red_archwood_wood
+'blue_archwood_wood
+'green_archwood_wood
+'purple_archwood_wood
+'stripped_blue_archwood_log
+'stripped_blue_archwood_wood
+'stripped_green_archwood_log
+'stripped_green_archwood_wood
+'stripped_red_archwood_log
+'stripped_red_archwood_wood
+'stripped_purple_archwood_log
+'stripped_purple_archwood_wood
 - quark:azalea_log
 - quark:stripped_azalea_log
 - quark:azalea_wood
@@ -21524,12 +20431,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - quark:stripped_blossom_log
 - quark:blossom_wood
 - quark:stripped_blossom_wood
-
-#forge:storage_blocks/protactinium
-- chemlib:protactinium_metal_block
-
-#forge:nuggets/gadolinium
-- chemlib:gadolinium_nugget
 
 #supplementaries:blackboard_black
 - minecraft:charcoal?
@@ -21587,7 +20488,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - undergarden:smogstem_slab
 - undergarden:wigglewood_slab
 - undergarden:grongle_slab
-- ars_nouveau:archwood_slab
+'archwood_slab
 - quark:azalea_planks_slab
 - quark:blossom_planks_slab
 
@@ -21711,9 +20612,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - bloodmagic:primitive_crystalline_resonator
 - bloodmagic:hellforged_resonator
 
-#forge:ingots/magnesium
-- chemlib:magnesium_ingot
-
 #forge:gems/quartz
 - minecraft:quartz
 
@@ -21727,10 +20625,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - farmersdelight:cabbage_seeds
 
 #silentgems:ores/peridot
-- silentgems:peridot_ore
-- silentgems:deepslate_peridot_ore
-- silentgems:peridot_nether_ore
-- silentgems:peridot_end_ore
+'peridot_ore
+'deepslate_peridot_ore
+'peridot_nether_ore
+'peridot_end_ore
 
 #forge:crops/beetroot
 - minecraft:beetroot
@@ -21887,9 +20785,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:crops/radish
 - thermal:radish
 
-#forge:storage_blocks/magnesium
-- chemlib:magnesium_metal_block
-
 #forge:seeds/spinach
 - thermal:spinach_seeds
 
@@ -21932,10 +20827,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:cobweb_10
 
 #silentgems:ores/sapphire
-- silentgems:sapphire_ore
-- silentgems:deepslate_sapphire_ore
-- silentgems:sapphire_nether_ore
-- silentgems:sapphire_end_ore
+'sapphire_ore
+'deepslate_sapphire_ore
+'sapphire_nether_ore
+'sapphire_end_ore
 
 #chipped:nether_bricks
 - minecraft:nether_bricks
@@ -22009,16 +20904,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:nether_bricks_68
 - chipped:nether_bricks_69
 
-#forge:dusts/beryllium_hydroxide
-- chemlib:beryllium_hydroxide_dust
-
 #balm:nuggets
 - #forge:nuggets?
 
 #forge:plates/nickel
 - thermal:nickel_plate
 - immersiveengineering:plate_nickel
-- chemlib:nickel_plate
 
 #bookshelf:strings
 - #forge:string
@@ -22026,21 +20917,18 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:seeds/peanut
 - thermal:peanut_seeds
 
-#forge:plates/sodium
-- chemlib:sodium_plate
-
 #forge:ores/silver
-- occultism:silver_ore
-- occultism:silver_ore_deepslate
+'silver_ore
+'silver_ore_deepslate
 - thermal:silver_ore
 - thermal:deepslate_silver_ore
 - immersiveengineering:ore_silver
 - immersiveengineering:deepslate_ore_silver
 - bluepower:silver_ore
 - bluepower:silver_deepslate
-- silentgems:silver_ore
-- silentgems:deepslate_silver_ore
-- silentgems:raw_silver
+'silver_ore
+'deepslate_silver_ore
+'raw_silver
 
 #forge:dusts/crimson_iron
 - silentgear:crimson_iron_dust
@@ -22052,21 +20940,15 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - mekanism:clump_lead
 
 #forge:ores/uraninite
-- powah:uraninite_ore
-- powah:uraninite_ore_poor
-- powah:uraninite_ore_dense
-- powah:deepslate_uraninite_ore
-- powah:deepslate_uraninite_ore_poor
-- powah:deepslate_uraninite_ore_dense
+'uraninite_ore
+'uraninite_ore_poor
+'uraninite_ore_dense
+'deepslate_uraninite_ore
+'deepslate_uraninite_ore_poor
+'deepslate_uraninite_ore_dense
 
 #forge:glass_panes/purple
 - minecraft:purple_stained_glass_pane
-
-#forge:plates/cadmium
-- chemlib:cadmium_plate
-
-#forge:dusts/arsenic
-- chemlib:arsenic_dust
 
 #hearthwell:crystals
 - hearthwell:crystal_orange
@@ -22215,29 +21097,25 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - thermal:invar_gear
 
 #nocubes_farmer_compats:fillet_fish_one
-- aquaculture:atlantic_herring
-- aquaculture:piranha
-- aquaculture:perch
-- aquaculture:boulti
-- aquaculture:synodontis
-- aquaculture:bluegill
-- aquaculture:minnow
+'atlantic_herring
+'piranha
+'perch
+'boulti
+'synodontis
+'bluegill
+'minnow
 
 #ae2:all_nether_quartz
-- #forge:gems/quartz
-
-#forge:nuggets/chromium
-- chemlib:chromium_nugget
+'quartz
 
 #forge:storage_blocks/alexandrite
-- silentgems:alexandrite_block
+'alexandrite_block
 
 #forge:raw_ores/copper
 - minecraft:raw_copper
 
 #forge:plates/uranium
 - immersiveengineering:plate_uranium
-- chemlib:uranium_plate
 
 #chipped:stripped_birch_log
 - minecraft:stripped_birch_log
@@ -22296,14 +21174,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:plates/rose_gold
 - thermal:rose_gold_plate
 
-#forge:dusts/dysprosium
-- chemlib:dysprosium_dust
-
 #forge:raw_materials/zinc
 - create:raw_zinc
-
-#forge:dusts/beryllium
-- chemlib:beryllium_dust
 
 #silentgear:blueprints/fletching
 - silentgear:fletching_blueprint
@@ -22331,7 +21203,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:sawdust
 - thermal:sawdust
 - #forge:dusts/wood
-- chemlib:cellulose_dust
 
 #chipped:light_gray_concrete
 - minecraft:light_gray_concrete
@@ -22365,9 +21236,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:rabbit
 
 #silentgear:grader_catalysts/tier5
-
-#forge:dusts/sodium_carbonate
-- chemlib:sodium_carbonate_dust
 
 #silentgear:grader_catalysts/tier3
 - silentgear:glittery_dust
@@ -22478,29 +21346,17 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:glass_100
 - chipped:glass_101
 
-#forge:dusts/tin_sulfate
-- chemlib:tin_sulfate_dust
-
 #forge:armor/iron
 - minecraft:iron_boots
 - minecraft:iron_chestplate
 - minecraft:iron_helmet
 - minecraft:iron_leggings
 
-#forge:nuggets/titanium
-- chemlib:titanium_nugget
-
 #mekanism:dirty_dusts/iron
 - mekanism:dirty_dust_iron
 
 #forge:storage_blocks/raw_copper
 - minecraft:raw_copper_block
-
-#forge:ingots/actinium
-- chemlib:actinium_ingot
-
-#forge:dusts/potassium_sulfate
-- chemlib:potassium_sulfate_dust
 
 #forge:storage_blocks/azure_silver
 - silentgear:azure_silver_block
@@ -22725,9 +21581,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - thermal:electrum_dust
 - immersiveengineering:dust_electrum
 
-#forge:dusts/chromium_oxide
-- chemlib:chromium_oxide_dust
-
 #create:stone_types/ochrum
 - create:cut_ochrum
 - create:cut_ochrum_stairs
@@ -22745,12 +21598,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - create:ochrum_pillar
 
 #occultism:saplings/otherworld
-- occultism:otherworld_sapling_natural
-- occultism:otherworld_sapling
+'otherworld_sapling_natural
+'otherworld_sapling
 
 #ae2:quartz_pickaxe
-- ae2:certus_quartz_pickaxe
-- ae2:nether_quartz_pickaxe
+'certus_quartz_pickaxe
+'nether_quartz_pickaxe
 
 #chipped:warped_door
 - minecraft:warped_door
@@ -22778,18 +21631,20 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:wires/steel
 - immersiveengineering:wire_steel
 
-#forge:ingots/gadolinium
-- chemlib:gadolinium_ingot
+#crossroads:mushrooms
+- minecraft:red_mushroom
+- minecraft:brown_mushroom
+- crossroads:medicinal_mushroom
 
 #silentgems:glowroses/white_diamond
-- silentgems:white_diamond_glowrose
+'white_diamond_glowrose
 
 #forge:dusts/sulfur
+- crossroads:sulfur
 - thermal:sulfur_dust
 - mekanism:dust_sulfur
 - bloodmagic:sulfur
 - immersiveengineering:dust_sulfur
-- chemlib:sulfur_dust
 
 #forge:seeds/radish
 - thermal:radish_seeds
@@ -22869,9 +21724,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - chipped:quartz_block_68
 - chipped:quartz_block_69
 
-#forge:dusts/lead_carbonate
-- chemlib:lead_carbonate_dust
-
 #inspirations:book
 - cookingforblockheads:recipe_book
 - cookingforblockheads:crafting_book
@@ -22912,7 +21764,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:fences
 - #forge:fences/nether_brick
 - #forge:fences/wooden
-- ars_nouveau:archwood_fence
+'archwood_fence
 - quark:azalea_fence
 - quark:blossom_fence
 
@@ -22921,7 +21773,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 - minecraft:potion
 
 #occultism:books/book_of_calling_djinni
-- occultism:book_of_calling_djinni_manage_machine
+'book_of_calling_djinni_manage_machine
 
 #forge:tools/iron
 - minecraft:iron_axe
@@ -23009,14 +21861,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #forge:ores/froststeel
 - undergarden:shiverstone_froststeel_ore
 
-#forge:dusts/cobalt_sulfate
-- chemlib:cobalt_sulfate_dust
-
 #forge:storage_blocks/slag
 - thermal:slag_block
-
-#forge:dusts/aluminum_oxide
-- chemlib:aluminum_oxide_dust
 
 #forge:terracotta
 - minecraft:white_terracotta

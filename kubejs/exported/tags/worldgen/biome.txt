@@ -1,4 +1,4 @@
-To refresh this file, delete it and run /reload command again! Last updated: Apr 21, 2023, 8:35:22 PM
+To refresh this file, delete it and run /reload command again! Last updated: Mar 26, 2023, 1:58:42 PM
 
 #forge:is_savanna
 - minecraft:savanna
@@ -491,10 +491,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 #minecraft:has_structure/ruined_portal_nether
 - #minecraft:is_nether
 
-#mob_grinding_utils:passive_override
-- #forge:is_underground
-- #minecraft:is_river
-
 #forge:is_underground
 - minecraft:lush_caves
 - minecraft:dripstone_caves
@@ -575,8 +571,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Apr
 
 #minecraft:has_structure/village_snowy
 - minecraft:snowy_plains
-
-#mob_grinding_utils:hostile_override
 
 #minecraft:has_structure/ocean_monument
 - #minecraft:is_deep_ocean
