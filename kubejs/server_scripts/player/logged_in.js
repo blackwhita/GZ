@@ -1,0 +1,11 @@
+//It doesn't seem to have been successful
+onEvent('player.logged_in', event => {
+    const starting_items = [
+        Item.of('akashictome:tome', '{"akashictome:data":{apotheosis:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"apotheosis:apoth_chronicle"}},ars_nouveau:{Count:1b,id:"ars_nouveau:worn_notebook"},bloodmagic:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"bloodmagic:guide"}},cyclic:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"cyclic:cyclic_guide_book"}},essentials:{Count:1b,id:"essentials:guide_book",tag:{"patchouli:book":"essentials:manual"}},extendedcrafting:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"extendedcrafting:guide"}},immersiveengineering:{Count:1b,id:"immersiveengineering:manual"},industrialforegoing:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"industrialforegoing:industrial_foregoing"}},integratedtunnels:{Count:1b,id:"integrateddynamics:on_the_dynamics_of_integration"},modularrouters:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"modularrouters:book"}},naturesaura:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"naturesaura:book"}},occultism:{Count:1b,id:"occultism:dictionary_of_spirits",tag:{"modonomicon:book_id":"occultism:dictionary_of_spirits"}},pneumaticcraft:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"pneumaticcraft:book"}},powah:{Count:1b,id:"powah:book"},rftoolsbase:{Count:1b,id:"rftoolsbase:manual"},sebastrnlib:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"sebastrnlib:sebastrn_mods_guide_book"}},silentgear:{Count:1b,id:"silentgear:guide_book"},solcarrot:{Count:1b,id:"solcarrot:food_book"},sushigocrafting:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"sushigocrafting:sushigocrafting"}},theoneprobe:{Count:1b,id:"theoneprobe:probenote"},thermal:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"thermal:guidebook"}},touhou_little_maid:{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"touhou_little_maid:memorizable_gensokyo"}}}}'),
+    ]
+    if (!event.player.stages.has('starting_items')) {
+        //event.player.inventory.clear()
+        event.player.give(starting_items)
+        event.player.stages.add('starting_items')
+    }
+})
