@@ -1,14 +1,14 @@
 onEvent('recipes', (event) => {
+    const id_prefix = 'ico:recipetypes/minecraft/shapeless/';
     const recipes = [
-        {
-            output: '2x minecraft:stone_pressure_plate',
-            inputs: ['2x minecraft:cobblestone'],
-            id: 'minecraft:stone_pressure_plate'
-        }
+        /*{
+            output: 'item',
+            inputs: ['item'],
+            id: `${id_prefix}id`
+        }*/
     ];
 
     recipes.forEach((recipe) => {
         event.shapeless(recipe.output, recipe.inputs).id(recipe.id);
     });
-    event.shapeless( 'minecraft:grass_block',['minecraft:dirt','hearthwell:crystal_green']).keepIngredient('hearthwell:crystal_green')
 });

@@ -1,9 +1,10 @@
 onEvent('recipes', (event) => {
+    const id_prefix = 'ico:recipetypes/occultism/shapeless/';
     const recipes = [
         /*{
             output: 'item',
             inputs: ['item'],
-            id: 'id'
+            id: `${id_prefix}id`
         }*/
     ];
 

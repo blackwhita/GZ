@@ -1,48 +1,14 @@
 onEvent('recipes', (event) => {
+    const id_prefix = 'ico:recipetypes/botania/shaped/';
     const recipes = [
-        {
-            output: 'botania:diluted_pool',
-            pattern: [
-                '   ',
-                'c c',
-                'vcv'
-            ],
+        /*{
+            output: 'kubejs:basic_circuit_package',
+            pattern: ['AA ', 'BB ', 'CCD'],
             key: {
-                c: 'botania:livingrock',
-                v: 'hearthwell:myst_ingot'
+                A: 'item'
             },
-            id: 'botania:diluted_pool'
-        },
-        {
-            output: 'botania:apothecary_default',
-            pattern: [
-                'aba',
-                ' c ',
-                'ded'
-            ],
-            key: {
-                a: 'minecraft:cobblestone_slab',
-                b: '#botania:petals',
-                c: 'hearthwell:crystal',
-                d: '#forge:cobblestone',
-                e: 'hearthwell:myst_ingot'
-            },
-            id: 'botania:apothecary_default'
-        },
-        {
-            output: 'botania:twig_wand',
-            pattern: [
-                ' ab',
-                ' ca',
-                'b  '
-            ],
-            key: {
-                a: '#botania:petals',
-                b: 'botania:livingwood_twig',
-                c: 'hearthwell:crystal_green'
-            },
-            id: 'botania:twig_wand'
-        }
+            id: `${id_prefix}id`
+        }*/
     ];
 
     recipes.forEach((recipe) => {

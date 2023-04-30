@@ -1,36 +1,17 @@
-/*onEvent('recipes', (event) => {
+onEvent('recipes', (event) => {
+    const id_prefix = 'ico:recipetypes/immersiveengineering/shaped/';
     const recipes = [
-        {
-            output: 'immersiveengineering:cokebrick',
-            pattern: [
-                'cvc',
-                'vbv',
-                'cvc'
-            ],
+        /*{
+            output: 'kubejs:basic_circuit_package',
+            pattern: ['AA ', 'BB ', 'CCD'],
             key: {
-                c: 'rankine:fire_clay',
-                v: 'rankine:refractory_brick',
-                b: '#forge:stones/sandstone'
+                A: 'item'
             },
-            id: 'immersiveengineering:crafting/cokebrick'
-        },
-        {
-            output: 'immersiveengineering:hammer',
-            pattern: [
-                ' sd',
-                ' as',
-                'a  '
-            ],
-            key: {
-                s: 'botania:manasteel_ingot',
-                d: 'botania:mana_string',
-                a: 'botania:livingwood_twig'
-            },
-            id: 'immersiveengineering:crafting/hammer'
-        }
+            id: `${id_prefix}id`
+        }*/
     ];
 
     recipes.forEach((recipe) => {
         event.shaped(recipe.output, recipe.pattern, recipe.key).id(recipe.id);
     });
-});*/
+});

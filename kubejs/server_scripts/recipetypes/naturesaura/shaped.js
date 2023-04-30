@@ -1,19 +1,14 @@
 onEvent('recipes', (event) => {
+    const id_prefix = 'ico:recipetypes/naturesaura/shaped/';
     const recipes = [
-        {
-            output: 'naturesaura:gold_fiber',
-            pattern: [
-                'aba',
-                'bcb',
-                'aba'
-            ],
+        /*{
+            output: 'kubejs:basic_circuit_package',
+            pattern: ['AA ', 'BB ', 'CCD'],
             key: {
-                a: 'minecraft:oak_leaves',
-                b: 'minecraft:yellow_dye',
-                c: 'hearthwell:myst_dust'
+                A: 'item'
             },
-            id: 'naturesaura:gold_fiber'
-        }
+            id: `${id_prefix}id`
+        }*/
     ];
 
     recipes.forEach((recipe) => {

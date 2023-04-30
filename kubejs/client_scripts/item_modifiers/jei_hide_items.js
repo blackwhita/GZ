@@ -1,20 +1,15 @@
-const itemsToHide = []
 onEvent('jei.hide.items', (event) => {
-    materials.forEach((material) => {
+    materialsToUnify.forEach((material) => {
         types.forEach((type) => {
-            itemsToHide.push(
-                'immersiveengineering:' + material + '_' + type,
-                'mekanism:' + material + '_' + type,
-                'thermal:' + material + '_' + type,
-                'create:' + material + '_' + type,
-                'silentgems:' + material + '_' + type,
-            );
+            modsToHide.forEach((mod) => {
+                var push_items = mod + ':' + material + '_' + type
+                if (Item.exists(item))
+                    itemsToHide.push(push_items);
+            });
         });
     });
     itemsToHide.forEach((disabledItem) => {
-        if (!Item.of(disabledItem).isEmpty()) {
-            event.hide(disabledItem);
-        }
+        event.hide(disabledItem);
     });
     //ae2
     event.hide(Item.of('ae2:facade').ignoreNBT());
@@ -23,3 +18,11 @@ onEvent('jei.hide.items', (event) => {
     colors.forEach((color) => {
     });
 });
+const itemsToHide = []
+const modsToHide = [
+    'immersiveengineering',
+    'mekanism',
+    'thermal',
+    'create',
+    'silentgems'
+]

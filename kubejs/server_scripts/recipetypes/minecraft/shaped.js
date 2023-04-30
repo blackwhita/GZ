@@ -1,56 +1,14 @@
 onEvent('recipes', (event) => {
+    const id_prefix = 'ico:recipetypes/minecraft/shaped/';
     const recipes = [
-        {
-            output: 'minecraft:furnace',
-            pattern: [
-                'ccc',
-                'c c',
-                'ccc'
-            ],
+        /*{
+            output: 'kubejs:basic_circuit_package',
+            pattern: ['AA ', 'BB ', 'CCD'],
             key: {
-                c: '#forge:stone'
+                A: 'item'
             },
-            id: 'minecraft:furnace'
-        },
-        {
-            output: 'minecraft:coarse_dirt',
-            pattern: [
-                ' c ',
-                'cvc',
-                ' c '
-            ],
-            key: {
-                c: 'minecraft:cactus',
-                v: '#forge:sandstone'
-            },
-            id: 'minecraft:coarse_dirt'
-        },
-        {
-            output: 'minecraft:composter',
-            pattern: [
-                'a a',
-                'a a',
-                'cbc'
-            ],
-            key: {
-                a: 'minecraft:oak_slab',
-                b: 'minecraft:stripped_oak_log',
-                c: 'minecraft:oak_planks'
-            },
-            id: 'minecraft:composter'
-        },
-        {
-            output: 'minecraft:stone',
-            pattern: [
-                ' a ',
-                ' a ',
-                ' a '
-            ],
-            key: {
-                a: 'minecraft:stone_pressure_plate'
-            },
-            id: 'minecraft:stone'
-        }
+            id: `${id_prefix}id`
+        }*/
     ];
 
     recipes.forEach((recipe) => {

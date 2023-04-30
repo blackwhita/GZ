@@ -1,18 +1,14 @@
 onEvent('recipes', (event) => {
+    const id_prefix = 'ico:recipetypes/create/shaped/';
     const recipes = [
-        {
-            output: Item.of('create:andesite_alloy', 2),
-            pattern: [
-                'bc ',
-                'cb ',
-                '   '
-            ],
+        /*{
+            output: 'kubejs:basic_circuit_package',
+            pattern: ['AA ', 'BB ', 'CCD'],
             key: {
-                c: 'botania:manasteel_nugget',
-                b: '#forge:stone'
+                A: 'item'
             },
-            id: 'create:andesite_alloy'
-        }
+            id: `${id_prefix}id`
+        }*/
     ];
 
     recipes.forEach((recipe) => {
