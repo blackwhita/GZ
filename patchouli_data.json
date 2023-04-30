@@ -1,20 +1,5 @@
 {
   "bookGuiScale": 0,
   "clickedVisualize": false,
-  "bookData": {
-    "apotheosis:apoth_chronicle": {
-      "viewedEntries": [
-        "apotheosis:village/wandering_trader"
-      ],
-      "bookmarks": [],
-      "completedManualQuests": []
-    },
-    "touhou_little_maid:memorizable_gensokyo": {
-      "viewedEntries": [
-        "touhou_little_maid:other/maid_beacon"
-      ],
-      "bookmarks": [],
-      "completedManualQuests": []
-    }
-  }
+  "bookData": {}
 }

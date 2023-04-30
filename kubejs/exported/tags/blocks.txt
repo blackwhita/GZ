@@ -1,4 +1,4 @@
-To refresh this file, delete it and run /reload command again! Last updated: Mar 26, 2023, 1:58:43 PM
+To refresh this file, delete it and run /reload command again! Last updated: Apr 30, 2023, 7:01:31 PM
 
 #chipped:black_stained_glass
 - minecraft:black_stained_glass
@@ -84,14 +84,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 
 #forge:glass/tinted
 - minecraft:tinted_glass
-
-#minecraft:mineable/no_tool
-- crossroads:petrol_cactus
-- crossroads:medicinal_mushroom
-- crossroads:wheezewort
-- crossroads:permeable_glass
-- crossroads:reactive_spot
-- crossroads:redstone_crystal
 
 #undergarden:tremblecrust_ore_replaceables
 - undergarden:tremblecrust
@@ -317,7 +309,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - chipped:yellow_stained_glass_pane_10
 
 #silentgems:glowroses/topaz
-'topaz_glowrose
+- silentgems:topaz_glowrose
 
 #forge:glass_panes/light_gray
 - minecraft:light_gray_stained_glass_pane
@@ -391,7 +383,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - #forge:chests/ender
 - #forge:chests/trapped
 - #forge:chests/wooden
-'neptunes_bounty
+- aquaculture:neptunes_bounty
 - #forge:chests/electric
 - #forge:chests/personal
 - quark:nether_brick_chest
@@ -461,7 +453,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - supplementaries:stick?
 
 #forge:storage_blocks/iesnium
-'iesnium_block
+- occultism:iesnium_block
 
 #chipped:redstone_wall_torch
 - minecraft:redstone_wall_torch
@@ -485,9 +477,17 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - minecraft:crafting_table
 - minecraft:bell
 - #tombstone:graves?
-- waystones:waystone?
-- waystones:mossy_waystone?
-- waystones:sandy_waystone?
+- #waystones:waystone?
+- #waystones:sharestone?
+- fwaystones:waystone?
+- fwaystones:desert_waystone?
+- fwaystones:stone_brick_waystone?
+- fwaystones:red_desert_waystone?
+- fwaystones:nether_brick_waystone?
+- fwaystones:red_nether_brick_waystone?
+- fwaystones:end_stone_brick_waystone?
+- fwaystones:deepslate_brick_waystone?
+- fwaystones:blackstone_brick_waystone?
 
 #chipped:oak_trapdoor
 - minecraft:oak_trapdoor
@@ -535,7 +535,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - minecraft:powder_snow
 
 #silentgems:glowroses/moldavite
-'moldavite_glowrose
+- silentgems:moldavite_glowrose
 
 #carryon:block_blacklist
 - #tombstone:player_graves
@@ -651,7 +651,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 
 #forge:fence_gates
 - #forge:fence_gates/wooden
-'archwood_fence_gate
+- ars_nouveau:archwood_fence_gate
 - quark:azalea_fence_gate
 - quark:blossom_fence_gate
 - quark:nether_brick_fence_gate
@@ -663,11 +663,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - #forge:ices/dry
 
 #forge:storage_blocks/copper
-- crossroads:block_copper
 - minecraft:copper_block
 
 #silentgems:glowroses/iolite
-'iolite_glowrose
+- silentgems:iolite_glowrose
 
 #chipped:raw_gold_block
 - minecraft:raw_gold_block
@@ -758,7 +757,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 #forge:chests/diamond
 
 #forge:storage_blocks/iolite
-'iolite_block
+- silentgems:iolite_block
 
 #chipped:green_glazed_terracotta
 - minecraft:green_glazed_terracotta
@@ -791,10 +790,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - create:veridium
 
 #silentgems:ores/alexandrite
-'alexandrite_ore
-'deepslate_alexandrite_ore
-'alexandrite_nether_ore
-'alexandrite_end_ore
+- silentgems:alexandrite_ore
+- silentgems:deepslate_alexandrite_ore
+- silentgems:alexandrite_nether_ore
+- silentgems:alexandrite_end_ore
 
 #forge:storage_blocks/lapis
 - minecraft:lapis_block
@@ -810,10 +809,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - pneumaticcraft:reinforced_stone
 
 #silentgems:ores/topaz
-'topaz_ore
-'deepslate_topaz_ore
-'topaz_nether_ore
-'topaz_end_ore
+- silentgems:topaz_ore
+- silentgems:deepslate_topaz_ore
+- silentgems:topaz_nether_ore
+- silentgems:topaz_end_ore
 
 #chipped:brown_concrete
 - minecraft:brown_concrete
@@ -846,12 +845,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - mekanism:deepslate_lead_ore
 - immersiveengineering:ore_lead
 - immersiveengineering:deepslate_ore_lead
-
-#crossroads:beam_passable
-- crossroads:light_cluster
-- crossroads:permeable_glass
-- crossroads:permeable_quartz
-- crossroads:permeable_obsidian
 
 #quark:corundum
 - quark:red_corundum
@@ -1221,7 +1214,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - immersivepetroleum:paraffin_wax_block
 
 #silentgems:glowroses/black_diamond
-'black_diamond_glowrose
+- silentgems:black_diamond_glowrose
 
 #silentgems:ores
 - #silentgems:ores/ruby
@@ -1290,7 +1283,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - botania:yellow_floating_flower
 
 #forge:storage_blocks/certus_quartz
-'quartz_block
+- ae2:quartz_block
 
 #naturesaura:nether_altar_stone
 - minecraft:nether_bricks
@@ -1394,20 +1387,28 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - #minecraft:leaves
 - createdeco:gold_bars
 - createdeco:gold_catwalk
+- createdeco:gold_catwalk_stair
 - createdeco:netherite_bars
 - createdeco:netherite_catwalk
+- createdeco:netherite_catwalk_stair
 - createdeco:andesite_bars
 - createdeco:andesite_catwalk
+- createdeco:andesite_catwalk_stair
 - createdeco:brass_bars
 - createdeco:brass_catwalk
+- createdeco:brass_catwalk_stair
 - createdeco:cast_iron_bars
 - createdeco:cast_iron_catwalk
+- createdeco:cast_iron_catwalk_stair
 - createdeco:polished_iron_bars
 - createdeco:iron_catwalk
+- createdeco:iron_catwalk_stair
 - createdeco:copper_bars
 - createdeco:copper_catwalk
+- createdeco:copper_catwalk_stair
 - createdeco:zinc_bars
 - createdeco:zinc_catwalk
+- createdeco:zinc_catwalk_stair
 
 #forge:ores/cloggrum
 - undergarden:depthrock_cloggrum_ore
@@ -1448,20 +1449,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - minecraft:black_concrete_powder
 - minecraft:soul_soil
 - minecraft:rooted_dirt
-- essentials:fertile_soil_wheat
-- essentials:fertile_soil_carrot
-- essentials:fertile_soil_potato
-- essentials:fertile_soil_beetroot
-- essentials:fertile_soil_netherwart
-- essentials:fertile_soil_oak
-- essentials:fertile_soil_birch
-- essentials:fertile_soil_spruce
-- essentials:fertile_soil_jungle
-- essentials:fertile_soil_dark_oak
-- essentials:fertile_soil_acacia
-- essentials:fertile_soil_berry
-- essentials:fertile_soil_brown_mushroom
-- essentials:fertile_soil_red_mushroom
 - botania:black_floating_flower
 - botania:blue_floating_flower
 - botania:brown_floating_flower
@@ -1576,7 +1563,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - farmingforblockheads:fertilized_farmland_healthy_stable
 - farmingforblockheads:fertilized_farmland_rich_stable
 - immersivepetroleum:paraffin_wax_block
-- crossroads:block_salt
 - create_things_and_misc:powdered_obsidian_block
 - thermal:gunpowder_block
 - thermal:sawdust_block
@@ -1586,7 +1572,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - thermal:oil_red_sand
 - thermal:phytosoil
 - thermal:phytosoil_tilled
-'farmland
+- aquaculture:farmland
 - #chipped:clay
 - #chipped:dirt
 - #chipped:soul_sand
@@ -1629,14 +1615,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 
 #forge:storage_blocks/sapphire
 - thermal:sapphire_block
-'sapphire_block
+- silentgems:sapphire_block
 
 #forge:sand/colorless
 - minecraft:sand
 - undergarden:sediment
 
 #forge:storage_blocks/kyanite
-'kyanite_block
+- silentgems:kyanite_block
 
 #minecraft:redstone_ores
 - minecraft:redstone_ore
@@ -1781,21 +1767,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - immersiveengineering:conveyor_vertical
 - immersiveengineering:conveyor_splitter
 - immersiveengineering:conveyor_extract
-
-#crossroads:alchemy_rock
-- #forge:cobblestone
-- #minecraft:base_stone_overworld
-- #minecraft:base_stone_nether
-- #forge:gravel
-- #forge:obsidian
-- #forge:ores
-- #forge:sandstone
-- minecraft:packed_ice
-- minecraft:prismarine
-- minecraft:prismarine_bricks
-- minecraft:dark_prismarine
-- #forge:end_stones
-- minecraft:magma_block
 
 #forge:sheetmetals/copper
 - immersiveengineering:sheetmetal_copper
@@ -1996,6 +1967,30 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - createdeco:mossy_blue_brick_tiles_wall
 - createdeco:mossy_blue_long_bricks_wall
 - createdeco:mossy_blue_short_bricks_wall
+- createdeco:dean_bricks_wall
+- createdeco:dean_brick_tiles_wall
+- createdeco:dean_long_bricks_wall
+- createdeco:dean_short_bricks_wall
+- createdeco:cracked_dean_bricks_wall
+- createdeco:cracked_dean_brick_tiles_wall
+- createdeco:cracked_dean_long_bricks_wall
+- createdeco:cracked_dean_short_bricks_wall
+- createdeco:mossy_dean_bricks_wall
+- createdeco:mossy_dean_brick_tiles_wall
+- createdeco:mossy_dean_long_bricks_wall
+- createdeco:mossy_dean_short_bricks_wall
+- createdeco:pearl_bricks_wall
+- createdeco:pearl_brick_tiles_wall
+- createdeco:pearl_long_bricks_wall
+- createdeco:pearl_short_bricks_wall
+- createdeco:cracked_pearl_bricks_wall
+- createdeco:cracked_pearl_brick_tiles_wall
+- createdeco:cracked_pearl_long_bricks_wall
+- createdeco:cracked_pearl_short_bricks_wall
+- createdeco:mossy_pearl_bricks_wall
+- createdeco:mossy_pearl_brick_tiles_wall
+- createdeco:mossy_pearl_long_bricks_wall
+- createdeco:mossy_pearl_short_bricks_wall
 - createdeco:dusk_bricks_wall
 - createdeco:dusk_brick_tiles_wall
 - createdeco:dusk_long_bricks_wall
@@ -2020,30 +2015,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - createdeco:mossy_scarlet_brick_tiles_wall
 - createdeco:mossy_scarlet_long_bricks_wall
 - createdeco:mossy_scarlet_short_bricks_wall
-- createdeco:pearl_bricks_wall
-- createdeco:pearl_brick_tiles_wall
-- createdeco:pearl_long_bricks_wall
-- createdeco:pearl_short_bricks_wall
-- createdeco:cracked_pearl_bricks_wall
-- createdeco:cracked_pearl_brick_tiles_wall
-- createdeco:cracked_pearl_long_bricks_wall
-- createdeco:cracked_pearl_short_bricks_wall
-- createdeco:mossy_pearl_bricks_wall
-- createdeco:mossy_pearl_brick_tiles_wall
-- createdeco:mossy_pearl_long_bricks_wall
-- createdeco:mossy_pearl_short_bricks_wall
-- createdeco:dean_bricks_wall
-- createdeco:dean_brick_tiles_wall
-- createdeco:dean_long_bricks_wall
-- createdeco:dean_short_bricks_wall
-- createdeco:cracked_dean_bricks_wall
-- createdeco:cracked_dean_brick_tiles_wall
-- createdeco:cracked_dean_long_bricks_wall
-- createdeco:cracked_dean_short_bricks_wall
-- createdeco:mossy_dean_bricks_wall
-- createdeco:mossy_dean_brick_tiles_wall
-- createdeco:mossy_dean_long_bricks_wall
-- createdeco:mossy_dean_short_bricks_wall
 - createdeco:gold_bars
 - createdeco:gold_bars_overlay
 - createdeco:netherite_bars
@@ -2067,14 +2038,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - supplementaries:ash_bricks_wall
 - supplementaries:lapis_bricks_wall
 - supplementaries:stone_tile_wall
-'sky_stone_wall
-'smooth_sky_stone_wall
-'sky_stone_brick_wall
-'sky_stone_small_brick_wall
-'fluix_wall
-'quartz_wall
-'chiseled_quartz_wall
-'quartz_pillar_wall
+- ae2:sky_stone_wall
+- ae2:smooth_sky_stone_wall
+- ae2:sky_stone_brick_wall
+- ae2:sky_stone_small_brick_wall
+- ae2:fluix_wall
+- ae2:quartz_wall
+- ae2:chiseled_quartz_wall
+- ae2:quartz_pillar_wall
 - quark:andesite_bricks_wall
 - quark:blackstone_bricks_wall
 - quark:blue_nether_bricks_wall
@@ -2106,7 +2077,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - quark:tuff_wall
 
 #forge:storage_blocks/black_diamond
-'black_diamond_block
+- silentgems:black_diamond_block
 
 #forge:storage_blocks/lead
 - thermal:lead_block
@@ -2174,10 +2145,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - #chipped:sand
 
 #silentgems:ores/rose_quartz
-'rose_quartz_ore
-'deepslate_rose_quartz_ore
-'rose_quartz_nether_ore
-'rose_quartz_end_ore
+- silentgems:rose_quartz_ore
+- silentgems:deepslate_rose_quartz_ore
+- silentgems:rose_quartz_nether_ore
+- silentgems:rose_quartz_end_ore
 
 #forge:storage_blocks/terrasteel
 - #botania:terrasteel_blocks
@@ -2208,10 +2179,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - #chipped:netherrack
 
 #silentgems:ores/citrine
-'citrine_ore
-'deepslate_citrine_ore
-'citrine_nether_ore
-'citrine_end_ore
+- silentgems:citrine_ore
+- silentgems:deepslate_citrine_ore
+- silentgems:citrine_nether_ore
+- silentgems:citrine_end_ore
 
 #waystones:waystone
 - waystones:waystone
@@ -2219,10 +2190,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - waystones:sandy_waystone
 
 #forge:storage_blocks/white_diamond
-'white_diamond_block
+- silentgems:white_diamond_block
 
 #forge:storage_blocks/heliodor
-'heliodor_block
+- silentgems:heliodor_block
 
 #immersiveengineering:scaffolding_slabs/aluminum
 - immersiveengineering:slab_alu_scaffolding_standard
@@ -2274,7 +2245,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - undergarden:smogstem_trapdoor
 - undergarden:wigglewood_trapdoor
 - undergarden:grongle_trapdoor
-'archwood_trapdoor
+- ars_nouveau:archwood_trapdoor
 - quark:azalea_trapdoor
 - quark:blossom_trapdoor
 
@@ -2365,10 +2336,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - botania:floating_vinculotus
 
 #silentgems:ores/carnelian
-'carnelian_ore
-'deepslate_carnelian_ore
-'carnelian_nether_ore
-'carnelian_end_ore
+- silentgems:carnelian_ore
+- silentgems:deepslate_carnelian_ore
+- silentgems:carnelian_nether_ore
+- silentgems:carnelian_end_ore
 
 #chipped:light_blue_carpet
 - minecraft:light_blue_carpet
@@ -2410,7 +2381,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - chipped:white_stained_glass_10
 
 #silentgems:glowroses/alexandrite
-'alexandrite_glowrose
+- silentgems:alexandrite_glowrose
 
 #chipped:crimson_door
 - minecraft:crimson_door
@@ -2491,7 +2462,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - pneumaticcraft:compressed_brick_wall
 
 #forge:storage_blocks/uraninite
-'uraninite_block
+- powah:uraninite_block
 
 #forge:ores/green_sapphire
 - bluepower:green_sapphire_ore
@@ -2513,12 +2484,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - undergarden:grongle_door
 - create:train_door
 - create:framed_glass_door
-'archwood_door
+- ars_nouveau:archwood_door
 - quark:azalea_door
 - quark:blossom_door
 
 #silentgems:glowroses/rose_quartz
-'rose_quartz_glowrose
+- silentgems:rose_quartz_glowrose
 
 #chipped:lime_carpet
 - minecraft:lime_carpet
@@ -2544,7 +2515,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - chipped:lime_carpet_20
 
 #silentgems:glowroses/turquoise
-'turquoise_glowrose
+- silentgems:turquoise_glowrose
 
 #libx:impl_pressure_plates
 
@@ -2762,10 +2733,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - immersivepetroleum:petcoke_block
 - immersivepetroleum:well_pipe
 - immersivepetroleum:auto_lubricator
-- crossroads:ore_tin
-- crossroads:block_tin
-- crossroads:block_bronze
-- crossroads:block_copshowium
 - extendedcrafting:luminessence_block
 - extendedcrafting:black_iron_block
 - extendedcrafting:redstone_ingot_block
@@ -2802,7 +2769,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - thermal:bronze_block
 - thermal:rose_gold_block
 - thermal:steel_block
-'tackle_box
+- aquaculture:tackle_box
 - mekanism:tin_ore
 - mekanism:deepslate_tin_ore
 - mekanism:osmium_ore
@@ -3108,9 +3075,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - quark:flowering_azalea_hedge
 
 #forge:storage_blocks/ruby
-- crossroads:block_ruby
 - thermal:ruby_block
-'ruby_block
+- silentgems:ruby_block
 
 #forge:storage_blocks/compressed_iron
 - pneumaticcraft:compressed_iron_block
@@ -3298,10 +3264,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - chipped:netherite_block_12
 
 #silentgems:ores/black_diamond
-'black_diamond_ore
-'deepslate_black_diamond_ore
-'black_diamond_nether_ore
-'black_diamond_end_ore
+- silentgems:black_diamond_ore
+- silentgems:deepslate_black_diamond_ore
+- silentgems:black_diamond_nether_ore
+- silentgems:black_diamond_end_ore
 
 #chipped:waxed_oxidized_copper
 - minecraft:waxed_oxidized_copper
@@ -3337,7 +3303,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - minecraft:raw_gold_block
 
 #forge:storage_blocks/silver
-'silver_block
+- occultism:silver_block
 - thermal:silver_block
 - immersiveengineering:storage_silver
 
@@ -3866,9 +3832,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - quark:limestone
 - quark:shale
 
-#crossroads:blackstone
-- minecraft:blackstone
-
 #forge:storage_blocks/glowstone
 - minecraft:glowstone
 
@@ -3881,7 +3844,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - #pneumaticcraft:compressed_stone_bricks
 
 #silentgems:glowroses/citrine
-'citrine_glowrose
+- silentgems:citrine_glowrose
 
 #forge:glass/orange
 - minecraft:orange_stained_glass
@@ -3889,7 +3852,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 #ae2:blacklisted/annihilation_plane
 
 #silentgems:glowroses/peridot
-'peridot_glowrose
+- silentgems:peridot_glowrose
 
 #minecraft:slabs
 - #minecraft:wooden_slabs
@@ -4117,7 +4080,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - supplementaries:stone_tile_slab
 - supplementaries:blackstone_tile_slab
 - supplementaries:ash_bricks_slab
-'archwood_slab
+- ars_nouveau:archwood_slab
 - quark:andesite_bricks_slab
 - quark:azalea_planks_slab
 - quark:blackstone_bricks_slab
@@ -4211,7 +4174,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - quark:blossom_trapped_chest
 
 #forge:storage_blocks/topaz
-'topaz_block
+- silentgems:topaz_block
 
 #create:casing
 - create_crystal_clear:andesite_glass_casing
@@ -4240,8 +4203,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 
 #ae2:whitelisted/facades
 - minecraft:glass
-'quartz_glass
-'quartz_vibrant_glass
+- ae2:quartz_glass
+- ae2:quartz_vibrant_glass
 - #forge:stained_glass
 
 #chipped:ancient_debris
@@ -4334,7 +4297,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - undergarden:smogstem_button
 - undergarden:wigglewood_button
 - undergarden:grongle_button
-'archwood_button
+- ars_nouveau:archwood_button
 - quark:azalea_button
 - quark:blossom_button
 - quark:gold_button
@@ -4425,10 +4388,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - undergarden:grongle_pressure_plate
 
 #silentgems:ores/heliodor
-'heliodor_ore
-'deepslate_heliodor_ore
-'heliodor_nether_ore
-'heliodor_end_ore
+- silentgems:heliodor_ore
+- silentgems:deepslate_heliodor_ore
+- silentgems:heliodor_nether_ore
+- silentgems:heliodor_end_ore
 
 #create:brittle
 - create:nozzle
@@ -4669,10 +4632,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - chipped:andesite_69
 
 #silentgems:ores/iolite
-'iolite_ore
-'deepslate_iolite_ore
-'iolite_nether_ore
-'iolite_end_ore
+- silentgems:iolite_ore
+- silentgems:deepslate_iolite_ore
+- silentgems:iolite_nether_ore
+- silentgems:iolite_end_ore
 
 #farmersdelight:unaffected_by_rich_soil
 - minecraft:grass_block
@@ -4807,10 +4770,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - chipped:spruce_door_20
 
 #occultism:storage_stabilizer
-'storage_stabilizer_tier1
-'storage_stabilizer_tier2
-'storage_stabilizer_tier3
-'storage_stabilizer_tier4
+- occultism:storage_stabilizer_tier1
+- occultism:storage_stabilizer_tier2
+- occultism:storage_stabilizer_tier3
+- occultism:storage_stabilizer_tier4
 
 #silentgear:netherwood_logs
 - silentgear:netherwood_log
@@ -5028,7 +4991,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - sushigocrafting:soy_crop
 - sushigocrafting:wasabi_crop
 - sushigocrafting:sesame_crop
-'datura
+- occultism:datura
 - silentgear:flax_plant
 - silentgear:fluffy_plant
 - thermal:amaranth
@@ -5058,7 +5021,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - corn_delight:corn_crop
 - undergarden:gloomgourd_stem
 - supplementaries:flax
-'magebloom_crop
+- ars_nouveau:magebloom_crop
 
 #forge:fiber/flax
 - supplementaries:flax
@@ -5295,6 +5258,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - create:andesite_ladder
 - create:brass_ladder
 - create:copper_ladder
+- createdeco:gold_ladder
+- createdeco:netherite_ladder
+- createdeco:cast_iron_ladder
+- createdeco:iron_ladder
+- createdeco:zinc_ladder
 - immersiveengineering:metal_ladder_none
 - immersiveengineering:metal_ladder_alu
 - immersiveengineering:metal_ladder_steel
@@ -5476,10 +5444,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 #appliedenergistics2:fluix_block
 
 #ars_nouveau:magic_saplings
-'red_archwood_sapling
-'blue_archwood_sapling
-'green_archwood_sapling
-'purple_archwood_sapling
+- ars_nouveau:red_archwood_sapling
+- ars_nouveau:blue_archwood_sapling
+- ars_nouveau:green_archwood_sapling
+- ars_nouveau:purple_archwood_sapling
 
 #chipped:crimson_stem
 - minecraft:crimson_stem
@@ -5534,9 +5502,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - minecraft:snow_block
 - minecraft:packed_ice
 - minecraft:gravel
-
-#crossroads:netherrack
-- minecraft:netherrack
 
 #forge:dead_plants
 - minecraft:dead_bush
@@ -5662,7 +5627,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - minecraft:blue_ice
 
 #forge:storage_blocks/bronze
-- crossroads:block_bronze
 - thermal:bronze_block
 - mekanism:block_bronze
 
@@ -5745,7 +5709,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - immersiveengineering:alu_fence
 - immersiveengineering:steel_fence
 - immersiveengineering:treated_fence
-'archwood_fence
+- ars_nouveau:archwood_fence
 - quark:azalea_fence
 - quark:blossom_fence
 
@@ -5766,10 +5730,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - undergarden:smogstem_sapling
 - undergarden:wigglewood_sapling
 - undergarden:grongle_sapling
-'red_archwood_sapling
-'blue_archwood_sapling
-'green_archwood_sapling
-'purple_archwood_sapling
+- ars_nouveau:red_archwood_sapling
+- ars_nouveau:blue_archwood_sapling
+- ars_nouveau:green_archwood_sapling
+- ars_nouveau:purple_archwood_sapling
 - quark:blue_blossom_sapling
 - quark:lavender_blossom_sapling
 - quark:orange_blossom_sapling
@@ -5778,19 +5742,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - quark:red_blossom_sapling
 
 #occultism:candles
-'candle_white
-
-#crossroads:alchemy_wood
-- #minecraft:logs
-- minecraft:bone_block
-- #minecraft:coral_blocks
-- minecraft:dead_tube_coral_block
-- minecraft:dead_brain_coral_block
-- minecraft:dead_bubble_coral_block
-- minecraft:dead_fire_coral_block
-- minecraft:dead_horn_coral_block
-- minecraft:chorus_plant
-- minecraft:mushroom_stem
+- occultism:candle_white
 
 #forge:ores/copper
 - minecraft:copper_ore
@@ -5873,7 +5825,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - undergarden:wigglewood_fence
 - undergarden:grongle_fence
 - immersiveengineering:treated_fence
-'archwood_fence
+- ars_nouveau:archwood_fence
 - quark:azalea_fence
 - quark:blossom_fence
 
@@ -5948,7 +5900,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - mekanism:personal_chest
 
 #forge:storage_blocks/citrine
-'citrine_block
+- silentgems:citrine_block
 
 #industrialforegoing:machine_frame/supreme
 - industrialforegoing:machine_frame_supreme
@@ -6098,9 +6050,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 #forge:storage_blocks/raw_silver
 - thermal:raw_silver_block
 - immersiveengineering:raw_block_silver
-
-#crossroads:storage_blocks/copshowium
-- crossroads:block_copshowium
 
 #supplementaries:pouring_tank
 - minecraft:sponge?
@@ -6442,11 +6391,16 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - #chipped:warped_trapdoor
 - create:train_trapdoor
 - create:framed_glass_trapdoor
+- createdeco:andesite_trapdoor
+- createdeco:brass_trapdoor
+- createdeco:cast_iron_trapdoor
+- createdeco:copper_trapdoor
+- createdeco:zinc_trapdoor
 - supplementaries:gold_trapdoor
 - supplementaries:netherite_trapdoor
 - supplementaries:silver_trapdoor
 - supplementaries:lead_trapdoor
-'archwood_trapdoor
+- ars_nouveau:archwood_trapdoor
 - quark:azalea_trapdoor
 - quark:blossom_trapdoor
 
@@ -6586,7 +6540,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - #botania:glimmering_livingwood_logs
 
 #forge:ores/ruby
-- crossroads:ore_ruby
 - thermal:ruby_ore
 - thermal:deepslate_ruby_ore
 - bluepower:ruby_ore
@@ -6628,15 +6581,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 #ae2:blacklisted/spatial
 - minecraft:bedrock
 
-#crossroads:alchemy_fluid
-- minecraft:water
-- minecraft:lava
-- minecraft:ice
-- crossroads:distilled_water
-- crossroads:dirty_water
-
 #silentgems:glowroses/carnelian
-'carnelian_glowrose
+- silentgems:carnelian_glowrose
 
 #forge:storage_blocks/zinc
 - create:zinc_block
@@ -6701,8 +6647,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - botania:red_petal_block
 - botania:white_petal_block
 - botania:yellow_petal_block
-'otherworld_leaves
-'otherworld_leaves_natural
+- occultism:otherworld_leaves
+- occultism:otherworld_leaves_natural
 - silentgear:netherwood_leaves
 - thermal:sugar_cane_block
 - thermal:barley_block
@@ -6729,10 +6675,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - undergarden:hanging_grongle_leaves
 - supplementaries:flax_block
 - supplementaries:fodder
-'blue_archwood_leaves
-'red_archwood_leaves
-'green_archwood_leaves
-'purple_archwood_leaves
+- ars_nouveau:blue_archwood_leaves
+- ars_nouveau:red_archwood_leaves
+- ars_nouveau:green_archwood_leaves
+- ars_nouveau:purple_archwood_leaves
 - quark:blue_blossom_leaves
 - quark:lavender_blossom_leaves
 - quark:orange_blossom_leaves
@@ -6851,6 +6797,25 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - create:red_toolbox
 - create:black_toolbox
 
+#waystones:sharestones
+- waystones:sharestone
+- waystones:white_sharestone
+- waystones:orange_sharestone
+- waystones:magenta_sharestone
+- waystones:light_blue_sharestone
+- waystones:yellow_sharestone
+- waystones:lime_sharestone
+- waystones:pink_sharestone
+- waystones:gray_sharestone
+- waystones:light_gray_sharestone
+- waystones:cyan_sharestone
+- waystones:purple_sharestone
+- waystones:blue_sharestone
+- waystones:brown_sharestone
+- waystones:green_sharestone
+- waystones:red_sharestone
+- waystones:black_sharestone
+
 #minecraft:replaceable_plants
 - minecraft:grass
 - minecraft:fern
@@ -6918,6 +6883,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 #forge:glass_panes/black
 - minecraft:black_stained_glass_pane
 
+#forge:ores/dimensional_shard
+- rftoolsbase:dimensionalshard_end
+- rftoolsbase:dimensionalshard_nether
+- rftoolsbase:dimensionalshard_overworld
+
 #farmersdelight:wild_crops
 - farmersdelight:wild_carrots
 - farmersdelight:wild_potatoes
@@ -6967,8 +6937,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - supplementaries:undergarden/hanging_sign_smogstem
 - supplementaries:undergarden/hanging_sign_wigglewood
 - supplementaries:undergarden/hanging_sign_grongle
-- supplementaries:quark/hanging_sign_blossom
 - supplementaries:quark/hanging_sign_azalea
+- supplementaries:quark/hanging_sign_blossom
 
 #chipped:black_glazed_terracotta
 - minecraft:black_glazed_terracotta
@@ -7126,8 +7096,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 
 #ars_nouveau:magic_plants
 - #ars_nouveau:magic_saplings
-'sourceberry_bush
-'magebloom_crop
+- ars_nouveau:sourceberry_bush
+- ars_nouveau:magebloom_crop
 
 #chipped:dark_oak_trapdoor
 - minecraft:dark_oak_trapdoor
@@ -7146,8 +7116,29 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 #undergarden:shiverstone_ore_replaceables
 - undergarden:shiverstone
 
-#crossroads:storage_blocks/bright_quartz
-- crossroads:block_bright_quartz
+#waystones:is_teleport_target
+- waystones:waystone
+- waystones:sandy_waystone
+- waystones:mossy_waystone
+- waystones:warp_plate
+- waystones:portstone
+- waystones:sharestone
+- waystones:white_sharestone
+- waystones:orange_sharestone
+- waystones:magenta_sharestone
+- waystones:light_blue_sharestone
+- waystones:yellow_sharestone
+- waystones:lime_sharestone
+- waystones:pink_sharestone
+- waystones:gray_sharestone
+- waystones:light_gray_sharestone
+- waystones:cyan_sharestone
+- waystones:purple_sharestone
+- waystones:blue_sharestone
+- waystones:brown_sharestone
+- waystones:green_sharestone
+- waystones:red_sharestone
+- waystones:black_sharestone
 
 #chipped:stripped_acacia_log
 - minecraft:stripped_acacia_log
@@ -7184,12 +7175,14 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - undergarden:shiverstone_iron_ore
 - undergarden:depthrock_gold_ore
 
-#crossroads:ores/void
-- crossroads:ore_void
-
 #naturesaura:nether_altar_wood
 - minecraft:crimson_planks
 - minecraft:warped_planks
+
+#waystones:waystones
+- waystones:waystone
+- waystones:sandy_waystone
+- waystones:mossy_waystone
 
 #forge:ore_bearing_ground/netherrack
 - minecraft:netherrack
@@ -7278,7 +7271,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - minecraft:creeper_head
 
 #forge:storage_blocks/ammolite
-'ammolite_block
+- silentgems:ammolite_block
 
 #chipped:purple_concrete
 - minecraft:purple_concrete
@@ -7414,22 +7407,22 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 
 #forge:needs_netherite_tool
 - #forge:ores/azure_silver
-'ruby_end_ore
-'carnelian_end_ore
-'topaz_end_ore
-'citrine_end_ore
-'heliodor_end_ore
-'moldavite_end_ore
-'peridot_end_ore
-'turquoise_end_ore
-'kyanite_end_ore
-'sapphire_end_ore
-'iolite_end_ore
-'alexandrite_end_ore
-'ammolite_end_ore
-'rose_quartz_end_ore
-'black_diamond_end_ore
-'white_diamond_end_ore
+- silentgems:ruby_end_ore
+- silentgems:carnelian_end_ore
+- silentgems:topaz_end_ore
+- silentgems:citrine_end_ore
+- silentgems:heliodor_end_ore
+- silentgems:moldavite_end_ore
+- silentgems:peridot_end_ore
+- silentgems:turquoise_end_ore
+- silentgems:kyanite_end_ore
+- silentgems:sapphire_end_ore
+- silentgems:iolite_end_ore
+- silentgems:alexandrite_end_ore
+- silentgems:ammolite_end_ore
+- silentgems:rose_quartz_end_ore
+- silentgems:black_diamond_end_ore
+- silentgems:white_diamond_end_ore
 
 #forge:ores/white_diamond
 - #silentgems:ores/white_diamond
@@ -7809,7 +7802,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - undergarden:smogstem_fence_gate
 - undergarden:wigglewood_fence_gate
 - undergarden:grongle_fence_gate
-'archwood_fence_gate
+- ars_nouveau:archwood_fence_gate
 - quark:azalea_fence_gate
 - quark:blossom_fence_gate
 
@@ -7900,7 +7893,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - #minecraft:wooden_stairs
 - #minecraft:wooden_trapdoors
 - woodenhopper:wooden_hopper
-- essentials:slotted_chest
 - evilcraft:display_stand
 - evilcraft:colossal_blood_chest
 - evilcraft:reinforced_undead_planks
@@ -8237,10 +8229,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - farmingforblockheads:feeding_trough
 - farmingforblockheads:chicken_nest
 - immersivepetroleum:auto_lubricator
-- crossroads:stamp_mill
-- crossroads:stamp_mill_top
-- crossroads:wind_turbine
-- crossroads:color_chart
 - mythicbotany:mana_collector
 - mythicbotany:yggdrasil_branch
 - integrateddynamics:drying_basin
@@ -8256,9 +8244,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - integrateddynamics:menril_torch_wall
 - integrateddynamics:menril_wood
 - integrateddynamics:menril_wood_stripped
-'otherworld_log
-'otherworld_log_natural
-'spirit_campfire
+- decoration_delight:spruce_mosaic
+- occultism:otherworld_log
+- occultism:otherworld_log_natural
+- occultism:spirit_campfire
 - create_things_and_misc:andesite_casing_door
 - create_things_and_misc:andesite_casing_trapdoor
 - create_things_and_misc:copper_casing_door
@@ -8298,7 +8287,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - thermal:strawberry_block
 - thermal:tomato_block
 - thermal:frost_melon
-'worm_farm
+- aquaculture:worm_farm
 - chipped:botanist_workbench
 - chipped:glassblower
 - chipped:carpenters_table
@@ -8591,34 +8580,34 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - cookingforblockheads:tool_rack
 - cookingforblockheads:spice_rack
 - cookingforblockheads:fruit_basket
-'scribes_table
-'blue_archwood_log
-'blue_archwood_wood
-'red_archwood_log
-'red_archwood_wood
-'purple_archwood_log
-'purple_archwood_wood
-'green_archwood_log
-'green_archwood_wood
-'archwood_planks
-'archwood_button
-'archwood_stairs
-'archwood_slab
-'archwood_fence_gate
-'archwood_trapdoor
-'archwood_pressure_plate
-'archwood_fence
-'archwood_door
-'stripped_blue_archwood_log
-'stripped_blue_archwood_wood
-'stripped_green_archwood_log
-'stripped_green_archwood_wood
-'stripped_red_archwood_log
-'stripped_red_archwood_wood
-'stripped_purple_archwood_log
-'stripped_purple_archwood_wood
-'bookwyrm_lectern
-'archwood_chest
+- ars_nouveau:scribes_table
+- ars_nouveau:blue_archwood_log
+- ars_nouveau:blue_archwood_wood
+- ars_nouveau:red_archwood_log
+- ars_nouveau:red_archwood_wood
+- ars_nouveau:purple_archwood_log
+- ars_nouveau:purple_archwood_wood
+- ars_nouveau:green_archwood_log
+- ars_nouveau:green_archwood_wood
+- ars_nouveau:archwood_planks
+- ars_nouveau:archwood_button
+- ars_nouveau:archwood_stairs
+- ars_nouveau:archwood_slab
+- ars_nouveau:archwood_fence_gate
+- ars_nouveau:archwood_trapdoor
+- ars_nouveau:archwood_pressure_plate
+- ars_nouveau:archwood_fence
+- ars_nouveau:archwood_door
+- ars_nouveau:stripped_blue_archwood_log
+- ars_nouveau:stripped_blue_archwood_wood
+- ars_nouveau:stripped_green_archwood_log
+- ars_nouveau:stripped_green_archwood_wood
+- ars_nouveau:stripped_red_archwood_log
+- ars_nouveau:stripped_red_archwood_wood
+- ars_nouveau:stripped_purple_archwood_log
+- ars_nouveau:stripped_purple_archwood_wood
+- ars_nouveau:bookwyrm_lectern
+- ars_nouveau:archwood_chest
 - bluepower:project_table
 - bluepower:auto_project_table
 - bluepower:rubber_log
@@ -8903,7 +8892,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - quark:stripped_blossom_wood
 
 #forge:ores/iesnium
-'iesnium_ore
+- occultism:iesnium_ore
 
 #chipped:dark_prismarine
 - minecraft:dark_prismarine
@@ -8981,7 +8970,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - #silentgems:ores/alexandrite
 
 #silentgems:glowroses/kyanite
-'kyanite_glowrose
+- silentgems:kyanite_glowrose
 
 #forge:ores/turquoise
 - #silentgems:ores/turquoise
@@ -9234,7 +9223,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - undergarden:smogstem_fence_gate
 - undergarden:wigglewood_fence_gate
 - undergarden:grongle_fence_gate
-'archwood_fence_gate
+- ars_nouveau:archwood_fence_gate
 - quark:azalea_fence_gate
 - quark:blossom_fence_gate
 
@@ -9314,9 +9303,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - evilcraft:dark_ore
 - evilcraft:dark_ore_deepslate
 - #forge:ores/uraninite
-- #forge:ores/tin
-- #forge:ores/ruby
-- #crossroads:ores/void
 - #mythicbotany:alfheim_ores
 - #forge:ores/copper
 - #forge:ores/silver
@@ -9390,24 +9376,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - #forge:ores/white_diamond
 - #forge:ores/silver
 
-#crossroads:alchemy_crystal
-- #forge:glass
-- minecraft:glowstone
-- minecraft:sea_lantern
-- #crossroads:storage_blocks/pure_quartz
-- #crossroads:storage_blocks/bright_quartz
-- #forge:storage_blocks/ruby
-- #forge:storage_blocks/emerald
-- #forge:storage_blocks/diamond
-- #forge:storage_blocks/lapis
-- #forge:storage_blocks/salt
-- minecraft:blue_ice
-- minecraft:purpur_block
-- minecraft:purpur_pillar
-- minecraft:honey_block
-
 #forge:storage_blocks/rose_quartz
-'rose_quartz_block
+- silentgems:rose_quartz_block
 
 #chipped:redstone_block
 - minecraft:redstone_block
@@ -9687,12 +9657,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - chipped:gold_block_12
 
 #ars_nouveau:summon_bed
-'red_sbed
-'green_sbed
-'yellow_sbed
-'blue_sbed
-'orange_sbed
-'purple_sbed
+- ars_nouveau:red_sbed
+- ars_nouveau:green_sbed
+- ars_nouveau:yellow_sbed
+- ars_nouveau:blue_sbed
+- ars_nouveau:orange_sbed
+- ars_nouveau:purple_sbed
 
 #chipped:white_glazed_terracotta
 - minecraft:white_glazed_terracotta
@@ -9886,7 +9856,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - #botania:special_floating_flowers
 
 #forge:storage_blocks/turquoise
-'turquoise_block
+- silentgems:turquoise_block
 
 #forge:ores/niter
 - thermal:niter_ore
@@ -9918,7 +9888,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - minecraft:respawn_anchor
 - botania:infrangible_platform
 - #tombstone:graves
-- crossroads:ore_void
 - mob_grinding_utils:fan
 - mob_grinding_utils:saw
 - mob_grinding_utils:absorption_hopper
@@ -10168,7 +10137,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - quark:blossom_trapped_chest
 
 #forge:storage_blocks/peridot
-'peridot_block
+- silentgems:peridot_block
 
 #woodenbucket:freezing
 - minecraft:powder_snow
@@ -10190,7 +10159,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - chipped:bone_block_11
 
 #forge:ices/dry
-'dry_ice
+- powah:dry_ice
 
 #forge:storage_blocks/raw_crimson_iron
 - silentgear:raw_crimson_iron_block
@@ -10211,9 +10180,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 
 #pneumaticcraft:compressed_stone_bricks
 - pneumaticcraft:compressed_bricks
-
-#crossroads:gravity_blocking
-- #crossroads:storage_blocks/cavorite
 
 #quark:non_double_door
 - create:train_door
@@ -10506,17 +10472,19 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - create:framed_glass_door
 - createdeco:andesite_door
 - createdeco:brass_door
+- createdeco:cast_iron_door
 - createdeco:copper_door
 - createdeco:zinc_door
 - createdeco:locked_andesite_door
 - createdeco:locked_brass_door
+- createdeco:locked_cast_iron_door
 - createdeco:locked_copper_door
 - createdeco:locked_zinc_door
 - supplementaries:gold_door
 - supplementaries:netherite_door
 - supplementaries:silver_door
 - supplementaries:lead_door
-'archwood_door
+- ars_nouveau:archwood_door
 - quark:azalea_door
 - quark:blossom_door
 
@@ -10741,7 +10709,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - supplementaries:candle_holder_gray
 
 #forge:ores/tin
-- crossroads:ore_tin
 - thermal:tin_ore
 - thermal:deepslate_tin_ore
 - mekanism:tin_ore
@@ -10874,10 +10841,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - chipped:pink_terracotta_66
 
 #silentgems:ores/turquoise
-'turquoise_ore
-'deepslate_turquoise_ore
-'turquoise_nether_ore
-'turquoise_end_ore
+- silentgems:turquoise_ore
+- silentgems:deepslate_turquoise_ore
+- silentgems:turquoise_nether_ore
+- silentgems:turquoise_end_ore
 
 #minecraft:wither_summon_base_blocks
 - minecraft:soul_sand
@@ -11220,7 +11187,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - quark:charcoal_block
 
 #silentgems:glowroses/heliodor
-'heliodor_glowrose
+- silentgems:heliodor_glowrose
 
 #minecraft:coral_blocks
 - minecraft:tube_coral_block
@@ -11598,7 +11565,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - undergarden:smogstem_fence
 - undergarden:wigglewood_fence
 - undergarden:grongle_fence
-'archwood_fence
+- ars_nouveau:archwood_fence
 - quark:azalea_fence
 - quark:blossom_fence
 
@@ -11635,20 +11602,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 #forge:storage_blocks
 - evilcraft:dark_block
 - evilcraft:dark_power_gem_block
-'uraninite_block
+- powah:uraninite_block
 - #forge:storage_blocks/elementium
 - #forge:storage_blocks/manasteel
 - #forge:storage_blocks/terrasteel
 - #forge:storage_blocks/compressed_iron
-- #forge:storage_blocks/tin
-- #forge:storage_blocks/raw_tin
-- #forge:storage_blocks/bronze
-- #forge:storage_blocks/ruby
-- #forge:storage_blocks/salt
-- #crossroads:storage_blocks/copshowium
-- #crossroads:storage_blocks/pure_quartz
-- #crossroads:storage_blocks/bright_quartz
-- #crossroads:storage_blocks/cavorite
 - integrateddynamics:crystalized_chorus_block
 - integrateddynamics:crystalized_menril_block
 - #forge:storage_blocks/amethyst
@@ -11747,47 +11705,47 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - supplementaries:soap_block
 - #forge:storage_blocks/certus_quartz
 - #forge:storage_blocks/charcoal
-'ruby_block
-'carnelian_block
-'topaz_block
-'citrine_block
-'heliodor_block
-'moldavite_block
-'peridot_block
-'turquoise_block
-'kyanite_block
-'sapphire_block
-'iolite_block
-'alexandrite_block
-'ammolite_block
-'rose_quartz_block
-'black_diamond_block
-'white_diamond_block
+- silentgems:ruby_block
+- silentgems:carnelian_block
+- silentgems:topaz_block
+- silentgems:citrine_block
+- silentgems:heliodor_block
+- silentgems:moldavite_block
+- silentgems:peridot_block
+- silentgems:turquoise_block
+- silentgems:kyanite_block
+- silentgems:sapphire_block
+- silentgems:iolite_block
+- silentgems:alexandrite_block
+- silentgems:ammolite_block
+- silentgems:rose_quartz_block
+- silentgems:black_diamond_block
+- silentgems:white_diamond_block
 
 #ars_nouveau:an_decorative
-'sas_basket
-'sas_clover
-'sas_herring
-'sas_mosaic
-'sas_alternating
-'sas_ashlar
-'as_gold_alt
-'as_gold_ashlar
-'as_gold_basket
-'as_gold_clover
-'as_gold_herring
-'as_gold_mosaic
-'as_gold_stone
-'as_gold_slab
-'arcane_stone
-'ab_basket
-'ab_herring
-'ab_mosaic
-'ab_clover
-'ab_smooth_slab
-'ab_smooth
-'ab_alternating
-'arcane_bricks
+- ars_nouveau:sas_basket
+- ars_nouveau:sas_clover
+- ars_nouveau:sas_herring
+- ars_nouveau:sas_mosaic
+- ars_nouveau:sas_alternating
+- ars_nouveau:sas_ashlar
+- ars_nouveau:as_gold_alt
+- ars_nouveau:as_gold_ashlar
+- ars_nouveau:as_gold_basket
+- ars_nouveau:as_gold_clover
+- ars_nouveau:as_gold_herring
+- ars_nouveau:as_gold_mosaic
+- ars_nouveau:as_gold_stone
+- ars_nouveau:as_gold_slab
+- ars_nouveau:arcane_stone
+- ars_nouveau:ab_basket
+- ars_nouveau:ab_herring
+- ars_nouveau:ab_mosaic
+- ars_nouveau:ab_clover
+- ars_nouveau:ab_smooth_slab
+- ars_nouveau:ab_smooth
+- ars_nouveau:ab_alternating
+- ars_nouveau:arcane_bricks
 
 #forge:glass_panes/orange
 - minecraft:orange_stained_glass_pane
@@ -11930,7 +11888,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - nethersdelight:propelplant_stem
 
 #silentgems:glowroses/ruby
-'ruby_glowrose
+- silentgems:ruby_glowrose
 
 #chipped:lapis_block
 - minecraft:lapis_block
@@ -12206,7 +12164,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - supplementaries:ash_bricks_stairs
 - supplementaries:lapis_bricks_stairs
 - supplementaries:stone_tile_stairs
-'archwood_stairs
+- ars_nouveau:archwood_stairs
 - quark:andesite_bricks_stairs
 - quark:azalea_planks_stairs
 - quark:blackstone_bricks_stairs
@@ -12291,25 +12249,25 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - naturesaura:ancient_bark
 - sushigocrafting:avocado_log
 - sushigocrafting:avocado_leaves_logged
-'otherworld_log
-'otherworld_log_natural
+- occultism:otherworld_log
+- occultism:otherworld_log_natural
 - #silentgear:netherwood_logs
 - culturaldelights:avocado_log
 - #undergarden:smogstem_logs
 - #undergarden:wigglewood_logs
 - #undergarden:grongle_logs
-'purple_archwood_log
-'blue_archwood_log
-'green_archwood_log
-'red_archwood_log
-'stripped_blue_archwood_log
-'stripped_blue_archwood_wood
-'stripped_green_archwood_log
-'stripped_green_archwood_wood
-'stripped_red_archwood_log
-'stripped_red_archwood_wood
-'stripped_purple_archwood_log
-'stripped_purple_archwood_wood
+- ars_nouveau:purple_archwood_log
+- ars_nouveau:blue_archwood_log
+- ars_nouveau:green_archwood_log
+- ars_nouveau:red_archwood_log
+- ars_nouveau:stripped_blue_archwood_log
+- ars_nouveau:stripped_blue_archwood_wood
+- ars_nouveau:stripped_green_archwood_log
+- ars_nouveau:stripped_green_archwood_wood
+- ars_nouveau:stripped_red_archwood_log
+- ars_nouveau:stripped_red_archwood_wood
+- ars_nouveau:stripped_purple_archwood_log
+- ars_nouveau:stripped_purple_archwood_wood
 - quark:azalea_log
 - quark:stripped_azalea_log
 - quark:azalea_wood
@@ -12402,8 +12360,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - minecraft:podzol
 - minecraft:crimson_nylium
 - minecraft:warped_nylium
-- essentials:fertile_soil_red_mushroom
-- essentials:fertile_soil_brown_mushroom
 - botania:metamorphic_fungal_stone
 - botania:metamorphic_fungal_stone_slab
 - botania:metamorphic_fungal_stone_stairs
@@ -12430,8 +12386,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - minecraft:soul_soil
 
 #forge:ores/certus_quartz
-'quartz_ore
-'deepslate_quartz_ore
+- ae2:quartz_ore
+- ae2:deepslate_quartz_ore
 
 #chipped:birch_leaves
 - minecraft:birch_leaves
@@ -12566,10 +12522,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - chipped:tuff_69
 
 #silentgems:ores/moldavite
-'moldavite_ore
-'deepslate_moldavite_ore
-'moldavite_nether_ore
-'moldavite_end_ore
+- silentgems:moldavite_ore
+- silentgems:deepslate_moldavite_ore
+- silentgems:moldavite_nether_ore
+- silentgems:moldavite_end_ore
 
 #quark:vertical_slab
 - quark:acacia_vertical_slab
@@ -12773,6 +12729,15 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 #forge:ores/kyanite
 - #silentgems:ores/kyanite
 
+#thermal:dynamos
+- thermal:dynamo_stirling
+- thermal:dynamo_compression
+- thermal:dynamo_magmatic
+- thermal:dynamo_numismatic
+- thermal:dynamo_lapidary
+- thermal:dynamo_disenchantment
+- thermal:dynamo_gourmand
+
 #minecraft:beacon_base_blocks
 - minecraft:netherite_block
 - minecraft:emerald_block
@@ -12786,10 +12751,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - botania:elementium_block
 - botania:mana_diamond_block
 - botania:dragonstone_block
-- crossroads:block_tin
-- crossroads:block_bronze
-- crossroads:block_ruby
-- crossroads:block_copshowium
 - mythicbotany:alfsteel_block
 - thermal:signalum_block
 - thermal:lumium_block
@@ -13622,7 +13583,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - immersiveengineering:stairs_treated_wood_vertical
 - immersiveengineering:stairs_treated_wood_horizontal
 - immersiveengineering:stairs_treated_wood_packaged
-'archwood_stairs
+- ars_nouveau:archwood_stairs
 - quark:azalea_planks_stairs
 - quark:blossom_planks_stairs
 
@@ -13664,7 +13625,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - undergarden:smogstem_button
 - undergarden:wigglewood_button
 - undergarden:grongle_button
-'archwood_button
+- ars_nouveau:archwood_button
 - quark:azalea_button
 - quark:blossom_button
 
@@ -13766,7 +13727,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - chipped:pink_concrete_21
 
 #forge:storage_blocks/moldavite
-'moldavite_block
+- silentgems:moldavite_block
 
 #forge:chests/silver
 
@@ -13970,7 +13931,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - sushigocrafting:sesame_crop
 - undergarden:underbean_bush
 - undergarden:blisterberry_bush
-'magebloom_crop
+- ars_nouveau:magebloom_crop
 
 #minecraft:tall_flowers
 - minecraft:sunflower
@@ -13994,9 +13955,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - chipped:lime_glazed_terracotta_9
 - chipped:lime_glazed_terracotta_10
 - chipped:lime_glazed_terracotta_11
-
-#crossroads:atmos_antenna
-- minecraft:lightning_rod
 
 #pneumaticcraft:compressed_stone
 - pneumaticcraft:compressed_stone
@@ -14104,14 +14062,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - minecraft:mycelium
 - minecraft:rooted_dirt
 - minecraft:moss_block
-- essentials:fertile_soil_oak
-- essentials:fertile_soil_birch
-- essentials:fertile_soil_spruce
-- essentials:fertile_soil_jungle
-- essentials:fertile_soil_dark_oak
-- essentials:fertile_soil_acacia
-- essentials:fertile_soil_red_mushroom
-- essentials:fertile_soil_brown_mushroom
 - botania:dry_grass
 - botania:golden_grass
 - botania:infused_grass
@@ -14221,11 +14171,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - immersiveengineering:sheetmetal_colored_black
 
 #ars_nouveau:ignore_tile
-'intangible_air
-'redstone_air
-'mage_block
-'sconce
-'light_block
+- ars_nouveau:intangible_air
+- ars_nouveau:redstone_air
+- ars_nouveau:mage_block
+- ars_nouveau:sconce
+- ars_nouveau:light_block
 
 #chipped:gray_stained_glass_pane
 - minecraft:gray_stained_glass_pane
@@ -14357,9 +14307,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 #minecraft:beehives
 - minecraft:bee_nest
 - minecraft:beehive
-
-#crossroads:storage_blocks/pure_quartz
-- crossroads:block_pure_quartz
 
 #minecraft:ice
 - minecraft:ice
@@ -14501,14 +14448,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - minecraft:amethyst_block
 - minecraft:budding_amethyst
 
-#crossroads:alchemy_foliage
-- #minecraft:leaves
-- #minecraft:wart_blocks
-- minecraft:chorus_flower
-- minecraft:red_mushroom_block
-- minecraft:brown_mushroom_block
-- minecraft:shroomlight
-
 #create:wrench_pickup
 - create_things_and_misc:copper_scaffolding
 - create_things_and_misc:brass_sticky_launcher
@@ -14570,10 +14509,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - botania:corporea_stairs
 
 #minecraft:leaves/archwood_leaves
-'purple_archwood_leaves
-'blue_archwood_leaves
-'red_archwood_leaves
-'green_archwood_leaves
+- ars_nouveau:purple_archwood_leaves
+- ars_nouveau:blue_archwood_leaves
+- ars_nouveau:red_archwood_leaves
+- ars_nouveau:green_archwood_leaves
 
 #appliedenergistics2:sky_stone_block
 
@@ -14757,7 +14696,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - chipped:gray_carpet_20
 
 #silentgems:glowroses/sapphire
-'sapphire_glowrose
+- silentgems:sapphire_glowrose
 
 #create:safe_nbt
 - create:creative_motor
@@ -14786,9 +14725,24 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - create:pulse_extender
 - #minecraft:banners
 - #minecraft:signs
+- createdeco:orange_placard
+- createdeco:magenta_placard
+- createdeco:light_blue_placard
+- createdeco:yellow_placard
+- createdeco:lime_placard
+- createdeco:pink_placard
+- createdeco:gray_placard
+- createdeco:light_gray_placard
+- createdeco:cyan_placard
+- createdeco:purple_placard
+- createdeco:blue_placard
+- createdeco:brown_placard
+- createdeco:green_placard
+- createdeco:red_placard
+- createdeco:black_placard
 
 #forge:storage_blocks/carnelian
-'carnelian_block
+- silentgems:carnelian_block
 
 #forge:storage_blocks/raw_lead
 - thermal:raw_lead_block
@@ -14796,7 +14750,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - immersiveengineering:raw_block_lead
 
 #forge:storage_blocks/tin
-- crossroads:block_tin
 - thermal:tin_block
 - mekanism:block_tin
 
@@ -15126,21 +15079,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - #minecraft:cauldrons
 - #minecraft:rails
 - minecraft:conduit
-- essentials:brazier
-- essentials:sorting_hopper
-- essentials:speed_hopper
-- essentials:hopper_filter
-- essentials:item_chute
-- essentials:item_shifter
-- essentials:fluid_shifter
-- essentials:basic_item_splitter
-- essentials:item_splitter
-- essentials:basic_fluid_splitter
-- essentials:fluid_splitter
-- essentials:wither_cannon
-- essentials:auto_crafter
-- essentials:redstone_transmitter
-- essentials:redstone_receiver
 - evilcraft:blood_chest
 - evilcraft:blood_infuser
 - evilcraft:blood_waxed_coal_block
@@ -15167,112 +15105,112 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - evilcraft:spiked_plate
 - evilcraft:spirit_furnace
 - evilcraft:spirit_reanimator
-'energy_cell_starter
-'energy_cell_basic
-'energy_cell_hardened
-'energy_cell_blazing
-'energy_cell_niotic
-'energy_cell_spirited
-'energy_cell_nitro
-'energy_cell_creative
-'ender_cell_starter
-'ender_cell_basic
-'ender_cell_hardened
-'ender_cell_blazing
-'ender_cell_niotic
-'ender_cell_spirited
-'ender_cell_nitro
-'energy_cable_starter
-'energy_cable_basic
-'energy_cable_hardened
-'energy_cable_blazing
-'energy_cable_niotic
-'energy_cable_spirited
-'energy_cable_nitro
-'ender_gate_starter
-'ender_gate_basic
-'ender_gate_hardened
-'ender_gate_blazing
-'ender_gate_niotic
-'ender_gate_spirited
-'ender_gate_nitro
-'energizing_orb
-'energizing_rod_starter
-'energizing_rod_basic
-'energizing_rod_hardened
-'energizing_rod_blazing
-'energizing_rod_niotic
-'energizing_rod_spirited
-'energizing_rod_nitro
-'furnator_starter
-'furnator_basic
-'furnator_hardened
-'furnator_blazing
-'furnator_niotic
-'furnator_spirited
-'furnator_nitro
-'magmator_starter
-'magmator_basic
-'magmator_hardened
-'magmator_blazing
-'magmator_niotic
-'magmator_spirited
-'magmator_nitro
-'thermo_generator_starter
-'thermo_generator_basic
-'thermo_generator_hardened
-'thermo_generator_blazing
-'thermo_generator_niotic
-'thermo_generator_spirited
-'thermo_generator_nitro
-'solar_panel_starter
-'solar_panel_basic
-'solar_panel_hardened
-'solar_panel_blazing
-'solar_panel_niotic
-'solar_panel_spirited
-'solar_panel_nitro
-'reactor_starter
-'reactor_basic
-'reactor_hardened
-'reactor_blazing
-'reactor_niotic
-'reactor_spirited
-'reactor_nitro
-'player_transmitter_starter
-'player_transmitter_basic
-'player_transmitter_hardened
-'player_transmitter_blazing
-'player_transmitter_niotic
-'player_transmitter_spirited
-'player_transmitter_nitro
-'energy_hopper_starter
-'energy_hopper_basic
-'energy_hopper_hardened
-'energy_hopper_blazing
-'energy_hopper_niotic
-'energy_hopper_spirited
-'energy_hopper_nitro
-'energy_discharger_starter
-'energy_discharger_basic
-'energy_discharger_hardened
-'energy_discharger_blazing
-'energy_discharger_niotic
-'energy_discharger_spirited
-'energy_discharger_nitro
-'energized_steel_block
-'blazing_crystal_block
-'niotic_crystal_block
-'spirited_crystal_block
-'nitro_crystal_block
-'uraninite_block
-'deepslate_uraninite_ore_poor
-'deepslate_uraninite_ore
-'deepslate_uraninite_ore_dense
-'uraninite_ore_poor
-'uraninite_ore
-'uraninite_ore_dense
-'dry_ice
+- powah:energy_cell_starter
+- powah:energy_cell_basic
+- powah:energy_cell_hardened
+- powah:energy_cell_blazing
+- powah:energy_cell_niotic
+- powah:energy_cell_spirited
+- powah:energy_cell_nitro
+- powah:energy_cell_creative
+- powah:ender_cell_starter
+- powah:ender_cell_basic
+- powah:ender_cell_hardened
+- powah:ender_cell_blazing
+- powah:ender_cell_niotic
+- powah:ender_cell_spirited
+- powah:ender_cell_nitro
+- powah:energy_cable_starter
+- powah:energy_cable_basic
+- powah:energy_cable_hardened
+- powah:energy_cable_blazing
+- powah:energy_cable_niotic
+- powah:energy_cable_spirited
+- powah:energy_cable_nitro
+- powah:ender_gate_starter
+- powah:ender_gate_basic
+- powah:ender_gate_hardened
+- powah:ender_gate_blazing
+- powah:ender_gate_niotic
+- powah:ender_gate_spirited
+- powah:ender_gate_nitro
+- powah:energizing_orb
+- powah:energizing_rod_starter
+- powah:energizing_rod_basic
+- powah:energizing_rod_hardened
+- powah:energizing_rod_blazing
+- powah:energizing_rod_niotic
+- powah:energizing_rod_spirited
+- powah:energizing_rod_nitro
+- powah:furnator_starter
+- powah:furnator_basic
+- powah:furnator_hardened
+- powah:furnator_blazing
+- powah:furnator_niotic
+- powah:furnator_spirited
+- powah:furnator_nitro
+- powah:magmator_starter
+- powah:magmator_basic
+- powah:magmator_hardened
+- powah:magmator_blazing
+- powah:magmator_niotic
+- powah:magmator_spirited
+- powah:magmator_nitro
+- powah:thermo_generator_starter
+- powah:thermo_generator_basic
+- powah:thermo_generator_hardened
+- powah:thermo_generator_blazing
+- powah:thermo_generator_niotic
+- powah:thermo_generator_spirited
+- powah:thermo_generator_nitro
+- powah:solar_panel_starter
+- powah:solar_panel_basic
+- powah:solar_panel_hardened
+- powah:solar_panel_blazing
+- powah:solar_panel_niotic
+- powah:solar_panel_spirited
+- powah:solar_panel_nitro
+- powah:reactor_starter
+- powah:reactor_basic
+- powah:reactor_hardened
+- powah:reactor_blazing
+- powah:reactor_niotic
+- powah:reactor_spirited
+- powah:reactor_nitro
+- powah:player_transmitter_starter
+- powah:player_transmitter_basic
+- powah:player_transmitter_hardened
+- powah:player_transmitter_blazing
+- powah:player_transmitter_niotic
+- powah:player_transmitter_spirited
+- powah:player_transmitter_nitro
+- powah:energy_hopper_starter
+- powah:energy_hopper_basic
+- powah:energy_hopper_hardened
+- powah:energy_hopper_blazing
+- powah:energy_hopper_niotic
+- powah:energy_hopper_spirited
+- powah:energy_hopper_nitro
+- powah:energy_discharger_starter
+- powah:energy_discharger_basic
+- powah:energy_discharger_hardened
+- powah:energy_discharger_blazing
+- powah:energy_discharger_niotic
+- powah:energy_discharger_spirited
+- powah:energy_discharger_nitro
+- powah:energized_steel_block
+- powah:blazing_crystal_block
+- powah:niotic_crystal_block
+- powah:spirited_crystal_block
+- powah:nitro_crystal_block
+- powah:uraninite_block
+- powah:deepslate_uraninite_ore_poor
+- powah:deepslate_uraninite_ore
+- powah:deepslate_uraninite_ore_dense
+- powah:uraninite_ore_poor
+- powah:uraninite_ore
+- powah:uraninite_ore_dense
+- powah:dry_ice
 - apotheosis:endshelf?
 - apotheosis:pearl_endshelf?
 - apotheosis:draconic_endshelf?
@@ -15801,6 +15739,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - createindustry:green_high_quality_concrete_wall
 - createindustry:red_high_quality_concrete_wall
 - createindustry:black_high_quality_concrete_wall
+- packagedmekemicals:chemical_package_filler
 - rechiseled:purpur_diagonal_tiles
 - rechiseled:prismarine_bricks_pillars
 - rechiseled:quartz_block_pattern_connecting
@@ -16215,7 +16154,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - pneumaticcraft:advanced_liquid_compressor
 - pneumaticcraft:air_compressor
 - pneumaticcraft:advanced_air_compressor
+- pneumaticcraft:solar_compressor
 - pneumaticcraft:liquid_hopper
+- pneumaticcraft:manual_compressor
 - pneumaticcraft:heat_sink
 - pneumaticcraft:vortex_tube
 - pneumaticcraft:programmable_controller
@@ -16341,152 +16282,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - immersivepetroleum:distillation_tower
 - immersivepetroleum:coker_unit
 - immersivepetroleum:hydrotreater
-- crossroads:alch_tube
-- crossroads:anti_densus_plate
-- crossroads:atmos_charger
-- crossroads:auto_injector
-- crossroads:beacon_harness
-- crossroads:beam_cannon
-- crossroads:beam_extractor
-- crossroads:beam_extractor_creative
-- crossroads:beam_redirector
-- crossroads:beam_reflector
-- crossroads:beam_siphon
-- crossroads:beam_splitter
-- crossroads:blast_furnace
-- crossroads:block_bright_quartz
-- crossroads:block_bronze
-- crossroads:block_cavorite
-- crossroads:block_copper
-- crossroads:block_copshowium
-- crossroads:block_pure_quartz
-- crossroads:block_raw_tin
-- crossroads:block_ruby
-- crossroads:block_tin
-- crossroads:blood_centrifuge
-- crossroads:brewing_vat
-- crossroads:cage_charger
-- crossroads:charging_stand
-- crossroads:chemical_vent
-- crossroads:chrono_harness
-- crossroads:chunk_accelerator
-- crossroads:clock_stabilizer
-- crossroads:cold_storage
-- crossroads:cooling_coil
-- crossroads:copshowium_creation_chamber
-- crossroads:crystalline_prism
-- crossroads:crystal_alch_tube
-- crossroads:crystal_cooling_coil
-- crossroads:crystal_flow_limiter
-- crossroads:crystal_fluid_injector
-- crossroads:crystal_heated_tube
-- crossroads:crystal_reaction_chamber
-- crossroads:crystal_reagent_filter
-- crossroads:crystal_reagent_pump
-- crossroads:crystal_reagent_tank
-- crossroads:crystal_reds_alch_tube
-- crossroads:cultivator_vat
-- crossroads:densus_plate
-- crossroads:detailed_auto_crafter
-- crossroads:detailed_crafter
-- crossroads:dynamo
-- crossroads:embryo_lab
-- crossroads:fat_collector
-- crossroads:fat_congealer
-- crossroads:fat_feeder
-- crossroads:firebox
-- crossroads:fire_detector
-- crossroads:flow_limiter
-- crossroads:fluid_cooling_chamber
-- crossroads:fluid_injector
-- crossroads:fluid_tank
-- crossroads:fluid_tube
-- crossroads:fluid_void
-- crossroads:flux_node
-- crossroads:flux_sink
-- crossroads:formulation_vat
-- crossroads:gateway_controller_destination
-- crossroads:gateway_edge
-- crossroads:gateway_frame
-- crossroads:glassware_holder
-- crossroads:hamster_wheel
-- crossroads:heated_tube
-- crossroads:heating_chamber
-- crossroads:heating_crucible
-- crossroads:heat_cable_ceramic
-- crossroads:heat_cable_densus
-- crossroads:heat_cable_dirt
-- crossroads:heat_cable_ice
-- crossroads:heat_cable_obsidian
-- crossroads:heat_cable_slime
-- crossroads:heat_cable_wool
-- crossroads:heat_limiter
-- crossroads:heat_limiter_basic
-- crossroads:heat_reservoir
-- crossroads:heat_reservoir_creative
-- crossroads:heat_sink
-- crossroads:hydroponics_trough
-- crossroads:icebox
-- crossroads:incubator
-- crossroads:item_cannon
-- crossroads:large_gear_master
-- crossroads:large_gear_slave
-- crossroads:lens_frame
-- crossroads:light_cluster
-- crossroads:lodestone_dynamo
-- crossroads:lodestone_turbine
-- crossroads:master_axis
-- crossroads:master_axis_creative
-- crossroads:master_axis_crystal
-- crossroads:maxwell_demon
-- crossroads:mechanism
-- crossroads:millstone
-- crossroads:ore_cleanser
-- crossroads:ore_copper
-- crossroads:ore_ruby
-- crossroads:ore_tin
-- crossroads:ore_tin_deep
-- crossroads:ore_void
-- crossroads:permeable_obsidian
-- crossroads:permeable_quartz
-- crossroads:quartz_stabilizer
-- crossroads:radiator
-- crossroads:reaction_chamber
-- crossroads:reagent_filter
-- crossroads:reagent_pump
-- crossroads:reagent_tank
-- crossroads:redstone_axis
-- crossroads:redstone_fluid_tube
-- crossroads:redstone_heat_cable_ceramic
-- crossroads:redstone_heat_cable_densus
-- crossroads:redstone_heat_cable_dirt
-- crossroads:redstone_heat_cable_ice
-- crossroads:redstone_heat_cable_obsidian
-- crossroads:redstone_heat_cable_slime
-- crossroads:redstone_heat_cable_wool
-- crossroads:reds_alch_tube
-- crossroads:rotary_drill
-- crossroads:rotary_drill_gold
-- crossroads:rotary_pump
-- crossroads:salt_reactor
-- crossroads:sequence_box
-- crossroads:solar_heater
-- crossroads:stasis_storage
-- crossroads:steamer
-- crossroads:steam_boiler
-- crossroads:steam_turbine
-- crossroads:stirling_engine
-- crossroads:temporal_accelerator
-- crossroads:tesla_coil
-- crossroads:tesla_coil_top_attack
-- crossroads:tesla_coil_top_decorative
-- crossroads:tesla_coil_top_distance
-- crossroads:tesla_coil_top_efficiency
-- crossroads:tesla_coil_top_intensity
-- crossroads:tesla_coil_top_normal
-- crossroads:voltus_generator
-- crossroads:water_centrifuge
-- crossroads:winding_table
 - mythicbotany:mana_infuser
 - mythicbotany:alfsteel_block
 - mythicbotany:alfsteel_pylon
@@ -16524,29 +16319,30 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - integrateddynamics:variablestore
 - decoration_delight:granite_tiles
 - decoration_delight:andesite_tiles
-- decoration_delight:stone_tiles
 - decoration_delight:diorite_tiles
-'otherstone
-'otherstone_natural
-'otherstone_slab
-'otherstone_pedestal
-'storage_controller_base
-'sacrificial_bowl
-'golden_sacrificial_bowl
-'storage_controller
-'storage_stabilizer_tier1
-'storage_stabilizer_tier2
-'storage_stabilizer_tier3
-'storage_stabilizer_tier4
-'stable_wormhole
-'dimensional_mineshaft
-'silver_ore
-'silver_ore_deepslate
-'iesnium_ore
-'iesnium_ore_natural
-'silver_block
-'iesnium_block
-'spirit_lantern
+- decoration_delight:stone_tiles
+- decoration_delight:quartz_and_blackstone_tiles
+- occultism:otherstone
+- occultism:otherstone_natural
+- occultism:otherstone_slab
+- occultism:otherstone_pedestal
+- occultism:storage_controller_base
+- occultism:sacrificial_bowl
+- occultism:golden_sacrificial_bowl
+- occultism:storage_controller
+- occultism:storage_stabilizer_tier1
+- occultism:storage_stabilizer_tier2
+- occultism:storage_stabilizer_tier3
+- occultism:storage_stabilizer_tier4
+- occultism:stable_wormhole
+- occultism:dimensional_mineshaft
+- occultism:silver_ore
+- occultism:silver_ore_deepslate
+- occultism:iesnium_ore
+- occultism:iesnium_ore_natural
+- occultism:silver_block
+- occultism:iesnium_block
+- occultism:spirit_lantern
 - create_things_and_misc:card_reader
 - create_things_and_misc:brass_speaker
 - create_things_and_misc:sticky_launcher
@@ -16694,9 +16490,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - thermal:sapphire_block
 - thermal:rose_gold_block
 - thermal:steel_block
-'neptunium_block
-'neptunes_bounty
-'tackle_box
+- aquaculture:neptunium_block
+- aquaculture:neptunes_bounty
+- aquaculture:tackle_box
 - mekanismgenerators:heat_generator
 - mekanismgenerators:solar_generator
 - mekanismgenerators:advanced_solar_generator
@@ -17763,6 +17559,126 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - createdeco:mossy_blue_short_bricks_slab
 - createdeco:mossy_blue_short_bricks_wall
 - createdeco:mossy_blue_short_bricks_slab_vert
+- createdeco:dean_bricks
+- createdeco:dean_brick_tiles
+- createdeco:dean_long_bricks
+- createdeco:dean_short_bricks
+- createdeco:cracked_dean_bricks
+- createdeco:cracked_dean_brick_tiles
+- createdeco:cracked_dean_long_bricks
+- createdeco:cracked_dean_short_bricks
+- createdeco:mossy_dean_bricks
+- createdeco:mossy_dean_brick_tiles
+- createdeco:mossy_dean_long_bricks
+- createdeco:mossy_dean_short_bricks
+- createdeco:dean_bricks_stairs
+- createdeco:dean_bricks_slab
+- createdeco:dean_bricks_wall
+- createdeco:dean_bricks_slab_vert
+- createdeco:dean_brick_tiles_stairs
+- createdeco:dean_brick_tiles_slab
+- createdeco:dean_brick_tiles_wall
+- createdeco:dean_brick_tiles_slab_vert
+- createdeco:dean_long_bricks_stairs
+- createdeco:dean_long_bricks_slab
+- createdeco:dean_long_bricks_wall
+- createdeco:dean_long_bricks_slab_vert
+- createdeco:dean_short_bricks_stairs
+- createdeco:dean_short_bricks_slab
+- createdeco:dean_short_bricks_wall
+- createdeco:dean_short_bricks_slab_vert
+- createdeco:cracked_dean_bricks_stairs
+- createdeco:cracked_dean_bricks_slab
+- createdeco:cracked_dean_bricks_wall
+- createdeco:cracked_dean_bricks_slab_vert
+- createdeco:cracked_dean_brick_tiles_stairs
+- createdeco:cracked_dean_brick_tiles_slab
+- createdeco:cracked_dean_brick_tiles_wall
+- createdeco:cracked_dean_brick_tiles_slab_vert
+- createdeco:cracked_dean_long_bricks_stairs
+- createdeco:cracked_dean_long_bricks_slab
+- createdeco:cracked_dean_long_bricks_wall
+- createdeco:cracked_dean_long_bricks_slab_vert
+- createdeco:cracked_dean_short_bricks_stairs
+- createdeco:cracked_dean_short_bricks_slab
+- createdeco:cracked_dean_short_bricks_wall
+- createdeco:cracked_dean_short_bricks_slab_vert
+- createdeco:mossy_dean_bricks_stairs
+- createdeco:mossy_dean_bricks_slab
+- createdeco:mossy_dean_bricks_wall
+- createdeco:mossy_dean_bricks_slab_vert
+- createdeco:mossy_dean_brick_tiles_stairs
+- createdeco:mossy_dean_brick_tiles_slab
+- createdeco:mossy_dean_brick_tiles_wall
+- createdeco:mossy_dean_brick_tiles_slab_vert
+- createdeco:mossy_dean_long_bricks_stairs
+- createdeco:mossy_dean_long_bricks_slab
+- createdeco:mossy_dean_long_bricks_wall
+- createdeco:mossy_dean_long_bricks_slab_vert
+- createdeco:mossy_dean_short_bricks_stairs
+- createdeco:mossy_dean_short_bricks_slab
+- createdeco:mossy_dean_short_bricks_wall
+- createdeco:mossy_dean_short_bricks_slab_vert
+- createdeco:pearl_bricks
+- createdeco:pearl_brick_tiles
+- createdeco:pearl_long_bricks
+- createdeco:pearl_short_bricks
+- createdeco:cracked_pearl_bricks
+- createdeco:cracked_pearl_brick_tiles
+- createdeco:cracked_pearl_long_bricks
+- createdeco:cracked_pearl_short_bricks
+- createdeco:mossy_pearl_bricks
+- createdeco:mossy_pearl_brick_tiles
+- createdeco:mossy_pearl_long_bricks
+- createdeco:mossy_pearl_short_bricks
+- createdeco:pearl_bricks_stairs
+- createdeco:pearl_bricks_slab
+- createdeco:pearl_bricks_wall
+- createdeco:pearl_bricks_slab_vert
+- createdeco:pearl_brick_tiles_stairs
+- createdeco:pearl_brick_tiles_slab
+- createdeco:pearl_brick_tiles_wall
+- createdeco:pearl_brick_tiles_slab_vert
+- createdeco:pearl_long_bricks_stairs
+- createdeco:pearl_long_bricks_slab
+- createdeco:pearl_long_bricks_wall
+- createdeco:pearl_long_bricks_slab_vert
+- createdeco:pearl_short_bricks_stairs
+- createdeco:pearl_short_bricks_slab
+- createdeco:pearl_short_bricks_wall
+- createdeco:pearl_short_bricks_slab_vert
+- createdeco:cracked_pearl_bricks_stairs
+- createdeco:cracked_pearl_bricks_slab
+- createdeco:cracked_pearl_bricks_wall
+- createdeco:cracked_pearl_bricks_slab_vert
+- createdeco:cracked_pearl_brick_tiles_stairs
+- createdeco:cracked_pearl_brick_tiles_slab
+- createdeco:cracked_pearl_brick_tiles_wall
+- createdeco:cracked_pearl_brick_tiles_slab_vert
+- createdeco:cracked_pearl_long_bricks_stairs
+- createdeco:cracked_pearl_long_bricks_slab
+- createdeco:cracked_pearl_long_bricks_wall
+- createdeco:cracked_pearl_long_bricks_slab_vert
+- createdeco:cracked_pearl_short_bricks_stairs
+- createdeco:cracked_pearl_short_bricks_slab
+- createdeco:cracked_pearl_short_bricks_wall
+- createdeco:cracked_pearl_short_bricks_slab_vert
+- createdeco:mossy_pearl_bricks_stairs
+- createdeco:mossy_pearl_bricks_slab
+- createdeco:mossy_pearl_bricks_wall
+- createdeco:mossy_pearl_bricks_slab_vert
+- createdeco:mossy_pearl_brick_tiles_stairs
+- createdeco:mossy_pearl_brick_tiles_slab
+- createdeco:mossy_pearl_brick_tiles_wall
+- createdeco:mossy_pearl_brick_tiles_slab_vert
+- createdeco:mossy_pearl_long_bricks_stairs
+- createdeco:mossy_pearl_long_bricks_slab
+- createdeco:mossy_pearl_long_bricks_wall
+- createdeco:mossy_pearl_long_bricks_slab_vert
+- createdeco:mossy_pearl_short_bricks_stairs
+- createdeco:mossy_pearl_short_bricks_slab
+- createdeco:mossy_pearl_short_bricks_wall
+- createdeco:mossy_pearl_short_bricks_slab_vert
 - createdeco:dusk_bricks
 - createdeco:dusk_brick_tiles
 - createdeco:dusk_long_bricks
@@ -17883,126 +17799,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - createdeco:mossy_scarlet_short_bricks_slab
 - createdeco:mossy_scarlet_short_bricks_wall
 - createdeco:mossy_scarlet_short_bricks_slab_vert
-- createdeco:pearl_bricks
-- createdeco:pearl_brick_tiles
-- createdeco:pearl_long_bricks
-- createdeco:pearl_short_bricks
-- createdeco:cracked_pearl_bricks
-- createdeco:cracked_pearl_brick_tiles
-- createdeco:cracked_pearl_long_bricks
-- createdeco:cracked_pearl_short_bricks
-- createdeco:mossy_pearl_bricks
-- createdeco:mossy_pearl_brick_tiles
-- createdeco:mossy_pearl_long_bricks
-- createdeco:mossy_pearl_short_bricks
-- createdeco:pearl_bricks_stairs
-- createdeco:pearl_bricks_slab
-- createdeco:pearl_bricks_wall
-- createdeco:pearl_bricks_slab_vert
-- createdeco:pearl_brick_tiles_stairs
-- createdeco:pearl_brick_tiles_slab
-- createdeco:pearl_brick_tiles_wall
-- createdeco:pearl_brick_tiles_slab_vert
-- createdeco:pearl_long_bricks_stairs
-- createdeco:pearl_long_bricks_slab
-- createdeco:pearl_long_bricks_wall
-- createdeco:pearl_long_bricks_slab_vert
-- createdeco:pearl_short_bricks_stairs
-- createdeco:pearl_short_bricks_slab
-- createdeco:pearl_short_bricks_wall
-- createdeco:pearl_short_bricks_slab_vert
-- createdeco:cracked_pearl_bricks_stairs
-- createdeco:cracked_pearl_bricks_slab
-- createdeco:cracked_pearl_bricks_wall
-- createdeco:cracked_pearl_bricks_slab_vert
-- createdeco:cracked_pearl_brick_tiles_stairs
-- createdeco:cracked_pearl_brick_tiles_slab
-- createdeco:cracked_pearl_brick_tiles_wall
-- createdeco:cracked_pearl_brick_tiles_slab_vert
-- createdeco:cracked_pearl_long_bricks_stairs
-- createdeco:cracked_pearl_long_bricks_slab
-- createdeco:cracked_pearl_long_bricks_wall
-- createdeco:cracked_pearl_long_bricks_slab_vert
-- createdeco:cracked_pearl_short_bricks_stairs
-- createdeco:cracked_pearl_short_bricks_slab
-- createdeco:cracked_pearl_short_bricks_wall
-- createdeco:cracked_pearl_short_bricks_slab_vert
-- createdeco:mossy_pearl_bricks_stairs
-- createdeco:mossy_pearl_bricks_slab
-- createdeco:mossy_pearl_bricks_wall
-- createdeco:mossy_pearl_bricks_slab_vert
-- createdeco:mossy_pearl_brick_tiles_stairs
-- createdeco:mossy_pearl_brick_tiles_slab
-- createdeco:mossy_pearl_brick_tiles_wall
-- createdeco:mossy_pearl_brick_tiles_slab_vert
-- createdeco:mossy_pearl_long_bricks_stairs
-- createdeco:mossy_pearl_long_bricks_slab
-- createdeco:mossy_pearl_long_bricks_wall
-- createdeco:mossy_pearl_long_bricks_slab_vert
-- createdeco:mossy_pearl_short_bricks_stairs
-- createdeco:mossy_pearl_short_bricks_slab
-- createdeco:mossy_pearl_short_bricks_wall
-- createdeco:mossy_pearl_short_bricks_slab_vert
-- createdeco:dean_bricks
-- createdeco:dean_brick_tiles
-- createdeco:dean_long_bricks
-- createdeco:dean_short_bricks
-- createdeco:cracked_dean_bricks
-- createdeco:cracked_dean_brick_tiles
-- createdeco:cracked_dean_long_bricks
-- createdeco:cracked_dean_short_bricks
-- createdeco:mossy_dean_bricks
-- createdeco:mossy_dean_brick_tiles
-- createdeco:mossy_dean_long_bricks
-- createdeco:mossy_dean_short_bricks
-- createdeco:dean_bricks_stairs
-- createdeco:dean_bricks_slab
-- createdeco:dean_bricks_wall
-- createdeco:dean_bricks_slab_vert
-- createdeco:dean_brick_tiles_stairs
-- createdeco:dean_brick_tiles_slab
-- createdeco:dean_brick_tiles_wall
-- createdeco:dean_brick_tiles_slab_vert
-- createdeco:dean_long_bricks_stairs
-- createdeco:dean_long_bricks_slab
-- createdeco:dean_long_bricks_wall
-- createdeco:dean_long_bricks_slab_vert
-- createdeco:dean_short_bricks_stairs
-- createdeco:dean_short_bricks_slab
-- createdeco:dean_short_bricks_wall
-- createdeco:dean_short_bricks_slab_vert
-- createdeco:cracked_dean_bricks_stairs
-- createdeco:cracked_dean_bricks_slab
-- createdeco:cracked_dean_bricks_wall
-- createdeco:cracked_dean_bricks_slab_vert
-- createdeco:cracked_dean_brick_tiles_stairs
-- createdeco:cracked_dean_brick_tiles_slab
-- createdeco:cracked_dean_brick_tiles_wall
-- createdeco:cracked_dean_brick_tiles_slab_vert
-- createdeco:cracked_dean_long_bricks_stairs
-- createdeco:cracked_dean_long_bricks_slab
-- createdeco:cracked_dean_long_bricks_wall
-- createdeco:cracked_dean_long_bricks_slab_vert
-- createdeco:cracked_dean_short_bricks_stairs
-- createdeco:cracked_dean_short_bricks_slab
-- createdeco:cracked_dean_short_bricks_wall
-- createdeco:cracked_dean_short_bricks_slab_vert
-- createdeco:mossy_dean_bricks_stairs
-- createdeco:mossy_dean_bricks_slab
-- createdeco:mossy_dean_bricks_wall
-- createdeco:mossy_dean_bricks_slab_vert
-- createdeco:mossy_dean_brick_tiles_stairs
-- createdeco:mossy_dean_brick_tiles_slab
-- createdeco:mossy_dean_brick_tiles_wall
-- createdeco:mossy_dean_brick_tiles_slab_vert
-- createdeco:mossy_dean_long_bricks_stairs
-- createdeco:mossy_dean_long_bricks_slab
-- createdeco:mossy_dean_long_bricks_wall
-- createdeco:mossy_dean_long_bricks_slab_vert
-- createdeco:mossy_dean_short_bricks_stairs
-- createdeco:mossy_dean_short_bricks_slab
-- createdeco:mossy_dean_short_bricks_wall
-- createdeco:mossy_dean_short_bricks_slab_vert
 - createdeco:gold_sheet_metal
 - createdeco:gold_sheet_stairs
 - createdeco:gold_sheet_slab
@@ -18037,28 +17833,80 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - createdeco:zinc_sheet_slab_vert
 - createdeco:andesite_door
 - createdeco:brass_door
+- createdeco:cast_iron_door
 - createdeco:copper_door
 - createdeco:zinc_door
 - createdeco:locked_andesite_door
 - createdeco:locked_brass_door
+- createdeco:locked_cast_iron_door
 - createdeco:locked_copper_door
 - createdeco:locked_zinc_door
+- createdeco:andesite_trapdoor
+- createdeco:brass_trapdoor
+- createdeco:cast_iron_trapdoor
+- createdeco:copper_trapdoor
+- createdeco:zinc_trapdoor
 - createdeco:gold_mesh_fence
 - createdeco:gold_catwalk
+- createdeco:gold_catwalk_stair
 - createdeco:netherite_mesh_fence
 - createdeco:netherite_catwalk
+- createdeco:netherite_catwalk_stair
 - createdeco:andesite_mesh_fence
 - createdeco:andesite_catwalk
+- createdeco:andesite_catwalk_stair
 - createdeco:brass_mesh_fence
 - createdeco:brass_catwalk
+- createdeco:brass_catwalk_stair
 - createdeco:cast_iron_mesh_fence
 - createdeco:cast_iron_catwalk
+- createdeco:cast_iron_catwalk_stair
 - createdeco:iron_mesh_fence
 - createdeco:iron_catwalk
+- createdeco:iron_catwalk_stair
 - createdeco:copper_mesh_fence
 - createdeco:copper_catwalk
+- createdeco:copper_catwalk_stair
 - createdeco:zinc_mesh_fence
 - createdeco:zinc_catwalk
+- createdeco:zinc_catwalk_stair
+- createdeco:cast_iron_block
+- createdeco:gold_hull
+- createdeco:netherite_hull
+- createdeco:andesite_hull
+- createdeco:brass_hull
+- createdeco:cast_iron_hull
+- createdeco:iron_hull
+- createdeco:copper_hull
+- createdeco:zinc_hull
+- createdeco:gold_support
+- createdeco:netherite_support
+- createdeco:andesite_support
+- createdeco:brass_support
+- createdeco:cast_iron_support
+- createdeco:iron_support
+- createdeco:copper_support
+- createdeco:zinc_support
+- createdeco:gold_ladder
+- createdeco:netherite_ladder
+- createdeco:cast_iron_ladder
+- createdeco:iron_ladder
+- createdeco:zinc_ladder
+- createdeco:orange_placard
+- createdeco:magenta_placard
+- createdeco:light_blue_placard
+- createdeco:yellow_placard
+- createdeco:lime_placard
+- createdeco:pink_placard
+- createdeco:gray_placard
+- createdeco:light_gray_placard
+- createdeco:cyan_placard
+- createdeco:purple_placard
+- createdeco:blue_placard
+- createdeco:brown_placard
+- createdeco:green_placard
+- createdeco:red_placard
+- createdeco:black_placard
 - waystones:black_sharestone
 - waystones:blue_sharestone
 - waystones:brown_sharestone
@@ -18573,6 +18421,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - rftoolsutility:wire
 - rftoolsutility:screen
 - rftoolsutility:creative_screen
+- rftoolsutility:screen_controller
 - rftoolsutility:spawner
 - rftoolsutility:matter_beamer
 - rftoolsutility:tank
@@ -18583,89 +18432,89 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - rftoolsutility:simple_dialer
 - rftoolsutility:destination_analyzer
 - appliedcooking:kitchen_station
-'quartz_ore
-'deepslate_quartz_ore
-'matrix_frame
-'quartz_block
-'quartz_pillar
-'chiseled_quartz_block
-'quartz_glass
-'quartz_vibrant_glass
-'quartz_fixture
-'fluix_block
-'sky_stone_block
-'smooth_sky_stone_block
-'sky_stone_brick
-'sky_stone_small_brick
-'sky_stone_chest
-'smooth_sky_stone_chest
-'sky_stone_tank
-'sky_compass
-'inscriber
-'wireless_access_point
-'charger
-'tiny_tnt
-'security_station
-'quantum_ring
-'quantum_link
-'spatial_pylon
-'spatial_io_port
-'controller
-'drive
-'chest
-'interface
-'cell_workbench
-'io_port
-'condenser
-'energy_acceptor
-'vibration_chamber
-'quartz_growth_accelerator
-'energy_cell
-'dense_energy_cell
-'creative_energy_cell
-'crafting_unit
-'crafting_accelerator
-'1k_crafting_storage
-'4k_crafting_storage
-'16k_crafting_storage
-'64k_crafting_storage
-'256k_crafting_storage
-'crafting_monitor
-'pattern_provider
-'molecular_assembler
-'light_detector
-'paint
-'sky_stone_stairs
-'smooth_sky_stone_stairs
-'sky_stone_brick_stairs
-'sky_stone_small_brick_stairs
-'fluix_stairs
-'quartz_stairs
-'chiseled_quartz_stairs
-'quartz_pillar_stairs
-'sky_stone_wall
-'smooth_sky_stone_wall
-'sky_stone_brick_wall
-'sky_stone_small_brick_wall
-'fluix_wall
-'quartz_wall
-'chiseled_quartz_wall
-'quartz_pillar_wall
-'cable_bus
-'sky_stone_slab
-'smooth_sky_stone_slab
-'sky_stone_brick_slab
-'sky_stone_small_brick_slab
-'fluix_slab
-'quartz_slab
-'chiseled_quartz_slab
-'quartz_pillar_slab
-'spatial_anchor
-'debug_item_gen
-'debug_chunk_loader
-'debug_phantom_node
-'debug_cube_gen
-'debug_energy_gen
+- ae2:quartz_ore
+- ae2:deepslate_quartz_ore
+- ae2:matrix_frame
+- ae2:quartz_block
+- ae2:quartz_pillar
+- ae2:chiseled_quartz_block
+- ae2:quartz_glass
+- ae2:quartz_vibrant_glass
+- ae2:quartz_fixture
+- ae2:fluix_block
+- ae2:sky_stone_block
+- ae2:smooth_sky_stone_block
+- ae2:sky_stone_brick
+- ae2:sky_stone_small_brick
+- ae2:sky_stone_chest
+- ae2:smooth_sky_stone_chest
+- ae2:sky_stone_tank
+- ae2:sky_compass
+- ae2:inscriber
+- ae2:wireless_access_point
+- ae2:charger
+- ae2:tiny_tnt
+- ae2:security_station
+- ae2:quantum_ring
+- ae2:quantum_link
+- ae2:spatial_pylon
+- ae2:spatial_io_port
+- ae2:controller
+- ae2:drive
+- ae2:chest
+- ae2:interface
+- ae2:cell_workbench
+- ae2:io_port
+- ae2:condenser
+- ae2:energy_acceptor
+- ae2:vibration_chamber
+- ae2:quartz_growth_accelerator
+- ae2:energy_cell
+- ae2:dense_energy_cell
+- ae2:creative_energy_cell
+- ae2:crafting_unit
+- ae2:crafting_accelerator
+- ae2:1k_crafting_storage
+- ae2:4k_crafting_storage
+- ae2:16k_crafting_storage
+- ae2:64k_crafting_storage
+- ae2:256k_crafting_storage
+- ae2:crafting_monitor
+- ae2:pattern_provider
+- ae2:molecular_assembler
+- ae2:light_detector
+- ae2:paint
+- ae2:sky_stone_stairs
+- ae2:smooth_sky_stone_stairs
+- ae2:sky_stone_brick_stairs
+- ae2:sky_stone_small_brick_stairs
+- ae2:fluix_stairs
+- ae2:quartz_stairs
+- ae2:chiseled_quartz_stairs
+- ae2:quartz_pillar_stairs
+- ae2:sky_stone_wall
+- ae2:smooth_sky_stone_wall
+- ae2:sky_stone_brick_wall
+- ae2:sky_stone_small_brick_wall
+- ae2:fluix_wall
+- ae2:quartz_wall
+- ae2:chiseled_quartz_wall
+- ae2:quartz_pillar_wall
+- ae2:cable_bus
+- ae2:sky_stone_slab
+- ae2:smooth_sky_stone_slab
+- ae2:sky_stone_brick_slab
+- ae2:sky_stone_small_brick_slab
+- ae2:fluix_slab
+- ae2:quartz_slab
+- ae2:chiseled_quartz_slab
+- ae2:quartz_pillar_slab
+- ae2:spatial_anchor
+- ae2:debug_item_gen
+- ae2:debug_chunk_loader
+- ae2:debug_phantom_node
+- ae2:debug_cube_gen
+- ae2:debug_energy_gen
 - cookingforblockheads:cooking_table
 - cookingforblockheads:fridge
 - cookingforblockheads:sink
@@ -18693,59 +18542,60 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - cookingforblockheads:green_kitchen_floor
 - cookingforblockheads:red_kitchen_floor
 - cookingforblockheads:black_kitchen_floor
-'arcane_stone
-'relay
-'arcane_core
-'enchanting_apparatus
-'arcane_pedestal
-'creative_source_jar
-'rune
-'imbuement_chamber
-'source_jar
-'relay_splitter
-'spell_turret
-'volcanic_sourcelink
-'lava_lily
-'wixie_cauldron
-'source_gem_block
-'ritual_brazier
-'potion_jar
-'potion_melder
-'sconce
-'drygmy_stone
-'alchemical_sourcelink
-'vitalic_sourcelink
-'mycelial_sourcelink
-'relay_deposit
-'relay_warp
-'basic_spell_turret
-'timer_spell_turret
-'spell_prism
-'sas_clover
-'sas_herring
-'sas_mosaic
-'sas_alternating
-'sas_ashlar
-'as_gold_alt
-'as_gold_ashlar
-'as_gold_basket
-'as_gold_clover
-'as_gold_herring
-'as_gold_mosaic
-'as_gold_stone
-'as_gold_slab
-'arcane_stone
-'ab_basket
-'ab_herring
-'ab_mosaic
-'ab_clover
-'ab_smooth_slab
-'ab_smooth
-'ab_alternating
-'arcane_bricks
-'sas_basket
-'scryers_crystal
-'scryers_oculus
+- merequester:requester
+- ars_nouveau:arcane_stone
+- ars_nouveau:relay
+- ars_nouveau:arcane_core
+- ars_nouveau:enchanting_apparatus
+- ars_nouveau:arcane_pedestal
+- ars_nouveau:creative_source_jar
+- ars_nouveau:rune
+- ars_nouveau:imbuement_chamber
+- ars_nouveau:source_jar
+- ars_nouveau:relay_splitter
+- ars_nouveau:spell_turret
+- ars_nouveau:volcanic_sourcelink
+- ars_nouveau:lava_lily
+- ars_nouveau:wixie_cauldron
+- ars_nouveau:source_gem_block
+- ars_nouveau:ritual_brazier
+- ars_nouveau:potion_jar
+- ars_nouveau:potion_melder
+- ars_nouveau:sconce
+- ars_nouveau:drygmy_stone
+- ars_nouveau:alchemical_sourcelink
+- ars_nouveau:vitalic_sourcelink
+- ars_nouveau:mycelial_sourcelink
+- ars_nouveau:relay_deposit
+- ars_nouveau:relay_warp
+- ars_nouveau:basic_spell_turret
+- ars_nouveau:timer_spell_turret
+- ars_nouveau:spell_prism
+- ars_nouveau:sas_clover
+- ars_nouveau:sas_herring
+- ars_nouveau:sas_mosaic
+- ars_nouveau:sas_alternating
+- ars_nouveau:sas_ashlar
+- ars_nouveau:as_gold_alt
+- ars_nouveau:as_gold_ashlar
+- ars_nouveau:as_gold_basket
+- ars_nouveau:as_gold_clover
+- ars_nouveau:as_gold_herring
+- ars_nouveau:as_gold_mosaic
+- ars_nouveau:as_gold_stone
+- ars_nouveau:as_gold_slab
+- ars_nouveau:arcane_stone
+- ars_nouveau:ab_basket
+- ars_nouveau:ab_herring
+- ars_nouveau:ab_mosaic
+- ars_nouveau:ab_clover
+- ars_nouveau:ab_smooth_slab
+- ars_nouveau:ab_smooth
+- ars_nouveau:ab_alternating
+- ars_nouveau:arcane_bricks
+- ars_nouveau:sas_basket
+- ars_nouveau:scryers_crystal
+- ars_nouveau:scryers_oculus
 - bluepower:teslatite_ore
 - bluepower:teslatite_block
 - bluepower:teslatite_deepslate
@@ -19241,55 +19091,55 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - appbot:fluix_mana_pool
 - modularrouters:modular_router
 - #silentgems:ores/ruby
-'ruby_block
-'ruby_bricks
+- silentgems:ruby_block
+- silentgems:ruby_bricks
 - #silentgems:ores/carnelian
-'carnelian_block
-'carnelian_bricks
+- silentgems:carnelian_block
+- silentgems:carnelian_bricks
 - #silentgems:ores/topaz
-'topaz_block
-'topaz_bricks
+- silentgems:topaz_block
+- silentgems:topaz_bricks
 - #silentgems:ores/citrine
-'citrine_block
-'citrine_bricks
+- silentgems:citrine_block
+- silentgems:citrine_bricks
 - #silentgems:ores/heliodor
-'heliodor_block
-'heliodor_bricks
+- silentgems:heliodor_block
+- silentgems:heliodor_bricks
 - #silentgems:ores/moldavite
-'moldavite_block
-'moldavite_bricks
+- silentgems:moldavite_block
+- silentgems:moldavite_bricks
 - #silentgems:ores/peridot
-'peridot_block
-'peridot_bricks
+- silentgems:peridot_block
+- silentgems:peridot_bricks
 - #silentgems:ores/turquoise
-'turquoise_block
-'turquoise_bricks
+- silentgems:turquoise_block
+- silentgems:turquoise_bricks
 - #silentgems:ores/kyanite
-'kyanite_block
-'kyanite_bricks
+- silentgems:kyanite_block
+- silentgems:kyanite_bricks
 - #silentgems:ores/sapphire
-'sapphire_block
-'sapphire_bricks
+- silentgems:sapphire_block
+- silentgems:sapphire_bricks
 - #silentgems:ores/iolite
-'iolite_block
-'iolite_bricks
+- silentgems:iolite_block
+- silentgems:iolite_bricks
 - #silentgems:ores/alexandrite
-'alexandrite_block
-'alexandrite_bricks
+- silentgems:alexandrite_block
+- silentgems:alexandrite_bricks
 - #silentgems:ores/ammolite
-'ammolite_block
-'ammolite_bricks
+- silentgems:ammolite_block
+- silentgems:ammolite_bricks
 - #silentgems:ores/rose_quartz
-'rose_quartz_block
-'rose_quartz_bricks
+- silentgems:rose_quartz_block
+- silentgems:rose_quartz_bricks
 - #silentgems:ores/black_diamond
-'black_diamond_block
-'black_diamond_bricks
+- silentgems:black_diamond_block
+- silentgems:black_diamond_bricks
 - #silentgems:ores/white_diamond
-'white_diamond_block
-'white_diamond_bricks
+- silentgems:white_diamond_block
+- silentgems:white_diamond_bricks
 - #forge:ores/silver
-'silver_block
+- silentgems:silver_block
 - megacells:mega_energy_cell
 - megacells:mega_crafting_unit
 - megacells:mega_crafting_accelerator
@@ -19505,12 +19355,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - supplementaries:sconce_ender
 - supplementaries:sconce_green
 - supplementaries:crank
-'quartz_fixture
-'light_detector
+- ae2:quartz_fixture
+- ae2:light_detector
 - nethersdelight:propelplant_torch
 
 #silentgems:glowroses/ammolite
-'ammolite_glowrose
+- silentgems:ammolite_glowrose
 
 #chipped:purple_carpet
 - minecraft:purple_carpet
@@ -19728,10 +19578,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - chipped:smooth_stone_69
 
 #silentgems:ores/white_diamond
-'white_diamond_ore
-'deepslate_white_diamond_ore
-'white_diamond_nether_ore
-'white_diamond_end_ore
+- silentgems:white_diamond_ore
+- silentgems:deepslate_white_diamond_ore
+- silentgems:white_diamond_nether_ore
+- silentgems:white_diamond_end_ore
 
 #c:glass
 - #chipped:glass
@@ -19766,7 +19616,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - immersiveengineering:sheetmetal_electrum
 
 #forge:storage_blocks/raw_tin
-- crossroads:block_raw_tin
 - thermal:raw_tin_block
 - mekanism:block_raw_tin
 
@@ -19785,8 +19634,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - rechiseled:obsidian_dark
 - rechiseled:obsidian_chiseled_connecting
 - rechiseled:obsidian_large_tiles
-- rechiseled:obsidian_pillars_connecting
 - rechiseled:obsidian_chiseled_circles_connecting
+- rechiseled:obsidian_pillars_connecting
 - rechiseled:obsidian_bordered
 - rechiseled:obsidian_pillars
 - rechiseled:obsidian_chiseled_skeleton
@@ -19799,7 +19648,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - rechiseled:obsidian_bricks
 - rechiseled:obsidian_stripes_connecting
 - rechiseled:obsidian_squares
-- crossroads:permeable_obsidian
 - mythicbotany:dragonstone_ore
 - #chipped:crying_obsidian
 - #chipped:obsidian
@@ -19809,22 +19657,22 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - supplementaries:netherite_trapdoor
 - supplementaries:netherite_door
 - supplementaries:safe
-'ruby_nether_ore
-'carnelian_nether_ore
-'topaz_nether_ore
-'citrine_nether_ore
-'heliodor_nether_ore
-'moldavite_nether_ore
-'peridot_nether_ore
-'turquoise_nether_ore
-'kyanite_nether_ore
-'sapphire_nether_ore
-'iolite_nether_ore
-'alexandrite_nether_ore
-'ammolite_nether_ore
-'rose_quartz_nether_ore
-'black_diamond_nether_ore
-'white_diamond_nether_ore
+- silentgems:ruby_nether_ore
+- silentgems:carnelian_nether_ore
+- silentgems:topaz_nether_ore
+- silentgems:citrine_nether_ore
+- silentgems:heliodor_nether_ore
+- silentgems:moldavite_nether_ore
+- silentgems:peridot_nether_ore
+- silentgems:turquoise_nether_ore
+- silentgems:kyanite_nether_ore
+- silentgems:sapphire_nether_ore
+- silentgems:iolite_nether_ore
+- silentgems:alexandrite_nether_ore
+- silentgems:ammolite_nether_ore
+- silentgems:rose_quartz_nether_ore
+- silentgems:black_diamond_nether_ore
+- silentgems:white_diamond_nether_ore
 
 #minecraft:wall_signs
 - minecraft:oak_wall_sign
@@ -19925,10 +19773,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - thermal:gunpowder_block
 
 #silentgems:ores/kyanite
-'kyanite_ore
-'deepslate_kyanite_ore
-'kyanite_nether_ore
-'kyanite_end_ore
+- silentgems:kyanite_ore
+- silentgems:deepslate_kyanite_ore
+- silentgems:kyanite_nether_ore
+- silentgems:kyanite_end_ore
 
 #chipped:black_carpet
 - minecraft:black_carpet
@@ -20020,8 +19868,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - naturesaura:decayed_leaves
 - #mythicbotany:alfheim_leaves
 - integrateddynamics:menril_leaves
-'otherworld_leaves
-'otherworld_leaves_natural
+- occultism:otherworld_leaves
+- occultism:otherworld_leaves_natural
 - silentgear:netherwood_leaves
 - #chipped:acacia_leaves
 - #chipped:birch_leaves
@@ -20033,10 +19881,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - undergarden:smogstem_leaves
 - undergarden:wigglewood_leaves
 - undergarden:grongle_leaves
-'purple_archwood_leaves
-'blue_archwood_leaves
-'red_archwood_leaves
-'green_archwood_leaves
+- ars_nouveau:purple_archwood_leaves
+- ars_nouveau:blue_archwood_leaves
+- ars_nouveau:red_archwood_leaves
+- ars_nouveau:green_archwood_leaves
 - quark:blue_blossom_leaves
 - quark:lavender_blossom_leaves
 - quark:orange_blossom_leaves
@@ -20339,18 +20187,18 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - #undergarden:smogstem_logs
 - #undergarden:wigglewood_logs
 - #undergarden:grongle_logs
-'purple_archwood_log
-'blue_archwood_log
-'green_archwood_log
-'red_archwood_log
-'stripped_blue_archwood_log
-'stripped_blue_archwood_wood
-'stripped_green_archwood_log
-'stripped_green_archwood_wood
-'stripped_red_archwood_log
-'stripped_red_archwood_wood
-'stripped_purple_archwood_log
-'stripped_purple_archwood_wood
+- ars_nouveau:purple_archwood_log
+- ars_nouveau:blue_archwood_log
+- ars_nouveau:green_archwood_log
+- ars_nouveau:red_archwood_log
+- ars_nouveau:stripped_blue_archwood_log
+- ars_nouveau:stripped_blue_archwood_wood
+- ars_nouveau:stripped_green_archwood_log
+- ars_nouveau:stripped_green_archwood_wood
+- ars_nouveau:stripped_red_archwood_log
+- ars_nouveau:stripped_red_archwood_wood
+- ars_nouveau:stripped_purple_archwood_log
+- ars_nouveau:stripped_purple_archwood_wood
 - quark:azalea_log
 - quark:stripped_azalea_log
 - quark:azalea_wood
@@ -20497,7 +20345,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - pneumaticcraft:advanced_liquid_compressor
 - pneumaticcraft:air_compressor
 - pneumaticcraft:advanced_air_compressor
+- pneumaticcraft:solar_compressor
 - pneumaticcraft:liquid_hopper
+- pneumaticcraft:manual_compressor
 - pneumaticcraft:heat_sink
 - pneumaticcraft:vortex_tube
 - pneumaticcraft:programmable_controller
@@ -20612,9 +20462,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - immersivepetroleum:gas_generator
 - immersivepetroleum:flarestack
 - immersivepetroleum:seismic_survey
-- crossroads:ore_ruby
-- crossroads:ore_void
-- crossroads:block_ruby
 - mythicbotany:alfsteel_block
 - mythicbotany:elementium_ore
 - mythicbotany:gold_ore
@@ -20647,8 +20494,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - thermal:constantan_block
 - thermal:ruby_block
 - thermal:sapphire_block
-'neptunium_block
-'neptunes_bounty
+- aquaculture:neptunium_block
+- aquaculture:neptunes_bounty
 - undergarden:depthrock_gold_ore
 - undergarden:depthrock_diamond_ore
 - undergarden:shiverstone_diamond_ore
@@ -20765,6 +20612,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - rftoolsutility:wire
 - rftoolsutility:screen
 - rftoolsutility:creative_screen
+- rftoolsutility:screen_controller
 - rftoolsutility:spawner
 - rftoolsutility:matter_beamer
 - rftoolsutility:tank
@@ -20774,57 +20622,57 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - rftoolsutility:dialing_device
 - rftoolsutility:simple_dialer
 - rftoolsutility:destination_analyzer
-'sky_stone_block
-'smooth_sky_stone_block
-'sky_stone_brick
-'sky_stone_small_brick
-'sky_stone_chest
-'smooth_sky_stone_chest
-'sky_stone_stairs
-'smooth_sky_stone_stairs
-'sky_stone_brick_stairs
-'sky_stone_small_brick_stairs
-'sky_stone_wall
-'smooth_sky_stone_wall
-'sky_stone_brick_wall
-'sky_stone_small_brick_wall
-'sky_stone_slab
-'smooth_sky_stone_slab
-'sky_stone_brick_slab
-'sky_stone_small_brick_slab
+- ae2:sky_stone_block
+- ae2:smooth_sky_stone_block
+- ae2:sky_stone_brick
+- ae2:sky_stone_small_brick
+- ae2:sky_stone_chest
+- ae2:smooth_sky_stone_chest
+- ae2:sky_stone_stairs
+- ae2:smooth_sky_stone_stairs
+- ae2:sky_stone_brick_stairs
+- ae2:sky_stone_small_brick_stairs
+- ae2:sky_stone_wall
+- ae2:smooth_sky_stone_wall
+- ae2:sky_stone_brick_wall
+- ae2:sky_stone_small_brick_wall
+- ae2:sky_stone_slab
+- ae2:smooth_sky_stone_slab
+- ae2:sky_stone_brick_slab
+- ae2:sky_stone_small_brick_slab
 - modularrouters:modular_router
-'ruby_ore
-'deepslate_ruby_ore
-'carnelian_ore
-'deepslate_carnelian_ore
-'topaz_ore
-'deepslate_topaz_ore
-'citrine_ore
-'deepslate_citrine_ore
-'heliodor_ore
-'deepslate_heliodor_ore
-'moldavite_ore
-'deepslate_moldavite_ore
-'peridot_ore
-'deepslate_peridot_ore
-'turquoise_ore
-'deepslate_turquoise_ore
-'kyanite_ore
-'deepslate_kyanite_ore
-'sapphire_ore
-'deepslate_sapphire_ore
-'iolite_ore
-'deepslate_iolite_ore
-'alexandrite_ore
-'deepslate_alexandrite_ore
-'ammolite_ore
-'deepslate_ammolite_ore
-'rose_quartz_ore
-'deepslate_rose_quartz_ore
-'black_diamond_ore
-'deepslate_black_diamond_ore
-'white_diamond_ore
-'deepslate_white_diamond_ore
+- silentgems:ruby_ore
+- silentgems:deepslate_ruby_ore
+- silentgems:carnelian_ore
+- silentgems:deepslate_carnelian_ore
+- silentgems:topaz_ore
+- silentgems:deepslate_topaz_ore
+- silentgems:citrine_ore
+- silentgems:deepslate_citrine_ore
+- silentgems:heliodor_ore
+- silentgems:deepslate_heliodor_ore
+- silentgems:moldavite_ore
+- silentgems:deepslate_moldavite_ore
+- silentgems:peridot_ore
+- silentgems:deepslate_peridot_ore
+- silentgems:turquoise_ore
+- silentgems:deepslate_turquoise_ore
+- silentgems:kyanite_ore
+- silentgems:deepslate_kyanite_ore
+- silentgems:sapphire_ore
+- silentgems:deepslate_sapphire_ore
+- silentgems:iolite_ore
+- silentgems:deepslate_iolite_ore
+- silentgems:alexandrite_ore
+- silentgems:deepslate_alexandrite_ore
+- silentgems:ammolite_ore
+- silentgems:deepslate_ammolite_ore
+- silentgems:rose_quartz_ore
+- silentgems:deepslate_rose_quartz_ore
+- silentgems:black_diamond_ore
+- silentgems:deepslate_black_diamond_ore
+- silentgems:white_diamond_ore
+- silentgems:deepslate_white_diamond_ore
 
 #immersiveengineering:scaffolding_stairs/aluminum
 - immersiveengineering:stairs_alu_scaffolding_standard
@@ -20933,7 +20781,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - immersiveengineering:slab_treated_wood_packaged
 - immersiveengineering:slab_treated_wood_vertical
 - immersiveengineering:slab_treated_wood_horizontal
-'archwood_slab
+- ars_nouveau:archwood_slab
 - quark:azalea_planks_slab
 - quark:blossom_planks_slab
 
@@ -20985,6 +20833,23 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - supplementaries:wild_flax
 - bluepower:indigo_flower
 - nethersdelight:mimicarnation
+
+#thermal:machines
+- thermal:machine_furnace
+- thermal:machine_sawmill
+- thermal:machine_pulverizer
+- thermal:machine_smelter
+- thermal:machine_insolator
+- thermal:machine_centrifuge
+- thermal:machine_press
+- thermal:machine_crucible
+- thermal:machine_chiller
+- thermal:machine_refinery
+- thermal:machine_pyrolyzer
+- thermal:machine_bottler
+- thermal:machine_brewer
+- thermal:machine_crystallizer
+- thermal:machine_crafter
 
 #mekanism:atomic_disassembler_ore
 - #forge:ores
@@ -21167,10 +21032,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - farmersdelight:cabbages
 
 #silentgems:ores/peridot
-'peridot_ore
-'deepslate_peridot_ore
-'peridot_nether_ore
-'peridot_end_ore
+- silentgems:peridot_ore
+- silentgems:deepslate_peridot_ore
+- silentgems:peridot_nether_ore
+- silentgems:peridot_end_ore
 
 #chipped:orange_concrete
 - minecraft:orange_concrete
@@ -21280,18 +21145,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 
 #rootsclassic:needs_engraved_tool
 
-#crossroads:destroy_blacklist
-- minecraft:barrier
-- minecraft:command_block
-- minecraft:chain_command_block
-- minecraft:repeating_command_block
-- minecraft:end_portal
-- minecraft:end_portal_frame
-- minecraft:end_gateway
-- minecraft:nether_portal
-- minecraft:structure_block
-- minecraft:structure_void
-
 #minecraft:standing_signs
 - minecraft:oak_sign
 - minecraft:spruce_sign
@@ -21392,10 +21245,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - chipped:brown_stained_glass_10
 
 #silentgems:ores/sapphire
-'sapphire_ore
-'deepslate_sapphire_ore
-'sapphire_nether_ore
-'sapphire_end_ore
+- silentgems:sapphire_ore
+- silentgems:deepslate_sapphire_ore
+- silentgems:sapphire_nether_ore
+- silentgems:sapphire_end_ore
 
 #chipped:nether_bricks
 - minecraft:nether_bricks
@@ -21482,15 +21335,15 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - nethersdelight:warped_fungus_colony
 
 #forge:ores/silver
-'silver_ore
-'silver_ore_deepslate
+- occultism:silver_ore
+- occultism:silver_ore_deepslate
 - thermal:silver_ore
 - thermal:deepslate_silver_ore
 - immersiveengineering:ore_silver
 - immersiveengineering:deepslate_ore_silver
 - bluepower:silver_ore
-'silver_ore
-'deepslate_silver_ore
+- silentgems:silver_ore
+- silentgems:deepslate_silver_ore
 
 #chipped:oak_log
 - minecraft:oak_log
@@ -21507,12 +21360,12 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - chipped:oak_log_11
 
 #forge:ores/uraninite
-'uraninite_ore
-'uraninite_ore_poor
-'uraninite_ore_dense
-'deepslate_uraninite_ore
-'deepslate_uraninite_ore_poor
-'deepslate_uraninite_ore_dense
+- powah:uraninite_ore
+- powah:uraninite_ore_poor
+- powah:uraninite_ore_dense
+- powah:deepslate_uraninite_ore
+- powah:deepslate_uraninite_ore_poor
+- powah:deepslate_uraninite_ore_dense
 
 #forge:glass_panes/purple
 - minecraft:purple_stained_glass_pane
@@ -21658,7 +21511,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 #libx:impl_buttons
 
 #forge:storage_blocks/neptunium
-'neptunium_block
+- aquaculture:neptunium_block
 
 #forge:barrels
 - #forge:barrels/wooden
@@ -21689,13 +21542,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - chipped:yellow_concrete_21
 
 #silentgems:ores/ruby
-'ruby_ore
-'deepslate_ruby_ore
-'ruby_nether_ore
-'ruby_end_ore
+- silentgems:ruby_ore
+- silentgems:deepslate_ruby_ore
+- silentgems:ruby_nether_ore
+- silentgems:ruby_end_ore
 
 #forge:storage_blocks/alexandrite
-'alexandrite_block
+- silentgems:alexandrite_block
 
 #chipped:stripped_birch_log
 - minecraft:stripped_birch_log
@@ -22177,15 +22030,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - chipped:bricks_132
 - chipped:bricks_133
 
-#crossroads:alchemy_soil
-- #forge:dirt
-- #forge:sand
-- minecraft:grass_block
-- minecraft:snow_block
-- minecraft:clay
-- minecraft:soul_sand
-- minecraft:soul_soil
-
 #chipped:light_gray_stained_glass
 - minecraft:light_gray_stained_glass
 - chipped:light_gray_stained_glass_1
@@ -22208,8 +22052,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - minecraft:turtle_egg
 
 #occultism:saplings/otherworld
-'otherworld_sapling_natural
-'otherworld_sapling
+- occultism:otherworld_sapling_natural
+- occultism:otherworld_sapling
 
 #chipped:warped_door
 - minecraft:warped_door
@@ -22269,7 +22113,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - undergarden:wigglewood_planks
 - undergarden:grongle_planks
 - immersiveengineering:fiberboard
-'archwood_planks
+- ars_nouveau:archwood_planks
 - quark:azalea_planks
 - quark:blossom_planks
 - quark:vertical_oak_planks
@@ -22301,13 +22145,10 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - minecraft:tuff
 
 #silentgems:glowroses/white_diamond
-'white_diamond_glowrose
+- silentgems:white_diamond_glowrose
 
 #forge:storage_blocks/gold
 - minecraft:gold_block
-
-#forge:storage_blocks/salt
-- crossroads:block_salt
 
 #chipped:quartz_block
 - minecraft:quartz_block
@@ -22402,16 +22243,11 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - #occultism:candles
 - supplementaries:skull_candle
 
-#crossroads:storage_blocks/cavorite
-- crossroads:block_cavorite
-
 #silentgems:ores/ammolite
-'ammolite_ore
-'deepslate_ammolite_ore
-'ammolite_nether_ore
-'ammolite_end_ore
-
-#crossroads:grow_blacklist
+- silentgems:ammolite_ore
+- silentgems:deepslate_ammolite_ore
+- silentgems:ammolite_nether_ore
+- silentgems:ammolite_end_ore
 
 #chipped:dripstone_block
 - minecraft:dripstone_block
@@ -22508,7 +22344,7 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 #forge:fences
 - #forge:fences/nether_brick
 - #forge:fences/wooden
-'archwood_fence
+- ars_nouveau:archwood_fence
 - quark:azalea_fence
 - quark:blossom_fence
 

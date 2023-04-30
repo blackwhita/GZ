@@ -1,10 +1,7 @@
-To refresh this file, delete it and run /reload command again! Last updated: Mar 26, 2023, 1:58:41 PM
+To refresh this file, delete it and run /reload command again! Last updated: Apr 30, 2023, 7:01:29 PM
 
 #forge:gasoline_additives
 - immersivepetroleum:gasoline_additives
-
-#crossroads:distilled_water
-- crossroads:distilled_water
 
 #forge:oxygen
 - mekanism:oxygen
@@ -34,16 +31,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - create_factory:flowing_apple_jam
 - create_factory:sweet_whipped_cream
 - create_factory:flowing_sweet_whipped_cream
-- crossroads:distilled_water
-- crossroads:flowing_distilled_water
-- crossroads:dirty_water
-- crossroads:flowing_dirty_water
-- crossroads:nutrient_solution
-- crossroads:flowing_nutrient_solution
-- crossroads:fertilizer_solution
-- crossroads:flowing_fertilizer_solution
-- crossroads:soul_essence
-- crossroads:flowing_soul_essence
 - create_things_and_misc:slime
 - create_things_and_misc:flowing_slime
 - #undergarden:virulent
@@ -97,9 +84,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - mekanism:sulfur_dioxide
 - mekanism:flowing_sulfur_dioxide
 
-#forge:molten_tin
-- crossroads:molten_tin
-
 #forge:hydrogen
 - mekanism:hydrogen
 - mekanism:flowing_hydrogen
@@ -124,12 +108,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 - mekanism:superheated_sodium
 - mekanism:flowing_superheated_sodium
 
-#forge:molten_copper
-- crossroads:molten_copper
-
 #forge:steam
 - advgenerators:steam
-- crossroads:steam
 - mekanism:steam
 - mekanism:flowing_steam
 
@@ -177,14 +157,8 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 #pneumaticcraft:plastic
 - pneumaticcraft:plastic
 
-#forge:molten_gold
-- crossroads:molten_gold
-
 #pneumaticcraft:etching_acid
 - pneumaticcraft:etching_acid
-
-#forge:molten_copshowium
-- crossroads:molten_copshowium
 
 #forge:kerosene
 - pneumaticcraft:kerosene
@@ -258,16 +232,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 #minecraft:lava
 - minecraft:lava
 - minecraft:flowing_lava
-- crossroads:molten_iron
-- crossroads:flowing_molten_iron
-- crossroads:molten_gold
-- crossroads:flowing_molten_gold
-- crossroads:molten_copper
-- crossroads:flowing_molten_copper
-- crossroads:molten_tin
-- crossroads:flowing_molten_tin
-- crossroads:molten_copshowium
-- crossroads:flowing_molten_copshowium
 
 #forge:ethene
 - mekanism:ethene
@@ -302,9 +266,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 #forge:redstone_acid
 - immersiveengineering:redstone_acid
 
-#forge:molten_iron
-- crossroads:molten_iron
-
 #forge:sodium
 - mekanism:sodium
 - mekanism:flowing_sodium
@@ -319,9 +280,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Mar
 #forge:sulfur_trioxide
 - mekanism:sulfur_trioxide
 - mekanism:flowing_sulfur_trioxide
-
-#crossroads:liquid_fat
-- crossroads:liquid_fat
 
 #immersivepetroleum:burnable_in_flarestack
 - #forge:lubricant

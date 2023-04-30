@@ -1,3 +1,4 @@
+const itemsToHide = []
 onEvent('jei.hide.items', (event) => {
     materials.forEach((material) => {
         types.forEach((type) => {

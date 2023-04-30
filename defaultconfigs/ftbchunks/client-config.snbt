@@ -114,11 +114,6 @@
 	# Range: 1.0 ~ 200.0
 	waypoint_fade_distance: 12.0d
 	memory: {
-		# Periodically release region data for non-recently-used regions to save memory (units of seconds, 0 disables releasing
-		# Default: 300
-		# Range: 0 ~ 2147483647
-		region_release_time: 300
-		
 		# When the large map is closed, auto-release least recently accessed regions down to this number (0 disables releasing)
 		# Default: 32
 		# Range: 0 ~ 2147483647
@@ -127,6 +122,11 @@
 		# Constrain maximum map zoom-out based on number of explored regions and available memory
 		# Default: true
 		max_zoom_constraint: true
+		
+		# Periodically release region data for non-recently-used regions to save memory (units of seconds, 0 disables releasing
+		# Default: 300
+		# Range: 0 ~ 2147483647
+		region_release_time: 300
 	}
 	minimap: {
 		# Show biome under minimap
